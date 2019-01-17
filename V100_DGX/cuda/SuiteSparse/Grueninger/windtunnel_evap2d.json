@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Grueninger/windtunnel_evap2d/windtunnel_evap2d.mtx",
+        "problem": {
+            "id": 2814,
+            "group": "Grueninger",
+            "name": "windtunnel_evap2d",
+            "rows": 8256,
+            "cols": 8256,
+            "nonzeros": 109368,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 9,
+                "q1": 15.0,
+                "median": 31.0,
+                "q3": 31.0,
+                "max": 47,
+                "mean": 28.27858527131783,
+                "variance": 148.53261311482766,
+                "skewness": 0.28466756900539177,
+                "kurtosis": 1.779344416976807,
+                "hyperskewness": 1.1845048471253337,
+                "hyperflatness": 3.555199681496026
+            },
+            "col_distribution": {
+                "min": 9,
+                "q1": 15.0,
+                "median": 31.0,
+                "q3": 31.0,
+                "max": 47,
+                "mean": 28.27858527131783,
+                "variance": 148.53261311482766,
+                "skewness": 0.28466756900539177,
+                "kurtosis": 1.779344416976807,
+                "hyperskewness": 1.1845048471253337,
+                "hyperflatness": 3.555199681496026
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1749888,
+                "time": 17027.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1345444,
+                "time": 18522.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1684224,
+                "time": 18918.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1376024,
+                "time": 21490.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1510304,
+                "time": 22502.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1716864,
+                "time": 23829.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1454816,
+                "time": 20877.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1462832,
+                "time": 26429.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1716864,
+                "time": 18194.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1510304,
+                "time": 19420.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1510304,
+                "time": 19429.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1454816,
+                "time": 20494.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

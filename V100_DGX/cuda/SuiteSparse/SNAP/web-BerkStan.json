@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/SNAP/web-BerkStan/web-BerkStan.mtx",
+        "problem": {
+            "id": 2300,
+            "group": "SNAP",
+            "name": "web-BerkStan",
+            "rows": 685230,
+            "cols": 685230,
+            "nonzeros": 7600595,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.2502764586193581,
+            "nsym": 0.2502764586193581,
+            "kind": "directed graph",
+            "row_distribution": {
+                "min": 0,
+                "q1": 3.0,
+                "median": 6.0,
+                "q3": 12.0,
+                "max": 249,
+                "mean": 11.09203479123798,
+                "variance": 267.5197916407582,
+                "skewness": 4.433498630506024,
+                "kurtosis": 32.70868498633524,
+                "hyperskewness": 288.3800960411779,
+                "hyperflatness": 2884.963626303669
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 5.0,
+                "max": 84208,
+                "mean": 11.09203479123798,
+                "variance": 81111.52444993038,
+                "skewness": 144.7462220529506,
+                "kurtosis": 26110.689888170407,
+                "hyperskewness": 5457565.864035387,
+                "hyperflatness": 1292204443.6166745
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 121609520,
+                "time": 242781.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 93948064,
+                "time": 275248.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 2047467240,
+                "time": 447375.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 256241720,
+                "time": 534871.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 117945104,
+                "time": 230645.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 121609520,
+                "time": 245164.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 117069000,
+                "time": 232260.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 117945104,
+                "time": 232174.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 121609520,
+                "time": 245902.6,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 117069000,
+                "time": 232317.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 117945104,
+                "time": 230464.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 117069000,
+                "time": 232131.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit33"
+        }
+    }
+]

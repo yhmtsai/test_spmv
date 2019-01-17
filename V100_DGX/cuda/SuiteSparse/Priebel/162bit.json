@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Priebel/162bit/162bit.mtx",
+        "problem": {
+            "id": 2252,
+            "group": "Priebel",
+            "name": "162bit",
+            "rows": 3606,
+            "cols": 3597,
+            "nonzeros": 37118,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 7,
+                "q1": 10.0,
+                "median": 10.0,
+                "q3": 11.0,
+                "max": 14,
+                "mean": 10.293399889073769,
+                "variance": 1.3154694723683014,
+                "skewness": -0.01844951346881338,
+                "kurtosis": 2.854952695603855,
+                "hyperskewness": 0.00333510369570834,
+                "hyperflatness": 12.880355148648948
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 4.0,
+                "q3": 8.0,
+                "max": 1902,
+                "mean": 10.319154851264944,
+                "variance": 2622.252324223172,
+                "skewness": 28.15515394226143,
+                "kurtosis": 967.897441022134,
+                "hyperskewness": 34510.889181158964,
+                "hyperflatness": 1242923.0895831737
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 593888,
+                "time": 16932.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 459844,
+                "time": 17844.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 605808,
+                "time": 17104.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 560792,
+                "time": 18815.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 550616,
+                "time": 24915.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 492920,
+                "time": 25742.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 466976,
+                "time": 26115.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 466976,
+                "time": 22672.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 550616,
+                "time": 25398.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 550616,
+                "time": 21348.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 550616,
+                "time": 19259.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 466976,
+                "time": 19260.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

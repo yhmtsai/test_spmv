@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/DNVS/ship_001/ship_001.mtx",
+        "problem": {
+            "id": 1277,
+            "group": "DNVS",
+            "name": "ship_001",
+            "rows": 34920,
+            "cols": 34920,
+            "nonzeros": 3896496,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 18,
+                "q1": 108.0,
+                "median": 108.0,
+                "q3": 138.0,
+                "max": 438,
+                "mean": 132.9962772050401,
+                "variance": 3046.978393930018,
+                "skewness": 1.0929977452018885,
+                "kurtosis": 3.758138396183403,
+                "hyperskewness": 7.923923136938024,
+                "hyperflatness": 24.7943007828254
+            },
+            "col_distribution": {
+                "min": 18,
+                "q1": 108.0,
+                "median": 108.0,
+                "q3": 138.0,
+                "max": 438,
+                "mean": 132.9962772050401,
+                "variance": 3046.978393930018,
+                "skewness": 1.0929977452018885,
+                "kurtosis": 3.758138396183403,
+                "hyperskewness": 7.923923136938024,
+                "hyperflatness": 24.7943007828254
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 62343936,
+                "time": 96605.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 46897636,
+                "time": 101348.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 151692480,
+                "time": 129344.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 82990376,
+                "time": 330723.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 57814544,
+                "time": 109772.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 61924896,
+                "time": 97800.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 54502992,
+                "time": 126280.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 54751376,
+                "time": 130386.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 61924896,
+                "time": 97813.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 57814544,
+                "time": 109787.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 57814544,
+                "time": 110478.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 54502992,
+                "time": 126411.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

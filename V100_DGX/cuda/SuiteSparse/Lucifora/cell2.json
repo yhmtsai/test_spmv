@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Lucifora/cell2/cell2.mtx",
+        "problem": {
+            "id": 935,
+            "group": "Lucifora",
+            "name": "cell2",
+            "rows": 7055,
+            "cols": 7055,
+            "nonzeros": 30082,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.9970503597122302,
+            "nsym": 0.004342728101793546,
+            "kind": "directed weighted graph",
+            "row_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.940467753366407,
+                "variance": 0.0817854651189385,
+                "skewness": -5.2933755225676208,
+                "kurtosis": 32.75371387636828,
+                "hyperskewness": -219.1659134086482,
+                "hyperflatness": 1554.5092095425762
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.940467753366407,
+                "variance": 0.08121849134147573,
+                "skewness": -5.24304696205621,
+                "kurtosis": 31.927660483916676,
+                "hyperskewness": -208.565989462076,
+                "hyperflatness": 1430.5840511108928
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 481312,
+                "time": 18075.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 389208,
+                "time": 19354.8,
+                "completed": true
+            },
+            "ell": {
+                "storage": 423300,
+                "time": 17074.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 398840,
+                "time": 18267.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 372016,
+                "time": 27328.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 424872,
+                "time": 25977.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 372016,
+                "time": 26082.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 372016,
+                "time": 25985.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 424872,
+                "time": 26704.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 372016,
+                "time": 18940.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 372016,
+                "time": 18919.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 372016,
+                "time": 19187.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

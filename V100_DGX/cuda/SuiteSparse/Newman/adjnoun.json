@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Newman/adjnoun/adjnoun.mtx",
+        "problem": {
+            "id": 2389,
+            "group": "Newman",
+            "name": "adjnoun",
+            "rows": 112,
+            "cols": 112,
+            "nonzeros": 850,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 6.0,
+                "q3": 10.0,
+                "max": 49,
+                "mean": 7.589285714285714,
+                "variance": 46.93845663265308,
+                "skewness": 2.905138581518885,
+                "kurtosis": 15.406472535107677,
+                "hyperskewness": 82.73922837185457,
+                "hyperflatness": 471.85879923713409
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 6.0,
+                "q3": 10.0,
+                "max": 49,
+                "mean": 7.589285714285714,
+                "variance": 46.93845663265308,
+                "skewness": 2.905138581518885,
+                "kurtosis": 15.406472535107677,
+                "hyperskewness": 82.73922837185457,
+                "hyperflatness": 471.85879923713409
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 13600,
+                "time": 16347.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 10652,
+                "time": 19488.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 65856,
+                "time": 12837.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 53800,
+                "time": 28594.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 13600,
+                "time": 21630.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 13152,
+                "time": 21846.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 12768,
+                "time": 21684.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 12976,
+                "time": 21692.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 13600,
+                "time": 21801.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 13600,
+                "time": 21246.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 13600,
+                "time": 17993.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 12768,
+                "time": 17337.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

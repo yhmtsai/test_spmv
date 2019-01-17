@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/SNAP/ca-HepTh/ca-HepTh.mtx",
+        "problem": {
+            "id": 2299,
+            "group": "SNAP",
+            "name": "ca-HepTh",
+            "rows": 9877,
+            "cols": 9877,
+            "nonzeros": 51971,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 6.0,
+                "max": 65,
+                "mean": 5.261820390806925,
+                "variance": 38.271431858801019,
+                "skewness": 3.02130130247586,
+                "kurtosis": 15.507411145883524,
+                "hyperskewness": 90.10134849336892,
+                "hyperflatness": 591.5549589664546
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 6.0,
+                "max": 65,
+                "mean": 5.261820390806925,
+                "variance": 38.271431858801019,
+                "skewness": 3.02130130247586,
+                "kurtosis": 15.507411145883524,
+                "hyperskewness": 90.10134849336892,
+                "hyperflatness": 591.5549589664546
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 831536,
+                "time": 18662.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 663164,
+                "time": 23386.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 7704060,
+                "time": 39667.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3821752,
+                "time": 39897.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 786280,
+                "time": 28880.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 792028,
+                "time": 20038.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 786280,
+                "time": 24949.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 786280,
+                "time": 19274.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 792028,
+                "time": 22963.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 786280,
+                "time": 25164.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 786280,
+                "time": 19216.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 786280,
+                "time": 19344.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

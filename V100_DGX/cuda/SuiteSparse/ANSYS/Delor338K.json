@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/ANSYS/Delor338K/Delor338K.mtx",
+        "problem": {
+            "id": 2653,
+            "group": "ANSYS",
+            "name": "Delor338K",
+            "rows": 343236,
+            "cols": 887058,
+            "nonzeros": 4211599,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "least squares problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 13.0,
+                "median": 13.0,
+                "q3": 13.0,
+                "max": 28,
+                "mean": 12.270271766364834,
+                "variance": 11.85456857380424,
+                "skewness": 0.2518333923562096,
+                "kurtosis": 6.552378770864794,
+                "hyperskewness": 11.08959571312463,
+                "hyperflatness": 74.54348708170491
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 1.0,
+                "q3": 1.0,
+                "max": 2160,
+                "mean": 4.747828214164125,
+                "variance": 182.41590565762832,
+                "skewness": 16.816951375713033,
+                "kurtosis": 2228.6109162847508,
+                "hyperskewness": 351390.17981305546,
+                "hyperflatness": 55917861.86616071
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 67385584,
+                "time": 143183.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 51912136,
+                "time": 136483.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 115327296,
+                "time": 131778.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 58736456,
+                "time": 133199.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 56383168,
+                "time": 122849.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 64639696,
+                "time": 146002.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 56383168,
+                "time": 122860.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 56383168,
+                "time": 122495.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 64639696,
+                "time": 145319.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 56383168,
+                "time": 123418.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 56383168,
+                "time": 122420.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 56383168,
+                "time": 122384.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

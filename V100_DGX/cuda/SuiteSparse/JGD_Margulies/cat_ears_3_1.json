@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_Margulies/cat_ears_3_1/cat_ears_3_1.mtx",
+        "problem": {
+            "id": 2151,
+            "group": "JGD_Margulies",
+            "name": "cat_ears_3_1",
+            "rows": 204,
+            "cols": 181,
+            "nonzeros": 542,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 3.0,
+                "q3": 4.0,
+                "max": 6,
+                "mean": 2.656862745098039,
+                "variance": 2.2253940792003159,
+                "skewness": 0.3330810926217083,
+                "kurtosis": 1.9084369361868992,
+                "hyperskewness": 1.895500824896796,
+                "hyperflatness": 5.409381443115626
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.994475138121547,
+                "variance": 0.005494337779677092,
+                "skewness": -13.341872265748594,
+                "kurtosis": 179.0055555555527,
+                "hyperskewness": -2401.611129347308,
+                "hyperflatness": 32220.994475307903
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 8672,
+                "time": 17026.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 7324,
+                "time": 17376.8,
+                "completed": true
+            },
+            "ell": {
+                "storage": 14688,
+                "time": 13470.8,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 16968,
+                "time": 16777.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 8672,
+                "time": 24557.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 7856,
+                "time": 24611.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 7856,
+                "time": 23528.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 7856,
+                "time": 24243.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 8672,
+                "time": 25092.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 8672,
+                "time": 18301.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 8672,
+                "time": 18375.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 7856,
+                "time": 18351.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

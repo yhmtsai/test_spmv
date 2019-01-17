@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Nemeth/nemeth13/nemeth13.mtx",
+        "problem": {
+            "id": 777,
+            "group": "Nemeth",
+            "name": "nemeth13",
+            "rows": 9506,
+            "cols": 9506,
+            "nonzeros": 474472,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "subsequent theoretical/quantum chemistry problem",
+            "row_distribution": {
+                "min": 21,
+                "q1": 49.0,
+                "median": 51.0,
+                "q3": 56.0,
+                "max": 59,
+                "mean": 49.91289711760993,
+                "variance": 49.28107288170394,
+                "skewness": -1.014082547839385,
+                "kurtosis": 2.952103456911894,
+                "hyperskewness": -5.371828096449281,
+                "hyperflatness": 13.024857728644296
+            },
+            "col_distribution": {
+                "min": 21,
+                "q1": 49.0,
+                "median": 51.0,
+                "q3": 56.0,
+                "max": 59,
+                "mean": 49.91289711760993,
+                "variance": 49.28107288170394,
+                "skewness": -1.014082547839385,
+                "kurtosis": 2.952103456911894,
+                "hyperskewness": -5.371828096449281,
+                "hyperflatness": 13.024857728644296
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 7591552,
+                "time": 26825.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 5731692,
+                "time": 23410.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 6730248,
+                "time": 65089.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 6681688,
+                "time": 62395.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 7249336,
+                "time": 32314.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 6793048,
+                "time": 43125.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 6098552,
+                "time": 54145.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 6103584,
+                "time": 51246.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 7249336,
+                "time": 33656.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 7249336,
+                "time": 33966.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 7249336,
+                "time": 32934.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 6098552,
+                "time": 49793.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

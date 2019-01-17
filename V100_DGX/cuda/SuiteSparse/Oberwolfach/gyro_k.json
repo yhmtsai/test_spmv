@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Oberwolfach/gyro_k/gyro_k.mtx",
+        "problem": {
+            "id": 1202,
+            "group": "Oberwolfach",
+            "name": "gyro_k",
+            "rows": 17361,
+            "cols": 17361,
+            "nonzeros": 1021159,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "duplicate model reduction problem",
+            "row_distribution": {
+                "min": 12,
+                "q1": 42.0,
+                "median": 54.0,
+                "q3": 69.0,
+                "max": 360,
+                "mean": 58.819134842463,
+                "variance": 1027.2379519269485,
+                "skewness": 2.7876587485160879,
+                "kurtosis": 16.72658419843694,
+                "hyperskewness": 110.13425143093537,
+                "hyperflatness": 833.2248846625739
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 42.0,
+                "median": 54.0,
+                "q3": 69.0,
+                "max": 360,
+                "mean": 58.819134842463,
+                "variance": 1027.2379519269485,
+                "skewness": 2.7876587485160879,
+                "kurtosis": 16.72658419843694,
+                "hyperskewness": 110.13425143093537,
+                "hyperflatness": 833.2248846625739
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 16338544,
+                "time": 38090.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 12323356,
+                "time": 62877.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 74999520,
+                "time": 51254.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 29384200,
+                "time": 279018.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 15166300,
+                "time": 47606.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 15505216,
+                "time": 48945.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 14150328,
+                "time": 63527.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 14150328,
+                "time": 63789.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 15505216,
+                "time": 44772.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 15166300,
+                "time": 47415.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 15166300,
+                "time": 47991.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 14150328,
+                "time": 64155.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

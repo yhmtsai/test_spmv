@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/BenElechi/BenElechi1/BenElechi1.mtx",
+        "problem": {
+            "id": 1850,
+            "group": "BenElechi",
+            "name": "BenElechi1",
+            "rows": 245874,
+            "cols": 245874,
+            "nonzeros": 13150496,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 54.0,
+                "median": 54.0,
+                "q3": 54.0,
+                "max": 54,
+                "mean": 53.48469541309777,
+                "variance": 8.97043570624457,
+                "skewness": -6.092769875141119,
+                "kurtosis": 40.7854556865487,
+                "hyperskewness": -296.9871749629626,
+                "hyperflatness": 2471.693874631867
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 54.0,
+                "median": 54.0,
+                "q3": 54.0,
+                "max": 54,
+                "mean": 53.48469541309777,
+                "variance": 8.97043570624457,
+                "skewness": -6.092769875141119,
+                "kurtosis": 40.7854556865487,
+                "hyperskewness": -296.9871749629626,
+                "hyperflatness": 2471.693874631867
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 210407936,
+                "time": 328280.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 158789452,
+                "time": 280961.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 159326352,
+                "time": 247620.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 159175720,
+                "time": 256551.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 159326352,
+                "time": 248285.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 209424440,
+                "time": 331733.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 159326352,
+                "time": 248156.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 159326352,
+                "time": 247627.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 209424440,
+                "time": 331007.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 159326352,
+                "time": 248510.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 159326352,
+                "time": 248306.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 159326352,
+                "time": 247856.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

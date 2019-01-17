@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Janna/CoupCons3D/CoupCons3D.mtx",
+        "problem": {
+            "id": 2647,
+            "group": "Janna",
+            "name": "CoupCons3D",
+            "rows": 416800,
+            "cols": 416800,
+            "nonzeros": 17277420,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.008881642549324996,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 20,
+                "q1": 44.0,
+                "median": 60.0,
+                "q3": 60.0,
+                "max": 76,
+                "mean": 53.55646833013436,
+                "variance": 76.05203205628729,
+                "skewness": -0.3354661368269497,
+                "kurtosis": 1.8781388450331496,
+                "hyperskewness": -1.2266407751163322,
+                "hyperflatness": 5.423829492087993
+            },
+            "col_distribution": {
+                "min": 20,
+                "q1": 44.0,
+                "median": 60.0,
+                "q3": 60.0,
+                "max": 76,
+                "mean": 53.55646833013436,
+                "variance": 76.05203205628729,
+                "skewness": -0.3354661368269497,
+                "kurtosis": 1.8781388450331496,
+                "hyperskewness": -1.2266407751163322,
+                "hyperflatness": 5.423829492087993
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 276438720,
+                "time": 492529.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 208996244,
+                "time": 366432.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 380121600,
+                "time": 379397.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 237432344,
+                "time": 396496.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 264308000,
+                "time": 382618.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 274771520,
+                "time": 484699.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 263455008,
+                "time": 384032.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 264308000,
+                "time": 382114.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 274771520,
+                "time": 484647.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 263455008,
+                "time": 384479.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 264308000,
+                "time": 381793.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 263455008,
+                "time": 382416.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

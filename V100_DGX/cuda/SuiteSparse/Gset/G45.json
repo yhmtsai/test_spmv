@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Gset/G45/G45.mtx",
+        "problem": {
+            "id": 508,
+            "group": "Gset",
+            "name": "G45",
+            "rows": 1000,
+            "cols": 1000,
+            "nonzeros": 19980,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected random graph",
+            "row_distribution": {
+                "min": 6,
+                "q1": 17.0,
+                "median": 20.0,
+                "q3": 23.0,
+                "max": 35,
+                "mean": 19.98,
+                "variance": 18.829600000000239,
+                "skewness": 0.15655591322855745,
+                "kurtosis": 2.943113414937286,
+                "hyperskewness": 1.1721987745542722,
+                "hyperflatness": 14.36519909578049
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 17.0,
+                "median": 20.0,
+                "q3": 23.0,
+                "max": 35,
+                "mean": 19.98,
+                "variance": 18.829600000000239,
+                "skewness": 0.15655591322855745,
+                "kurtosis": 2.943113414937286,
+                "hyperskewness": 1.1721987745542722,
+                "hyperflatness": 14.36519909578049
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 319680,
+                "time": 17225.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 243764,
+                "time": 20133.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 420000,
+                "time": 14253.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 374280,
+                "time": 28475.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 315680,
+                "time": 23808.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 295680,
+                "time": 23010.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 261168,
+                "time": 24948.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 261888,
+                "time": 25044.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 315680,
+                "time": 19709.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 315680,
+                "time": 24232.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 315680,
+                "time": 19176.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 261168,
+                "time": 18671.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

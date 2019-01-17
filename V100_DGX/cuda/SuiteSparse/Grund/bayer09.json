@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Grund/bayer09/bayer09.mtx",
+        "problem": {
+            "id": 460,
+            "group": "Grund",
+            "name": "bayer09",
+            "rows": 3083,
+            "cols": 3083,
+            "nonzeros": 11767,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.02112012068640392,
+            "nsym": 0.0001700246535747683,
+            "kind": "chemical process simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 9.0,
+                "max": 34,
+                "mean": 6.881608822575414,
+                "variance": 59.77742044120684,
+                "skewness": 2.2608942881157296,
+                "kurtosis": 8.009945848809892,
+                "hyperskewness": 27.198013349419,
+                "hyperflatness": 94.68305386159678
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 6.0,
+                "max": 43,
+                "mean": 6.881608822575414,
+                "variance": 104.89062186838652,
+                "skewness": 2.323296088606998,
+                "kurtosis": 7.760561819165389,
+                "hyperskewness": 25.55313040467072,
+                "hyperflatness": 86.12399275475134
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 188272,
+                "time": 16844.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 153540,
+                "time": 20795.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 998892,
+                "time": 23912.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 669720,
+                "time": 25684.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 172664,
+                "time": 24897.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 175940,
+                "time": 24244.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 172664,
+                "time": 21793.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 172664,
+                "time": 23147.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 175940,
+                "time": 24211.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 172664,
+                "time": 18471.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 172664,
+                "time": 19045.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 172664,
+                "time": 18200.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

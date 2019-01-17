@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Arenas/jazz/jazz.mtx",
+        "problem": {
+            "id": 2406,
+            "group": "Arenas",
+            "name": "jazz",
+            "rows": 198,
+            "cols": 198,
+            "nonzeros": 5484,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected multigraph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 16.0,
+                "median": 25.0,
+                "q3": 39.0,
+                "max": 100,
+                "mean": 27.696969696969697,
+                "variance": 303.1202938475668,
+                "skewness": 0.8910013728078677,
+                "kurtosis": 4.537363618093125,
+                "hyperskewness": 12.73334869291756,
+                "hyperflatness": 51.072670420910608
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 16.0,
+                "median": 25.0,
+                "q3": 39.0,
+                "max": 100,
+                "mean": 27.696969696969697,
+                "variance": 303.1202938475668,
+                "skewness": 0.8910013728078677,
+                "kurtosis": 4.537363618093125,
+                "hyperskewness": 12.73334869291756,
+                "hyperflatness": 51.072670420910608
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 87744,
+                "time": 17261.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 66604,
+                "time": 30693.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 237600,
+                "time": 24395.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 241224,
+                "time": 53716.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 87744,
+                "time": 25122.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 86952,
+                "time": 25274.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 81696,
+                "time": 25397.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 82088,
+                "time": 22879.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 87744,
+                "time": 25166.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 87744,
+                "time": 24653.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 87744,
+                "time": 18921.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 81696,
+                "time": 18662.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

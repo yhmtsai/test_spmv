@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Mancktelow/viscorocks/viscorocks.mtx",
+        "problem": {
+            "id": 1879,
+            "group": "Mancktelow",
+            "name": "viscorocks",
+            "rows": 37762,
+            "cols": 37762,
+            "nonzeros": 1133641,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.279507135368047,
+            "kind": "materials problem",
+            "row_distribution": {
+                "min": 16,
+                "q1": 26.0,
+                "median": 26.0,
+                "q3": 42.0,
+                "max": 42,
+                "mean": 30.7781367512314,
+                "variance": 59.8438438033354,
+                "skewness": 0.6342755925331192,
+                "kurtosis": 1.803887871733108,
+                "hyperskewness": 1.3457846159293626,
+                "hyperflatness": 4.122444645529373
+            },
+            "col_distribution": {
+                "min": 16,
+                "q1": 26.0,
+                "median": 26.0,
+                "q3": 42.0,
+                "max": 42,
+                "mean": 30.7781367512314,
+                "variance": 59.8438438033354,
+                "skewness": 0.6342755925331192,
+                "kurtosis": 1.803887871733108,
+                "hyperskewness": 1.3457846159293626,
+                "hyperflatness": 4.122444645529373
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 18138256,
+                "time": 40898.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 13754744,
+                "time": 40466.8,
+                "completed": true
+            },
+            "ell": {
+                "storage": 19032048,
+                "time": 52925.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 18466808,
+                "time": 55351.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 14751104,
+                "time": 50965.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 17987208,
+                "time": 47065.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 14751104,
+                "time": 49048.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 14751104,
+                "time": 49218.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 17987208,
+                "time": 41062.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 14751104,
+                "time": 48165.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 14751104,
+                "time": 48375.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 14751104,
+                "time": 48296.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

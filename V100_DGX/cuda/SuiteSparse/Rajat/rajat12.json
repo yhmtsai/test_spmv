@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Rajat/rajat12/rajat12.mtx",
+        "problem": {
+            "id": 1196,
+            "group": "Rajat",
+            "name": "rajat12",
+            "rows": 1879,
+            "cols": 1879,
+            "nonzeros": 12818,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.4548776032151991,
+            "kind": "circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 1195,
+                "mean": 6.879191059073976,
+                "variance": 1218.9055755031457,
+                "skewness": 27.121105031835758,
+                "kurtosis": 826.9414806820445,
+                "hyperskewness": 26444.27708761862,
+                "hyperflatness": 868373.0037723323
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 1195,
+                "mean": 6.879191059073976,
+                "variance": 1218.9055755031457,
+                "skewness": 27.121105031835758,
+                "kurtosis": 826.9414806820445,
+                "hyperskewness": 26444.27708761862,
+                "hyperflatness": 868373.0037723323
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 205088,
+                "time": 16827.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 161336,
+                "time": 111933.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 26944860,
+                "time": 30147.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1608680,
+                "time": 444127.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 197572,
+                "time": 25171.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 197572,
+                "time": 25286.9,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 182828,
+                "time": 24934.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 185312,
+                "time": 23718.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 197572,
+                "time": 26121.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 197572,
+                "time": 18577.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 197572,
+                "time": 18378.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 182828,
+                "time": 18929.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

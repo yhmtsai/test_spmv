@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/TKK/cbuckle/cbuckle.mtx",
+        "problem": {
+            "id": 1912,
+            "group": "TKK",
+            "name": "cbuckle",
+            "rows": 13681,
+            "cols": 13681,
+            "nonzeros": 676515,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 26,
+                "q1": 48.0,
+                "median": 52.0,
+                "q3": 54.0,
+                "max": 600,
+                "mean": 49.44923616694686,
+                "variance": 61.37497218902132,
+                "skewness": 24.53061971634796,
+                "kurtosis": 1784.7259941696389,
+                "hyperskewness": 125278.2935529212,
+                "hyperflatness": 8804261.783333358
+            },
+            "col_distribution": {
+                "min": 26,
+                "q1": 48.0,
+                "median": 52.0,
+                "q3": 54.0,
+                "max": 600,
+                "mean": 49.44923616694686,
+                "variance": 61.37497218902132,
+                "skewness": 24.53061971634796,
+                "kurtosis": 1784.7259941696389,
+                "hyperskewness": 125278.2935529212,
+                "hyperflatness": 8804261.783333358
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 10824240,
+                "time": 32997.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 8172908,
+                "time": 71876.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 98503200,
+                "time": 51971.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 9297768,
+                "time": 437001.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 10112828,
+                "time": 42802.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 9401416,
+                "time": 51486.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 8635776,
+                "time": 66248.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 8656344,
+                "time": 67884.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 10112828,
+                "time": 40547.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 10112828,
+                "time": 39022.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 10112828,
+                "time": 40088.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 8635776,
+                "time": 62749.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

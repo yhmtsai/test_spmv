@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Gupta/gupta3/gupta3.mtx",
+        "problem": {
+            "id": 538,
+            "group": "Gupta",
+            "name": "gupta3",
+            "rows": 16783,
+            "cols": 16783,
+            "nonzeros": 9323427,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimization problem",
+            "row_distribution": {
+                "min": 33,
+                "q1": 196.0,
+                "median": 327.0,
+                "q3": 468.0,
+                "max": 14672,
+                "mean": 555.5280343204433,
+                "variance": 1521572.2303855036,
+                "skewness": 6.648555858115086,
+                "kurtosis": 54.28298242030268,
+                "hyperskewness": 482.2790800071311,
+                "hyperflatness": 4522.542443700401
+            },
+            "col_distribution": {
+                "min": 33,
+                "q1": 196.0,
+                "median": 327.0,
+                "q3": 468.0,
+                "max": 14672,
+                "mean": 555.5280343204433,
+                "variance": 1521572.2303855036,
+                "skewness": 6.648555858115086,
+                "kurtosis": 54.28298242030268,
+                "hyperskewness": 482.2790800071311,
+                "hyperflatness": 4522.542443700401
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 149174832,
+                "time": 210922.6,
+                "completed": true
+            },
+            "csr": {
+                "storage": 111948260,
+                "time": 470098.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 2954882112,
+                "time": 693165.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 247637368,
+                "time": 9699734.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 148100720,
+                "time": 213385.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 146959476,
+                "time": 223454.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 140317920,
+                "time": 204767.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 140829612,
+                "time": 204063.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 148100720,
+                "time": 213622.6,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 148100720,
+                "time": 213825.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 148100720,
+                "time": 213649.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 140317920,
+                "time": 204953.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid33"
+        }
+    }
+]

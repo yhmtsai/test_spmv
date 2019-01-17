@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/VDOL/hangGlider_1/hangGlider_1.mtx",
+        "problem": {
+            "id": 2691,
+            "group": "VDOL",
+            "name": "hangGlider_1",
+            "rows": 360,
+            "cols": 360,
+            "nonzeros": 3477,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 9.0,
+                "q3": 11.0,
+                "max": 319,
+                "mean": 9.658333333333334,
+                "variance": 273.54715277777776,
+                "skewness": 18.17288573657286,
+                "kurtosis": 339.92985996109817,
+                "hyperskewness": 6357.832796749696,
+                "hyperflatness": 118913.57343442914
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 9.0,
+                "q3": 11.0,
+                "max": 319,
+                "mean": 9.658333333333334,
+                "variance": 273.54715277777776,
+                "skewness": 18.17288573657286,
+                "kurtosis": 339.92985996109817,
+                "hyperskewness": 6357.832796749696,
+                "hyperflatness": 118913.57343442914
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 55632,
+                "time": 16510.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 43168,
+                "time": 42456.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1378080,
+                "time": 16780.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 293480,
+                "time": 127393.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 55632,
+                "time": 22654.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 52752,
+                "time": 24079.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 47008,
+                "time": 25324.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 47008,
+                "time": 23665.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 55632,
+                "time": 25352.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 55632,
+                "time": 20977.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 55632,
+                "time": 18370.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 47008,
+                "time": 18260.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Pothen/bodyy4/bodyy4.mtx",
+        "problem": {
+            "id": 868,
+            "group": "Pothen",
+            "name": "bodyy4",
+            "rows": 17546,
+            "cols": 17546,
+            "nonzeros": 121550,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 3,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 9,
+                "mean": 6.949618146586117,
+                "variance": 0.27672759840331748,
+                "skewness": -1.1455099383069414,
+                "kurtosis": 9.53848501121903,
+                "hyperskewness": -21.99280714543841,
+                "hyperflatness": 151.375925406197
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 9,
+                "mean": 6.949618146586117,
+                "variance": 0.27672759840331748,
+                "skewness": -1.1455099383069414,
+                "kurtosis": 9.53848501121903,
+                "hyperskewness": -21.99280714543841,
+                "hyperflatness": 151.375925406197
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1944800,
+                "time": 19397.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1528788,
+                "time": 19377.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1894968,
+                "time": 16474.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1676344,
+                "time": 20824.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1496024,
+                "time": 19142.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1734248,
+                "time": 19600.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1496024,
+                "time": 26629.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1496024,
+                "time": 24304.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1734248,
+                "time": 22703.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1496024,
+                "time": 20751.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1496024,
+                "time": 19297.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1496024,
+                "time": 18822.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

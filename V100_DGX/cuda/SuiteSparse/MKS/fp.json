@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/MKS/fp/fp.mtx",
+        "problem": {
+            "id": 1395,
+            "group": "MKS",
+            "name": "fp",
+            "rows": 7548,
+            "cols": 7548,
+            "nonzeros": 834222,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.7575174939506899,
+            "nsym": 0.002912877385765126,
+            "kind": "electromagnetics problem",
+            "row_distribution": {
+                "min": 18,
+                "q1": 39.0,
+                "median": 46.0,
+                "q3": 75.0,
+                "max": 957,
+                "mean": 112.42090620031796,
+                "variance": 43191.07469276642,
+                "skewness": 3.0904257021555936,
+                "kurtosis": 10.75075544181862,
+                "hyperskewness": 37.15176795552047,
+                "hyperflatness": 129.1197943543022
+            },
+            "col_distribution": {
+                "min": 31,
+                "q1": 61.0,
+                "median": 79.0,
+                "q3": 104.0,
+                "max": 688,
+                "mean": 112.42090620031796,
+                "variance": 13079.896632353128,
+                "skewness": 3.1965545181945496,
+                "kurtosis": 12.712223990713192,
+                "hyperskewness": 51.77555162740734,
+                "hyperflatness": 218.45382373295724
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 13347552,
+                "time": 32215.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 10040860,
+                "time": 62794.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 81518400,
+                "time": 55434.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 12302952,
+                "time": 581314.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 13136208,
+                "time": 35531.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 13106016,
+                "time": 38233.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 12349712,
+                "time": 59315.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 12357568,
+                "time": 61781.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 13136208,
+                "time": 35955.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 13136208,
+                "time": 36101.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 13136208,
+                "time": 35300.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 12349712,
+                "time": 56863.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

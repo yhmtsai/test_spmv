@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_Trefethen/Trefethen_20000/Trefethen_20000.mtx",
+        "problem": {
+            "id": 2213,
+            "group": "JGD_Trefethen",
+            "name": "Trefethen_20000",
+            "rows": 20000,
+            "cols": 20000,
+            "nonzeros": 554466,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 16,
+                "q1": 27.0,
+                "median": 28.0,
+                "q3": 28.0,
+                "max": 29,
+                "mean": 27.7233,
+                "variance": 1.378337110000708,
+                "skewness": -2.454176542058207,
+                "kurtosis": 13.103374084501877,
+                "hyperskewness": -74.3164702500129,
+                "hyperflatness": 498.2459429446952
+            },
+            "col_distribution": {
+                "min": 16,
+                "q1": 27.0,
+                "median": 28.0,
+                "q3": 28.0,
+                "max": 29,
+                "mean": 27.7233,
+                "variance": 1.378337110000708,
+                "skewness": -2.454176542058207,
+                "kurtosis": 13.103374084501877,
+                "hyperskewness": -74.3164702500129,
+                "hyperflatness": 498.2459429446952
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 8871456,
+                "time": 28709.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 6733596,
+                "time": 26340.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 6960000,
+                "time": 38865.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 6672024,
+                "time": 40108.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 7271936,
+                "time": 42372.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 7591456,
+                "time": 39219.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 6776960,
+                "time": 44000.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 6777856,
+                "time": 46759.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 7591456,
+                "time": 37099.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 7271936,
+                "time": 40755.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 7271936,
+                "time": 40633.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 6776960,
+                "time": 42073.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

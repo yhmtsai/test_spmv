@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/ATandT/twotone/twotone.mtx",
+        "problem": {
+            "id": 286,
+            "group": "ATandT",
+            "name": "twotone",
+            "rows": 120750,
+            "cols": 120750,
+            "nonzeros": 1206265,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.2445668624008717,
+            "nsym": 0.1058542372000797,
+            "kind": "frequency-domain circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 7.0,
+                "q3": 8.0,
+                "max": 185,
+                "mean": 10.138501035196688,
+                "variance": 226.046788477725,
+                "skewness": 6.3227911248196488,
+                "kurtosis": 61.20051695820802,
+                "hyperskewness": 673.0133625426103,
+                "hyperflatness": 7708.798837306838
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 188,
+                "mean": 10.138501035196688,
+                "variance": 355.3273681878644,
+                "skewness": 5.745089280824917,
+                "kurtosis": 41.35361259986103,
+                "hyperskewness": 326.1983588754171,
+                "hyperflatness": 2733.805996932476
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 19300240,
+                "time": 49788.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 14958184,
+                "time": 72885.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 268065000,
+                "time": 190877.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 90985208,
+                "time": 219208.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 17489160,
+                "time": 47452.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 18817240,
+                "time": 48370.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 17489160,
+                "time": 47253.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 17489160,
+                "time": 47225.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 18817240,
+                "time": 47674.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 17489160,
+                "time": 47250.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 17489160,
+                "time": 46999.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 17489160,
+                "time": 46448.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

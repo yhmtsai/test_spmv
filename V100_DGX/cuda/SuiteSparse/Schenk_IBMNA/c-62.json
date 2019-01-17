@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Schenk_IBMNA/c-62/c-62.mtx",
+        "problem": {
+            "id": 949,
+            "group": "Schenk_IBMNA",
+            "name": "c-62",
+            "rows": 41731,
+            "cols": 41731,
+            "nonzeros": 559341,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimization problem sequence",
+            "row_distribution": {
+                "min": 2,
+                "q1": 2.0,
+                "median": 7.0,
+                "q3": 13.0,
+                "max": 5060,
+                "mean": 13.403536938966236,
+                "variance": 1177.5380038328206,
+                "skewness": 90.7643820512287,
+                "kurtosis": 12376.759108907268,
+                "hyperskewness": 1745852.453224409,
+                "hyperflatness": 250568611.0311278
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 2.0,
+                "median": 7.0,
+                "q3": 13.0,
+                "max": 5060,
+                "mean": 13.403536938966236,
+                "variance": 1177.5380038328206,
+                "skewness": 90.7643820512287,
+                "kurtosis": 12376.759108907268,
+                "hyperskewness": 1745852.453224409,
+                "hyperflatness": 250568611.0311278
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 8949456,
+                "time": 29095.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 6879020,
+                "time": 610873.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 2533906320,
+                "time": 233255.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 22019800,
+                "time": 3392908.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 8615608,
+                "time": 31986.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 8615608,
+                "time": 31698.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 8615608,
+                "time": 32767.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 8615608,
+                "time": 33232.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 8615608,
+                "time": 29356.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 8615608,
+                "time": 29184.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 8615608,
+                "time": 29121.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 8615608,
+                "time": 29092.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

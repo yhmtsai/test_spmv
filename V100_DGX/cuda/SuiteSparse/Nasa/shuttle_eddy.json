@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Nasa/shuttle_eddy/shuttle_eddy.mtx",
+        "problem": {
+            "id": 763,
+            "group": "Nasa",
+            "name": "shuttle_eddy",
+            "rows": 10429,
+            "cols": 10429,
+            "nonzeros": 103599,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "duplicate structural problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 9.0,
+                "median": 9.0,
+                "q3": 9.0,
+                "max": 27,
+                "mean": 9.933742448940457,
+                "variance": 5.180479051895287,
+                "skewness": 2.4248538729773965,
+                "kurtosis": 10.517411349378288,
+                "hyperskewness": 47.72521151716259,
+                "hyperflatness": 253.80286864040398
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 9.0,
+                "median": 9.0,
+                "q3": 9.0,
+                "max": 27,
+                "mean": 9.933742448940457,
+                "variance": 5.180479051895287,
+                "skewness": 2.4248538729773965,
+                "kurtosis": 10.517411349378288,
+                "hyperskewness": 47.72521151716259,
+                "hyperflatness": 253.80286864040398
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1657584,
+                "time": 19961.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1284908,
+                "time": 20067.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 3378996,
+                "time": 24190.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1381944,
+                "time": 25893.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1293212,
+                "time": 23273.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1490720,
+                "time": 25287.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1293212,
+                "time": 26020.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1293212,
+                "time": 22297.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1490720,
+                "time": 25774.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1293212,
+                "time": 20462.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1293212,
+                "time": 20118.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1293212,
+                "time": 20329.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

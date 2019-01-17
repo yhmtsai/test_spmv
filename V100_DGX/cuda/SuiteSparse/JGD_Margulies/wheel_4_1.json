@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_Margulies/wheel_4_1/wheel_4_1.mtx",
+        "problem": {
+            "id": 2167,
+            "group": "JGD_Margulies",
+            "name": "wheel_4_1",
+            "rows": 36,
+            "cols": 41,
+            "nonzeros": 122,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 3.5,
+                "q3": 4.0,
+                "max": 5,
+                "mean": 3.388888888888889,
+                "variance": 0.959876543209876,
+                "skewness": -0.3081386113630627,
+                "kurtosis": 2.5339378211556986,
+                "hyperskewness": -1.9784680953261596,
+                "hyperflatness": 9.411493249503318
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.975609756097561,
+                "variance": 0.02379535990481852,
+                "skewness": -6.166441437328359,
+                "kurtosis": 39.02500000000013,
+                "hyperskewness": -246.81181852906833,
+                "hyperflatness": 1560.97562500001
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1952,
+                "time": 16311.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1612,
+                "time": 17269.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 2160,
+                "time": 12493.8,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3864,
+                "time": 16436.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1952,
+                "time": 22063.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1808,
+                "time": 23262.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1648,
+                "time": 24738.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1648,
+                "time": 25786.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1952,
+                "time": 24354.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1952,
+                "time": 27402.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1952,
+                "time": 19762.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1648,
+                "time": 19776.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Bai/mhd3200b/mhd3200b.mtx",
+        "problem": {
+            "id": 1623,
+            "group": "Bai",
+            "name": "mhd3200b",
+            "rows": 3200,
+            "cols": 3200,
+            "nonzeros": 18316,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "electromagnetics problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 6.0,
+                "max": 10,
+                "mean": 5.72375,
+                "variance": 3.8630609375001336,
+                "skewness": 0.7283416349833438,
+                "kurtosis": 3.554386978828217,
+                "hyperskewness": 4.876349412343915,
+                "hyperflatness": 14.91294551570756
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 6.0,
+                "max": 10,
+                "mean": 5.72375,
+                "variance": 3.8630609375001336,
+                "skewness": 0.7283416349833438,
+                "kurtosis": 3.554386978828217,
+                "hyperskewness": 4.876349412343915,
+                "hyperflatness": 14.91294551570756
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 293056,
+                "time": 17291.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 232596,
+                "time": 19881.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 384000,
+                "time": 17330.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 384808,
+                "time": 17196.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 254912,
+                "time": 19108.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 280256,
+                "time": 19483.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 249056,
+                "time": 20358.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 249056,
+                "time": 19759.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 280256,
+                "time": 19838.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 254912,
+                "time": 19366.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 254912,
+                "time": 19180.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 249056,
+                "time": 19046.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

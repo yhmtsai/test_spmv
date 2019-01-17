@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Janna/PFlow_742/PFlow_742.mtx",
+        "problem": {
+            "id": 2661,
+            "group": "Janna",
+            "name": "PFlow_742",
+            "rows": 742793,
+            "cols": 742793,
+            "nonzeros": 37138461,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 51.0,
+                "median": 51.0,
+                "q3": 51.0,
+                "max": 137,
+                "mean": 49.99839928486133,
+                "variance": 398.8991860377739,
+                "skewness": -0.5852130013478525,
+                "kurtosis": 3.942653105170322,
+                "hyperskewness": -5.34060294143535,
+                "hyperflatness": 19.8074055340582
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 51.0,
+                "median": 51.0,
+                "q3": 51.0,
+                "max": 137,
+                "mean": 49.99839928486133,
+                "variance": 398.8991860377739,
+                "skewness": -0.5852130013478525,
+                "kurtosis": 3.942653105170322,
+                "hyperskewness": -5.34060294143535,
+                "hyperflatness": 19.8074055340582
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 594215376,
+                "time": 1047694.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 448632708,
+                "time": 807988.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1221151692,
+                "time": 980977.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 671964536,
+                "time": 1018323.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 519441012,
+                "time": 757940.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 591244204,
+                "time": 1070392.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 519441012,
+                "time": 758463.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 519441012,
+                "time": 758498.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 591244204,
+                "time": 1070873.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 519441012,
+                "time": 758283.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 519441012,
+                "time": 758028.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 519441012,
+                "time": 758930.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid"
+        }
+    }
+]

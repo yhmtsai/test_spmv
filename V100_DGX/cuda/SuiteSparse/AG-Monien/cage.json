@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/AG-Monien/cage/cage.mtx",
+        "problem": {
+            "id": 2436,
+            "group": "AG-Monien",
+            "name": "cage",
+            "rows": 366,
+            "cols": 366,
+            "nonzeros": 5124,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph sequence",
+            "row_distribution": {
+                "min": 14,
+                "q1": 14.0,
+                "median": 14.0,
+                "q3": 14.0,
+                "max": 14,
+                "mean": 14.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            },
+            "col_distribution": {
+                "min": 14,
+                "q1": 14.0,
+                "median": 14.0,
+                "q3": 14.0,
+                "max": 14,
+                "mean": 14.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 81984,
+                "time": 17412.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 62956,
+                "time": 28573.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 61488,
+                "time": 20019.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 64616,
+                "time": 20043.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 81984,
+                "time": 25795.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 61488,
+                "time": 21736.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 61488,
+                "time": 18402.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 61488,
+                "time": 19351.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 81984,
+                "time": 27360.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 81984,
+                "time": 25138.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 81984,
+                "time": 26890.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 61488,
+                "time": 15313.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

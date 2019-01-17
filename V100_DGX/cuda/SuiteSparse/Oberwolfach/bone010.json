@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Oberwolfach/bone010/bone010.mtx",
+        "problem": {
+            "id": 1453,
+            "group": "Oberwolfach",
+            "name": "bone010",
+            "rows": 986703,
+            "cols": 986703,
+            "nonzeros": 47851783,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "row_distribution": {
+                "min": 12,
+                "q1": 72.0,
+                "median": 81.0,
+                "q3": 81.0,
+                "max": 81,
+                "mean": 72.63211422282085,
+                "variance": 249.9696825448156,
+                "skewness": -1.838253655989236,
+                "kurtosis": 5.174415120690959,
+                "hyperskewness": -14.148107688299885,
+                "hyperflatness": 40.510262936501337
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 72.0,
+                "median": 81.0,
+                "q3": 81.0,
+                "max": 81,
+                "mean": 72.63211422282085,
+                "variance": 249.9696825448156,
+                "skewness": -1.838253655989236,
+                "kurtosis": 5.174415120690959,
+                "hyperskewness": -14.148107688299885,
+                "hyperflatness": 40.510262936501337
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 765628528,
+                "time": 1443521.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 578168212,
+                "time": 976240.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 745947468,
+                "time": 946675.7,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 674726568,
+                "time": 1016247.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 613453468,
+                "time": 909692.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 718266784,
+                "time": 1329725.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 613453468,
+                "time": 910528.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 613453468,
+                "time": 905990.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 718266784,
+                "time": 1323248.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 613453468,
+                "time": 904791.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 613453468,
+                "time": 906891.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 613453468,
+                "time": 905540.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit25"
+        }
+    }
+]

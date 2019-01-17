@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/ANSYS/Delor64K/Delor64K.mtx",
+        "problem": {
+            "id": 2651,
+            "group": "ANSYS",
+            "name": "Delor64K",
+            "rows": 64719,
+            "cols": 1785345,
+            "nonzeros": 652140,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "least squares problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 11.0,
+                "median": 11.0,
+                "q3": 11.0,
+                "max": 14,
+                "mean": 10.076484494507025,
+                "variance": 3.469234718582322,
+                "skewness": -2.160168908834827,
+                "kurtosis": 7.7135774808630279,
+                "hyperskewness": -29.432322304678068,
+                "hyperflatness": 120.52951315061977
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 0.0,
+                "q3": 0.0,
+                "max": 88,
+                "mean": 0.36527393865051296,
+                "variance": 3.701490890362954,
+                "skewness": 10.95364047946914,
+                "kurtosis": 209.20988780460477,
+                "hyperskewness": 5565.492508633988,
+                "hyperflatness": 177558.08570447356
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 10434240,
+                "time": 38308.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 8084560,
+                "time": 39107.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 10872792,
+                "time": 33070.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 8191560,
+                "time": 33736.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 8543484,
+                "time": 39701.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 9916488,
+                "time": 45658.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 8543484,
+                "time": 37664.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 8543484,
+                "time": 38529.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 9916488,
+                "time": 42920.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 8543484,
+                "time": 36366.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 8543484,
+                "time": 35374.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 8543484,
+                "time": 35817.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

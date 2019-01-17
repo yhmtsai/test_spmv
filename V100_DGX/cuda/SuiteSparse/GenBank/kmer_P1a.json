@@ -1,0 +1,109 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/GenBank/kmer_P1a/kmer_P1a.mtx",
+        "problem": {
+            "id": 2806,
+            "group": "GenBank",
+            "name": "kmer_P1a",
+            "rows": 139353211,
+            "cols": 139353211,
+            "nonzeros": 297829984,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 40,
+                "mean": 2.137230867252854,
+                "variance": 0.4055410177364714,
+                "skewness": 9.253585747642874,
+                "kurtosis": 193.1671751819659,
+                "hyperskewness": 6190.853005794567,
+                "hyperflatness": 246648.96394082093
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 40,
+                "mean": 2.137230867252854,
+                "variance": 0.4055410177364714,
+                "skewness": 9.253585747642874,
+                "kurtosis": 193.1671751819659,
+                "hyperskewness": 6190.853005794567,
+                "hyperflatness": 246648.96394082093
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 4765279744,
+                "time": 45830361.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 4131372656,
+                "time": 23793976.2,
+                "completed": true
+            },
+            "ell": {
+                "completed": false
+            },
+            "sellp": {
+                "storage": 8194720808,
+                "time": 27521585.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 3665431832,
+                "time": 24344176.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 4207866900,
+                "time": 34094332.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 3665431832,
+                "time": 24338692.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 3665431832,
+                "time": 24341137.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 4207866900,
+                "time": 34151318.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 3665431832,
+                "time": 24315954.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 3665431832,
+                "time": 24316271.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 3665431832,
+                "time": 24343169.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

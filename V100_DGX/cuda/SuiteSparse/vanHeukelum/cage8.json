@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/vanHeukelum/cage8/cage8.mtx",
+        "problem": {
+            "id": 909,
+            "group": "vanHeukelum",
+            "name": "cage8",
+            "rows": 1015,
+            "cols": 1015,
+            "nonzeros": 11003,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.144973968762515,
+            "kind": "directed weighted graph",
+            "row_distribution": {
+                "min": 5,
+                "q1": 8.0,
+                "median": 11.0,
+                "q3": 13.0,
+                "max": 18,
+                "mean": 10.840394088669952,
+                "variance": 10.015905263413297,
+                "skewness": 0.17081816422736097,
+                "kurtosis": 2.3939372186378957,
+                "hyperskewness": 0.9801975343510746,
+                "hyperflatness": 7.822186269378447
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 8.0,
+                "median": 11.0,
+                "q3": 13.0,
+                "max": 18,
+                "mean": 10.840394088669952,
+                "variance": 10.015905263413297,
+                "skewness": 0.17081816422736097,
+                "kurtosis": 2.3939372186378957,
+                "hyperskewness": 0.9801975343510746,
+                "hyperflatness": 7.822186269378447
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 176048,
+                "time": 16156.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 136100,
+                "time": 18660.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 219240,
+                "time": 12696.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 159240,
+                "time": 20655.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 171988,
+                "time": 23735.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 155748,
+                "time": 23577.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 147664,
+                "time": 23761.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 148468,
+                "time": 22376.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 171988,
+                "time": 23870.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 171988,
+                "time": 17498.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 171988,
+                "time": 18104.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 147664,
+                "time": 17601.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

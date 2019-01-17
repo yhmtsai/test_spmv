@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Schmid/thermal1/thermal1.mtx",
+        "problem": {
+            "id": 1402,
+            "group": "Schmid",
+            "name": "thermal1",
+            "rows": 82654,
+            "cols": 82654,
+            "nonzeros": 574458,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "thermal problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 11,
+                "mean": 6.950153652575798,
+                "variance": 0.7687302858751689,
+                "skewness": -0.809533625953677,
+                "kurtosis": 8.788135629117184,
+                "hyperskewness": -42.48691711635508,
+                "hyperflatness": 305.4388676151027
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 11,
+                "mean": 6.950153652575798,
+                "variance": 0.7687302858751689,
+                "skewness": -0.809533625953677,
+                "kurtosis": 8.788135629117184,
+                "hyperskewness": -42.48691711635508,
+                "hyperflatness": 305.4388676151027
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 9191328,
+                "time": 29820.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 7224116,
+                "time": 29931.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 10910328,
+                "time": 28600.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 8845000,
+                "time": 29323.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 7287144,
+                "time": 33606.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 8860712,
+                "time": 35809.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 7259888,
+                "time": 34637.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 7287144,
+                "time": 32918.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 8860712,
+                "time": 30651.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 7259888,
+                "time": 30014.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 7287144,
+                "time": 29700.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 7259888,
+                "time": 29549.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

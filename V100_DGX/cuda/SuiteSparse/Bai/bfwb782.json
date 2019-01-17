@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Bai/bfwb782/bfwb782.mtx",
+        "problem": {
+            "id": 297,
+            "group": "Bai",
+            "name": "bfwb782",
+            "rows": 782,
+            "cols": 782,
+            "nonzeros": 5982,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "electromagnetics problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 13,
+                "mean": 7.649616368286445,
+                "variance": 6.5345203131847529,
+                "skewness": 1.0817976031170425,
+                "kurtosis": 3.3901948160060138,
+                "hyperskewness": 5.400149781425578,
+                "hyperflatness": 13.86080430860689
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 13,
+                "mean": 7.649616368286445,
+                "variance": 6.5345203131847529,
+                "skewness": 1.0817976031170425,
+                "kurtosis": 3.3901948160060138,
+                "hyperskewness": 5.400149781425578,
+                "hyperflatness": 13.86080430860689
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 95712,
+                "time": 16878.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 74916,
+                "time": 18966.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 121992,
+                "time": 13962.8,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 84696,
+                "time": 19895.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 95712,
+                "time": 25278.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 89456,
+                "time": 26349.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 79320,
+                "time": 21164.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 79320,
+                "time": 23456.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 95712,
+                "time": 22603.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 95712,
+                "time": 24735.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 95712,
+                "time": 18355.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 79320,
+                "time": 18714.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

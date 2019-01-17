@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Rommes/juba40k/juba40k.mtx",
+        "problem": {
+            "id": 2344,
+            "group": "Rommes",
+            "name": "juba40k",
+            "rows": 40337,
+            "cols": 40337,
+            "nonzeros": 144945,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.6934462083788981,
+            "nsym": 0.5830536596402579,
+            "kind": "eigenvalue/model reduction problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 5.0,
+                "max": 34,
+                "mean": 3.593351017676079,
+                "variance": 7.351581345737579,
+                "skewness": 2.447851606956934,
+                "kurtosis": 12.704148729600777,
+                "hyperskewness": 76.540081773718,
+                "hyperflatness": 560.2592448351637
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 4.0,
+                "max": 34,
+                "mean": 3.593351017676079,
+                "variance": 7.570635811859331,
+                "skewness": 2.484988531525153,
+                "kurtosis": 12.44323085062709,
+                "hyperskewness": 74.36889580195379,
+                "hyperflatness": 540.9043082405328
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 2319120,
+                "time": 18604.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1900692,
+                "time": 20427.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 16457496,
+                "time": 26124.8,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3428472,
+                "time": 30620.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 2064792,
+                "time": 29524.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 2157772,
+                "time": 28732.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 2064792,
+                "time": 26830.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 2064792,
+                "time": 26334.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 2157772,
+                "time": 23110.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 2064792,
+                "time": 21582.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 2064792,
+                "time": 20697.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 2064792,
+                "time": 21765.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

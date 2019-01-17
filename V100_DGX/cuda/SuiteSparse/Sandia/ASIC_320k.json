@@ -1,0 +1,109 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Sandia/ASIC_320k/ASIC_320k.mtx",
+        "problem": {
+            "id": 1417,
+            "group": "Sandia",
+            "name": "ASIC_320k",
+            "rows": 321821,
+            "cols": 321821,
+            "nonzeros": 1931828,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.3578041366837217,
+            "kind": "circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 9.0,
+                "max": 203800,
+                "mean": 8.188912469975545,
+                "variance": 252960.1198146718,
+                "skewness": 401.0384064003706,
+                "kurtosis": 160892.07972467596,
+                "hyperskewness": 64554939.73858398,
+                "hyperflatness": 25904203466.13956
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 9.0,
+                "max": 203800,
+                "mean": 8.188912469975545,
+                "variance": 252960.1198146718,
+                "skewness": 401.0384064003706,
+                "kurtosis": 160892.07972467596,
+                "hyperskewness": 64554939.73858398,
+                "hyperflatness": 25904203466.13956
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 30909248,
+                "time": 89977.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 24469224,
+                "time": 18723090.9,
+                "completed": true
+            },
+            "ell": {
+                "completed": false
+            },
+            "sellp": {
+                "storage": 275886936,
+                "time": 104229317.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 27049796,
+                "time": 80523.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 29621964,
+                "time": 87441.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 27049796,
+                "time": 79828.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 27049796,
+                "time": 80606.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 29621964,
+                "time": 87173.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 27049796,
+                "time": 79805.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 27049796,
+                "time": 80458.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 27049796,
+                "time": 79740.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_Homology/ch4-4-b1/ch4-4-b1.mtx",
+        "problem": {
+            "id": 2010,
+            "group": "JGD_Homology",
+            "name": "ch4-4-b1",
+            "rows": 72,
+            "cols": 16,
+            "nonzeros": 144,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 2,
+                "mean": 2.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            },
+            "col_distribution": {
+                "min": 9,
+                "q1": 9.0,
+                "median": 9.0,
+                "q3": 9.0,
+                "max": 9,
+                "mean": 9.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 2304,
+                "time": 18286.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 2020,
+                "time": 17160.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1728,
+                "time": 13156.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3112,
+                "time": 14567.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 2304,
+                "time": 23334.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1728,
+                "time": 15656.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1728,
+                "time": 16093.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1728,
+                "time": 16488.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 2304,
+                "time": 23880.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 2304,
+                "time": 24543.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 2304,
+                "time": 24720.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1728,
+                "time": 14045.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

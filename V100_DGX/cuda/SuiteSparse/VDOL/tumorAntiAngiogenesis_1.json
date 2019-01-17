@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/VDOL/tumorAntiAngiogenesis_1/tumorAntiAngiogenesis_1.mtx",
+        "problem": {
+            "id": 2748,
+            "group": "VDOL",
+            "name": "tumorAntiAngiogenesis_1",
+            "rows": 205,
+            "cols": 205,
+            "nonzeros": 1783,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 8.0,
+                "q3": 8.0,
+                "max": 201,
+                "mean": 8.697560975609756,
+                "variance": 191.51828673408697,
+                "skewness": 13.15195698577631,
+                "kurtosis": 182.03768622277438,
+                "hyperskewness": 2527.6214344616525,
+                "hyperflatness": 35118.49279550509
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 7.0,
+                "median": 8.0,
+                "q3": 8.0,
+                "max": 201,
+                "mean": 8.697560975609756,
+                "variance": 191.51828673408697,
+                "skewness": 13.15195698577631,
+                "kurtosis": 182.03768622277438,
+                "hyperskewness": 2527.6214344616525,
+                "hyperflatness": 35118.49279550509
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 28528,
+                "time": 16860.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 22220,
+                "time": 33381.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 494460,
+                "time": 17368.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 202824,
+                "time": 90005.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 28528,
+                "time": 23793.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 26888,
+                "time": 22156.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 24484,
+                "time": 23007.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 24484,
+                "time": 24485.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 28528,
+                "time": 24298.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 28528,
+                "time": 17807.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 28528,
+                "time": 17911.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 24484,
+                "time": 17844.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/LAW/hollywood-2009/hollywood-2009.mtx",
+        "problem": {
+            "id": 2447,
+            "group": "LAW",
+            "name": "hollywood-2009",
+            "rows": 1139905,
+            "cols": 1139905,
+            "nonzeros": 113891327,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 12.0,
+                "median": 29.0,
+                "q3": 71.0,
+                "max": 11468,
+                "mean": 99.9129988902584,
+                "variance": 73910.53149240036,
+                "skewness": 7.348936369406897,
+                "kurtosis": 81.54982974012151,
+                "hyperskewness": 1209.1293787718917,
+                "hyperflatness": 23866.101518766263
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 12.0,
+                "median": 29.0,
+                "q3": 71.0,
+                "max": 11468,
+                "mean": 99.9129988902584,
+                "variance": 73910.53149240036,
+                "skewness": 7.348936369406897,
+                "kurtosis": 81.54982974012151,
+                "hyperskewness": 1209.1293787718917,
+                "hyperflatness": 23866.101518766263
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1822261232,
+                "time": 3763403.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1371255548,
+                "time": 3172999.4,
+                "completed": true
+            },
+            "ell": {
+                "completed": false
+            },
+            "sellp": {
+                "storage": 4435524168,
+                "time": 12703811.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1798132480,
+                "time": 3575101.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1817701612,
+                "time": 3751231.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1795175392,
+                "time": 3510279.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1798132480,
+                "time": 3573889.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1817701612,
+                "time": 3750945.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1795175392,
+                "time": 3510601.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1798132480,
+                "time": 3573812.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1795175392,
+                "time": 3511760.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/DIMACS10/G_n_pin_pout/G_n_pin_pout.mtx",
+        "problem": {
+            "id": 2574,
+            "group": "DIMACS10",
+            "name": "G_n_pin_pout",
+            "rows": 100000,
+            "cols": 100000,
+            "nonzeros": 1002396,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "random undirected graph",
+            "row_distribution": {
+                "min": 0,
+                "q1": 8.0,
+                "median": 10.0,
+                "q3": 12.0,
+                "max": 25,
+                "mean": 10.02396,
+                "variance": 10.05698591839568,
+                "skewness": 0.3168607971097469,
+                "kurtosis": 3.076983329655735,
+                "hyperskewness": 3.094035727221673,
+                "hyperflatness": 16.933066194439957
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 8.0,
+                "median": 10.0,
+                "q3": 12.0,
+                "max": 25,
+                "mean": 10.02396,
+                "variance": 10.05698591839568,
+                "skewness": 0.3168607971097469,
+                "kurtosis": 3.076983329655735,
+                "hyperskewness": 3.094035727221673,
+                "hyperflatness": 16.933066194439957
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 16038336,
+                "time": 47295.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 12428756,
+                "time": 57438.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 30000000,
+                "time": 47000.8,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 21779384,
+                "time": 51091.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 13698000,
+                "time": 41679.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 16038336,
+                "time": 49409.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 13567600,
+                "time": 39679.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 13698000,
+                "time": 41688.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 16038336,
+                "time": 49101.6,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 13567600,
+                "time": 40206.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 13698000,
+                "time": 41520.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 13567600,
+                "time": 39545.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

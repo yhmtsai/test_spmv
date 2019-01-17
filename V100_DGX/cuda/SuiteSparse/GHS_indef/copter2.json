@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/GHS_indef/copter2/copter2.mtx",
+        "problem": {
+            "id": 1230,
+            "group": "GHS_indef",
+            "name": "copter2",
+            "rows": 55476,
+            "cols": 55476,
+            "nonzeros": 759952,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 11.0,
+                "median": 13.0,
+                "q3": 16.0,
+                "max": 45,
+                "mean": 13.69875261374288,
+                "variance": 17.5421723570638,
+                "skewness": 0.4146939250889769,
+                "kurtosis": 4.294256035335372,
+                "hyperskewness": 10.68141085971758,
+                "hyperflatness": 59.92106530603657
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 11.0,
+                "median": 13.0,
+                "q3": 16.0,
+                "max": 45,
+                "mean": 13.69875261374288,
+                "variance": 17.5421723570638,
+                "skewness": 0.4146939250889769,
+                "kurtosis": 4.294256035335372,
+                "hyperskewness": 10.68141085971758,
+                "hyperflatness": 59.92106530603657
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 12159232,
+                "time": 32183.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 9341332,
+                "time": 37325.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 29957040,
+                "time": 50486.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 14500664,
+                "time": 51939.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 10286368,
+                "time": 38310.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 11271616,
+                "time": 33566.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 10285584,
+                "time": 36401.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 10286368,
+                "time": 40101.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 11271616,
+                "time": 32036.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 10285584,
+                "time": 37296.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 10286368,
+                "time": 35813.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 10285584,
+                "time": 38574.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit0"
+        }
+    }
+]

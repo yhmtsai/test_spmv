@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Bates/Chem97Zt/Chem97Zt.mtx",
+        "problem": {
+            "id": 1400,
+            "group": "Bates",
+            "name": "Chem97Zt",
+            "rows": 2541,
+            "cols": 31022,
+            "nonzeros": 62044,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "statistical/mathematical problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 9.0,
+                "q3": 19.0,
+                "max": 969,
+                "mean": 24.41715859897678,
+                "variance": 4849.358446235766,
+                "skewness": 7.826007816521102,
+                "kurtosis": 77.76536429509923,
+                "hyperskewness": 848.6197920785926,
+                "hyperflatness": 9789.18740492303
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 2,
+                "mean": 2.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 992704,
+                "time": 17989.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 754696,
+                "time": 70944.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 29546748,
+                "time": 28891.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3363720,
+                "time": 357400.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 974968,
+                "time": 19410.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 982540,
+                "time": 24745.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 968416,
+                "time": 26100.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 972152,
+                "time": 25823.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 982540,
+                "time": 28343.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 974968,
+                "time": 19424.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 974968,
+                "time": 19275.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 968416,
+                "time": 19132.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

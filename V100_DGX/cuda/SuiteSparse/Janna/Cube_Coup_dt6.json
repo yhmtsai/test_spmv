@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Janna/Cube_Coup_dt6/Cube_Coup_dt6.mtx",
+        "problem": {
+            "id": 2549,
+            "group": "Janna",
+            "name": "Cube_Coup_dt6",
+            "rows": 2164760,
+            "cols": 2164760,
+            "nonzeros": 124406070,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 24,
+                "q1": 60.0,
+                "median": 60.0,
+                "q3": 60.0,
+                "max": 68,
+                "mean": 58.76223877011771,
+                "variance": 19.995381123536057,
+                "skewness": -3.011033350374426,
+                "kurtosis": 11.45261910874053,
+                "hyperskewness": -43.29955462582832,
+                "hyperflatness": 182.2941139203318
+            },
+            "col_distribution": {
+                "min": 24,
+                "q1": 60.0,
+                "median": 60.0,
+                "q3": 60.0,
+                "max": 68,
+                "mean": 58.76223877011771,
+                "variance": 19.995381123536057,
+                "skewness": -3.011033350374426,
+                "kurtosis": 11.45261910874053,
+                "hyperskewness": -43.29955462582832,
+                "hyperflatness": 182.2941139203318
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1990497120,
+                "time": 4058978.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1501531884,
+                "time": 2493805.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1766444160,
+                "time": 2248298.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1566506264,
+                "time": 2328382.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1560916864,
+                "time": 2206337.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1981838080,
+                "time": 4109384.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1560916864,
+                "time": 2204367.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1560916864,
+                "time": 2203288.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1981838080,
+                "time": 4109942.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1560916864,
+                "time": 2204146.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1560916864,
+                "time": 2206192.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1560916864,
+                "time": 2204501.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid33"
+        }
+    }
+]

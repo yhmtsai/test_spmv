@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Barabasi/NotreDame_yeast/NotreDame_yeast.mtx",
+        "problem": {
+            "id": 1511,
+            "group": "Barabasi",
+            "name": "NotreDame_yeast",
+            "rows": 2114,
+            "cols": 2114,
+            "nonzeros": 4480,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 2.0,
+                "max": 56,
+                "mean": 2.119205298013245,
+                "variance": 9.293264079896256,
+                "skewness": 6.488895453895059,
+                "kurtosis": 75.47833885123414,
+                "hyperskewness": 1070.4054845923386,
+                "hyperflatness": 16836.511275185036
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 2.0,
+                "max": 56,
+                "mean": 2.119205298013245,
+                "variance": 9.293264079896256,
+                "skewness": 6.488895453895059,
+                "kurtosis": 75.47833885123414,
+                "hyperskewness": 1070.4054845923386,
+                "hyperflatness": 16836.511275185036
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 71680,
+                "time": 16735.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 62220,
+                "time": 22187.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1420608,
+                "time": 13568.8,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 450600,
+                "time": 33571.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 67128,
+                "time": 19584.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 71680,
+                "time": 19314.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 67128,
+                "time": 19521.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 67128,
+                "time": 22668.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 71680,
+                "time": 22738.6,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 67128,
+                "time": 17950.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 67128,
+                "time": 17994.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 67128,
+                "time": 17908.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

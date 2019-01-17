@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/FEMLAB/problem1/problem1.mtx",
+        "problem": {
+            "id": 929,
+            "group": "FEMLAB",
+            "name": "problem1",
+            "rows": 415,
+            "cols": 415,
+            "nonzeros": 2779,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.6548223350253807,
+            "kind": "2D/3D problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 9,
+                "mean": 6.696385542168675,
+                "variance": 1.0403483814777193,
+                "skewness": -0.11611504327738932,
+                "kurtosis": 2.5860896672387625,
+                "hyperskewness": -0.7063290216621941,
+                "hyperflatness": 9.866263587267698
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 9,
+                "mean": 6.696385542168675,
+                "variance": 1.0403483814777193,
+                "skewness": -0.11611504327738932,
+                "kurtosis": 2.5860896672387625,
+                "hyperskewness": -0.7063290216621941,
+                "hyperflatness": 9.866263587267698
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 44464,
+                "time": 16902.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 35012,
+                "time": 19441.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 44820,
+                "time": 13890.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 46968,
+                "time": 18476.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 44464,
+                "time": 24574.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 37824,
+                "time": 24229.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 35416,
+                "time": 25268.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 35416,
+                "time": 25389.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 44464,
+                "time": 25002.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 44464,
+                "time": 19909.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 44464,
+                "time": 18334.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 35416,
+                "time": 19180.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

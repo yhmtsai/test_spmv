@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Schenk/nlpkkt240/nlpkkt240.mtx",
+        "problem": {
+            "id": 1905,
+            "group": "Schenk",
+            "name": "nlpkkt240",
+            "rows": 27993600,
+            "cols": 27993600,
+            "nonzeros": 760648352,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimization problem",
+            "row_distribution": {
+                "min": 5,
+                "q1": 28.0,
+                "median": 28.0,
+                "q3": 28.0,
+                "max": 28,
+                "mean": 27.666050525834476,
+                "variance": 4.919920369949801,
+                "skewness": -7.050294545553957,
+                "kurtosis": 53.42565435087772,
+                "hyperskewness": -415.86415606756568,
+                "hyperflatness": 3285.1704213720256
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 28.0,
+                "median": 28.0,
+                "q3": 28.0,
+                "max": 28,
+                "mean": 27.666050525834476,
+                "variance": 4.919920369949801,
+                "skewness": -7.050294545553957,
+                "kurtosis": 53.42565435087772,
+                "hyperskewness": -415.86415606756568,
+                "hyperflatness": 3285.1704213720256
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 12170373632,
+                "time": 46055508.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 9239754628,
+                "time": 15804421.8,
+                "completed": true
+            },
+            "ell": {
+                "storage": 9405849600,
+                "time": 13962732.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 9176287112,
+                "time": 14127358.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 9285626752,
+                "time": 14434101.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 11610501632,
+                "time": 36901585.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 9285626752,
+                "time": 14425059.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 9285626752,
+                "time": 14427841.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 11610501632,
+                "time": 36915919.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 9285626752,
+                "time": 14443830.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 9285626752,
+                "time": 14442178.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 9285626752,
+                "time": 14442347.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

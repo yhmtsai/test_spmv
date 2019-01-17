@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Pajek/Journals/Journals.mtx",
+        "problem": {
+            "id": 1506,
+            "group": "Pajek",
+            "name": "Journals",
+            "rows": 124,
+            "cols": 124,
+            "nonzeros": 12068,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "row_distribution": {
+                "min": 19,
+                "q1": 76.5,
+                "median": 103.5,
+                "q3": 116.5,
+                "max": 124,
+                "mean": 97.3225806451613,
+                "variance": 516.8314255983354,
+                "skewness": -0.6964995253613862,
+                "kurtosis": 2.6933982760907417,
+                "hyperskewness": -5.397701281723108,
+                "hyperflatness": 17.169435544228468
+            },
+            "col_distribution": {
+                "min": 19,
+                "q1": 76.5,
+                "median": 103.5,
+                "q3": 116.5,
+                "max": 124,
+                "mean": 97.3225806451613,
+                "variance": 516.8314255983354,
+                "skewness": -0.6964995253613862,
+                "kurtosis": 2.6933982760907417,
+                "hyperskewness": -5.397701281723108,
+                "hyperflatness": 17.169435544228468
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 193088,
+                "time": 16845.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 145316,
+                "time": 20271.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 184512,
+                "time": 16242.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 190504,
+                "time": 55771.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 193088,
+                "time": 24484.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 183664,
+                "time": 25357.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 160976,
+                "time": 30899.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 161984,
+                "time": 27767.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 193088,
+                "time": 24455.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 193088,
+                "time": 20475.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 193088,
+                "time": 18192.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 160976,
+                "time": 21492.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

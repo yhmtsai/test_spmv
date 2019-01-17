@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Janna/ML_Geer/ML_Geer.mtx",
+        "problem": {
+            "id": 2650,
+            "group": "Janna",
+            "name": "ML_Geer",
+            "rows": 1504002,
+            "cols": 1504002,
+            "nonzeros": 110686677,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 2.381330188145693e-7,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 26,
+                "q1": 74.0,
+                "median": 74.0,
+                "q3": 74.0,
+                "max": 74,
+                "mean": 73.72328760201117,
+                "variance": 6.284421789746822,
+                "skewness": -10.310570542558946,
+                "kurtosis": 114.81722715206856,
+                "hyperskewness": -1322.2732725378722,
+                "hyperflatness": 15531.398967473968
+            },
+            "col_distribution": {
+                "min": 26,
+                "q1": 74.0,
+                "median": 74.0,
+                "q3": 74.0,
+                "max": 74,
+                "mean": 73.72328760201117,
+                "variance": 6.284421789746822,
+                "skewness": -10.310570542558946,
+                "kurtosis": 114.81722715206856,
+                "hyperskewness": -1322.2732725378722,
+                "hyperflatness": 15531.398967473968
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1770986832,
+                "time": 3641763.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1334256136,
+                "time": 2004471.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1335553776,
+                "time": 1906472.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1335398872,
+                "time": 1948486.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1335553776,
+                "time": 1908032.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1764970824,
+                "time": 3611943.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1335553776,
+                "time": 1906065.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1335553776,
+                "time": 1909091.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1764970824,
+                "time": 3615450.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1335553776,
+                "time": 1908076.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1335553776,
+                "time": 1907128.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1335553776,
+                "time": 1907727.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid25"
+        }
+    }
+]

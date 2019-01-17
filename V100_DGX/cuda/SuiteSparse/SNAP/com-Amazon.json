@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/SNAP/com-Amazon/com-Amazon.mtx",
+        "problem": {
+            "id": 2778,
+            "group": "SNAP",
+            "name": "com-Amazon",
+            "rows": 334863,
+            "cols": 334863,
+            "nonzeros": 1851744,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph with communities",
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 549,
+                "mean": 5.529855493141971,
+                "variance": 33.1963796230156,
+                "skewness": 10.558849771801285,
+                "kurtosis": 404.6101113500883,
+                "hyperskewness": 27502.485178182815,
+                "hyperflatness": 2301894.8781511916
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 549,
+                "mean": 5.529855493141971,
+                "variance": 33.1963796230156,
+                "skewness": 10.558849771801285,
+                "kurtosis": 404.6101113500883,
+                "hyperskewness": 27502.485178182815,
+                "hyperflatness": 2301894.8781511916
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 29627904,
+                "time": 90102.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 23560384,
+                "time": 146558.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 2206077444,
+                "time": 519963.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 128476440,
+                "time": 564157.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 27029452,
+                "time": 87013.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 28288452,
+                "time": 90687.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 27029452,
+                "time": 87404.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 27029452,
+                "time": 87739.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 28288452,
+                "time": 90900.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 27029452,
+                "time": 88018.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 27029452,
+                "time": 87187.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 27029452,
+                "time": 88106.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid"
+        }
+    }
+]

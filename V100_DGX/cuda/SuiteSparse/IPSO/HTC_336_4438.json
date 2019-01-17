@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/IPSO/HTC_336_4438/HTC_336_4438.mtx",
+        "problem": {
+            "id": 2534,
+            "group": "IPSO",
+            "name": "HTC_336_4438",
+            "rows": 226340,
+            "cols": 226340,
+            "nonzeros": 783496,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "power network problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 4.0,
+                "max": 7394,
+                "mean": 3.996297605372449,
+                "variance": 1179.6326186153213,
+                "skewness": 154.6185990366018,
+                "kurtosis": 27300.036571695186,
+                "hyperskewness": 5186125.425932501,
+                "hyperflatness": 1029450353.6771988
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 4.0,
+                "max": 7394,
+                "mean": 3.996297605372449,
+                "variance": 1179.6326186153213,
+                "skewness": 154.6185990366018,
+                "kurtosis": 27300.036571695186,
+                "hyperskewness": 5186125.425932501,
+                "hyperflatness": 1029450353.6771988
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 12535936,
+                "time": 45207.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 10307316,
+                "time": 1129470.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 20079979440,
+                "time": 430848.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 28326680,
+                "time": 5161225.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 10961936,
+                "time": 46485.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 11630576,
+                "time": 45566.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 10961936,
+                "time": 46500.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 10961936,
+                "time": 47243.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 11630576,
+                "time": 45103.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 10961936,
+                "time": 43215.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 10961936,
+                "time": 41475.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 10961936,
+                "time": 42154.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit33"
+        }
+    }
+]

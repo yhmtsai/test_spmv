@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Williams/cop20k_A/cop20k_A.mtx",
+        "problem": {
+            "id": 2378,
+            "group": "Williams",
+            "name": "cop20k_A",
+            "rows": 121192,
+            "cols": 121192,
+            "nonzeros": 2624331,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "row_distribution": {
+                "min": 0,
+                "q1": 18.0,
+                "median": 23.0,
+                "q3": 23.0,
+                "max": 81,
+                "mean": 21.65432536801109,
+                "variance": 190.2375375656702,
+                "skewness": 0.4289169552271596,
+                "kurtosis": 3.578608101285626,
+                "hyperskewness": 4.258199642181989,
+                "hyperflatness": 17.5116171569288
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 18.0,
+                "median": 23.0,
+                "q3": 23.0,
+                "max": 81,
+                "mean": 21.65432536801109,
+                "variance": 190.2375375656702,
+                "skewness": 0.4289169552271596,
+                "kurtosis": 3.578608101285626,
+                "hyperskewness": 4.258199642181989,
+                "hyperflatness": 17.5116171569288
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 41989296,
+                "time": 79313.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 31976744,
+                "time": 76948.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 117798624,
+                "time": 110368.7,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 38127720,
+                "time": 102541.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 40325312,
+                "time": 71959.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 41989296,
+                "time": 80254.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 39745584,
+                "time": 73253.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 40325312,
+                "time": 72264.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 41989296,
+                "time": 79280.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 39745584,
+                "time": 73387.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 40325312,
+                "time": 71615.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 39745584,
+                "time": 73271.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit33"
+        }
+    }
+]

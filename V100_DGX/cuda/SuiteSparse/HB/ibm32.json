@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/HB/ibm32/ibm32.mtx",
+        "problem": {
+            "id": 168,
+            "group": "HB",
+            "name": "ibm32",
+            "rows": 32,
+            "cols": 32,
+            "nonzeros": 126,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.0851063829787234,
+            "nsym": 0.0851063829787234,
+            "kind": "directed graph",
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 8,
+                "mean": 3.9375,
+                "variance": 1.87109375,
+                "skewness": 0.7720757819089387,
+                "kurtosis": 3.556177840926425,
+                "hyperskewness": 7.244419928320816,
+                "hyperflatness": 23.629534781361458
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 7,
+                "mean": 3.9375,
+                "variance": 1.87109375,
+                "skewness": 0.5523003184152155,
+                "kurtosis": 2.551998117163018,
+                "hyperskewness": 3.3000850615823906,
+                "hyperflatness": 9.698899573829428
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 2016,
+                "time": 16276.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1644,
+                "time": 18862.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 3072,
+                "time": 12853.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 6168,
+                "time": 16239.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 2016,
+                "time": 25347.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1760,
+                "time": 21860.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1696,
+                "time": 22196.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1696,
+                "time": 21968.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 2016,
+                "time": 21950.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 2016,
+                "time": 22756.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 2016,
+                "time": 17695.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1696,
+                "time": 17927.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

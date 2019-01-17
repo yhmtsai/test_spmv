@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Grund/meg4/meg4.mtx",
+        "problem": {
+            "id": 466,
+            "group": "Grund",
+            "name": "meg4",
+            "rows": 5860,
+            "cols": 5860,
+            "nonzeros": 25258,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 1194,
+                "mean": 7.993515358361774,
+                "variance": 362.6030296217792,
+                "skewness": 42.88798399216998,
+                "kurtosis": 2578.5652237966976,
+                "hyperskewness": 160014.1556588393,
+                "hyperflatness": 9962158.21411547
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 1194,
+                "mean": 7.993515358361774,
+                "variance": 362.6030296217792,
+                "skewness": 42.88798399216998,
+                "kurtosis": 2578.5652237966976,
+                "hyperskewness": 160014.1556588393,
+                "hyperflatness": 9962158.21411547
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 404128,
+                "time": 17282.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 326540,
+                "time": 107422.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 82274400,
+                "time": 32417.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 2279368,
+                "time": 437667.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 368864,
+                "time": 22897.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 380688,
+                "time": 18901.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 368864,
+                "time": 22191.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 368864,
+                "time": 23529.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 380688,
+                "time": 22708.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 368864,
+                "time": 23739.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 368864,
+                "time": 17387.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 368864,
+                "time": 17224.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

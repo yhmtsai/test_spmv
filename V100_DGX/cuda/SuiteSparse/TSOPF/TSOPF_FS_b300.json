@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/TSOPF/TSOPF_FS_b300/TSOPF_FS_b300.mtx",
+        "problem": {
+            "id": 2220,
+            "group": "TSOPF",
+            "name": "TSOPF_FS_b300",
+            "rows": 29214,
+            "cols": 29214,
+            "nonzeros": 4400122,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "power network problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 10.0,
+                "q3": 210.0,
+                "max": 13942,
+                "mean": 150.61689600876293,
+                "variance": 457346.6171801195,
+                "skewness": 19.526598715702837,
+                "kurtosis": 395.00654124466169,
+                "hyperskewness": 7989.861834350835,
+                "hyperflatness": 161627.39856176149
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 10.0,
+                "q3": 210.0,
+                "max": 13942,
+                "mean": 150.61689600876293,
+                "variance": 457346.6171801195,
+                "skewness": 19.526598715702837,
+                "kurtosis": 395.00654124466169,
+                "hyperskewness": 7989.861834350835,
+                "hyperflatness": 161627.39856176149
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 70401952,
+                "time": 106390.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 52918324,
+                "time": 818568.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 4887619056,
+                "time": 558124.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 63443352,
+                "time": 9069312.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 69938032,
+                "time": 104003.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 70285096,
+                "time": 105889.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 69938032,
+                "time": 103805.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 69938032,
+                "time": 104926.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 70285096,
+                "time": 105948.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 69938032,
+                "time": 103871.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 69938032,
+                "time": 103868.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 69938032,
+                "time": 103906.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid25"
+        }
+    }
+]

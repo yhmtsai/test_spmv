@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Rothberg/3dtube/3dtube.mtx",
+        "problem": {
+            "id": 803,
+            "group": "Rothberg",
+            "name": "3dtube",
+            "rows": 45330,
+            "cols": 45330,
+            "nonzeros": 3213618,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 10,
+                "q1": 54.0,
+                "median": 81.0,
+                "q3": 81.0,
+                "max": 2364,
+                "mean": 70.89384513567174,
+                "variance": 1578.5547580584405,
+                "skewness": 50.5879258947937,
+                "kurtosis": 2916.683248432381,
+                "hyperskewness": 168038.85412544074,
+                "hyperflatness": 9681361.627122509
+            },
+            "col_distribution": {
+                "min": 10,
+                "q1": 54.0,
+                "median": 81.0,
+                "q3": 81.0,
+                "max": 2364,
+                "mean": 70.89384513567174,
+                "variance": 1578.5547580584405,
+                "skewness": 50.5879258947937,
+                "kurtosis": 2916.683248432381,
+                "hyperskewness": 168038.85412544074,
+                "hyperflatness": 9681361.627122509
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 51417888,
+                "time": 84541.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 38744740,
+                "time": 184429.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1285921440,
+                "time": 170672.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 42388824,
+                "time": 1538389.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 43409144,
+                "time": 94549.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 49604688,
+                "time": 84758.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 42065552,
+                "time": 92822.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 42065552,
+                "time": 93254.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 49604688,
+                "time": 84579.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 43409144,
+                "time": 93565.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 43409144,
+                "time": 93676.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 42065552,
+                "time": 93242.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

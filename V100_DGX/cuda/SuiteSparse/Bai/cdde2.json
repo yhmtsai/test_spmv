@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Bai/cdde2/cdde2.mtx",
+        "problem": {
+            "id": 301,
+            "group": "Bai",
+            "name": "cdde2",
+            "rows": 961,
+            "cols": 961,
+            "nonzeros": 4681,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0,
+            "kind": "subsequent computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.870967741935484,
+                "variance": 0.1207075962538984,
+                "skewness": -2.506887065390268,
+                "kurtosis": 8.284482758621449,
+                "hyperskewness": -30.79581093259669,
+                "hyperflatness": 131.47748216410273
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.870967741935484,
+                "variance": 0.1207075962538984,
+                "skewness": -2.506887065390268,
+                "kurtosis": 8.284482758621449,
+                "hyperskewness": -30.79581093259669,
+                "hyperflatness": 131.47748216410273
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 74896,
+                "time": 16601.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 60020,
+                "time": 18229.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 57660,
+                "time": 15679.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 60936,
+                "time": 17975.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 74896,
+                "time": 23709.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 63364,
+                "time": 26127.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 57660,
+                "time": 19439.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 57660,
+                "time": 19442.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 74896,
+                "time": 26056.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 74896,
+                "time": 18974.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 74896,
+                "time": 18581.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 57660,
+                "time": 15304.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

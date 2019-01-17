@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Qaplib/lp_nug12/lp_nug12.mtx",
+        "problem": {
+            "id": 797,
+            "group": "Qaplib",
+            "name": "lp_nug12",
+            "rows": 3192,
+            "cols": 8856,
+            "nonzeros": 38304,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "linear programming problem",
+            "row_distribution": {
+                "min": 12,
+                "q1": 12.0,
+                "median": 12.0,
+                "q3": 12.0,
+                "max": 12,
+                "mean": 12.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 24,
+                "mean": 4.32520325203252,
+                "variance": 6.398307885517899,
+                "skewness": 7.649609723745344,
+                "kurtosis": 59.51652892561949,
+                "hyperskewness": 462.9278281167356,
+                "hyperflatness": 3600.733744279729
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 612864,
+                "time": 17295.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 472420,
+                "time": 27579.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 459648,
+                "time": 24504.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 461608,
+                "time": 19252.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 574560,
+                "time": 26069.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 459648,
+                "time": 22601.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 459648,
+                "time": 21813.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 459648,
+                "time": 21986.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 574560,
+                "time": 23351.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 574560,
+                "time": 28356.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 574560,
+                "time": 18515.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 459648,
+                "time": 18425.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

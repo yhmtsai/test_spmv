@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Sumner/graphics/graphics.mtx",
+        "problem": {
+            "id": 981,
+            "group": "Sumner",
+            "name": "graphics",
+            "rows": 29493,
+            "cols": 11822,
+            "nonzeros": 117954,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "computer graphics/vision problem",
+            "row_distribution": {
+                "min": 3,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 4,
+                "mean": 3.9993896856881299,
+                "variance": 0.0006099418283107291,
+                "skewness": -40.441323058195298,
+                "kurtosis": 1636.500610689791,
+                "hyperskewness": -66222.69120475234,
+                "hyperflatness": 2679769.7493977269
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 18.0,
+                "max": 87,
+                "mean": 9.97749957705972,
+                "variance": 98.01861063166342,
+                "skewness": 1.4420770287001368,
+                "kurtosis": 5.017423285069183,
+                "hyperskewness": 18.08132166307416,
+                "hyperflatness": 80.88116784837159
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1887264,
+                "time": 16692.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1533424,
+                "time": 16730.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1415664,
+                "time": 13015.8,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1423576,
+                "time": 15723.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1415664,
+                "time": 18476.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1533348,
+                "time": 22767.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1415664,
+                "time": 18107.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1415664,
+                "time": 16934.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1533348,
+                "time": 25163.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1415664,
+                "time": 13275.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1415664,
+                "time": 13862.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1415664,
+                "time": 13138.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

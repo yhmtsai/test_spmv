@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/DIMACS10/hugebubbles-00000/hugebubbles-00000.mtx",
+        "problem": {
+            "id": 2480,
+            "group": "DIMACS10",
+            "name": "hugebubbles-00000",
+            "rows": 18318143,
+            "cols": 18318143,
+            "nonzeros": 54940162,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.999221154677087,
+                "variance": 0.0007782387230628601,
+                "skewness": -35.79040044508901,
+                "kurtosis": 1281.95276533228,
+                "hyperskewness": -45917.3932850474,
+                "hyperflatness": 1644683.8472610452
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.999221154677087,
+                "variance": 0.0007782387230628601,
+                "skewness": -35.79040044508901,
+                "kurtosis": 1281.95276533228,
+                "hyperskewness": -45917.3932850474,
+                "hyperflatness": 1644683.8472610452
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 879042592,
+                "time": 6074504.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 732554520,
+                "time": 3047882.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 659453148,
+                "time": 2783099.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 664032728,
+                "time": 2822308.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 659453148,
+                "time": 2772157.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 732497448,
+                "time": 3912216.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 659453148,
+                "time": 2774180.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 659453148,
+                "time": 2776144.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 732497448,
+                "time": 3908434.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 659453148,
+                "time": 2769850.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 659453148,
+                "time": 2778794.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 659453148,
+                "time": 2779434.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit25"
+        }
+    }
+]

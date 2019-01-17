@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_Kocay/Trec8/Trec8.mtx",
+        "problem": {
+            "id": 2142,
+            "group": "JGD_Kocay",
+            "name": "Trec8",
+            "rows": 23,
+            "cols": 84,
+            "nonzeros": 549,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 3,
+                "q1": 18.75,
+                "median": 26.0,
+                "q3": 31.25,
+                "max": 39,
+                "mean": 23.869565217391306,
+                "variance": 85.06994328922497,
+                "skewness": -0.3969376273013661,
+                "kurtosis": 2.356330432146614,
+                "hyperskewness": -2.437750953772876,
+                "hyperflatness": 8.350521043295448
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 18,
+                "mean": 6.535714285714286,
+                "variance": 14.058248299319726,
+                "skewness": 0.8090519124476255,
+                "kurtosis": 3.2850750062271696,
+                "hyperskewness": 6.0249474140371419,
+                "hyperflatness": 18.330911467655377
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 8784,
+                "time": 16800.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 6684,
+                "time": 19541.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 10764,
+                "time": 13364.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 29976,
+                "time": 28017.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 8784,
+                "time": 25763.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 8508,
+                "time": 22146.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 7704,
+                "time": 22770.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 7708,
+                "time": 21931.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 8784,
+                "time": 22813.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 8784,
+                "time": 18059.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 8784,
+                "time": 17990.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 7704,
+                "time": 18145.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

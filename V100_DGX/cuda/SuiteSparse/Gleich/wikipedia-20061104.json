@@ -1,0 +1,109 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Gleich/wikipedia-20061104/wikipedia-20061104.mtx",
+        "problem": {
+            "id": 1845,
+            "group": "Gleich",
+            "name": "wikipedia-20061104",
+            "rows": 3148440,
+            "cols": 3148440,
+            "nonzeros": 39383235,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.1179357318284389,
+            "nsym": 0.1179357318284389,
+            "kind": "directed graph",
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 14.0,
+                "max": 6576,
+                "mean": 12.508809124518809,
+                "variance": 1099.4088601586048,
+                "skewness": 23.642217481404705,
+                "kurtosis": 1944.4486483236024,
+                "hyperskewness": 257792.753152027,
+                "hyperflatness": 40782519.90531402
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 2.0,
+                "q3": 6.0,
+                "max": 168685,
+                "mean": 12.508809124518809,
+                "variance": 57559.56509118219,
+                "skewness": 273.150726220574,
+                "kurtosis": 132396.2825712484,
+                "hyperskewness": 78550262.27485159,
+                "hyperflatness": 50343073301.58428
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 630131760,
+                "time": 3807687.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 485192584,
+                "time": 4511196.6,
+                "completed": true
+            },
+            "ell": {
+                "completed": false
+            },
+            "sellp": {
+                "storage": 4906132920,
+                "time": 12110842.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 619001392,
+                "time": 3710835.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 630131760,
+                "time": 3834322.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 619001392,
+                "time": 3710949.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 619001392,
+                "time": 3711263.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 630131760,
+                "time": 3836213.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 619001392,
+                "time": 3711757.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 619001392,
+                "time": 3708282.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 619001392,
+                "time": 3712014.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit33"
+        }
+    }
+]

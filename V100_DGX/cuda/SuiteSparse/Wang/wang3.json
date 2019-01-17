@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Wang/wang3/wang3.mtx",
+        "problem": {
+            "id": 832,
+            "group": "Wang",
+            "name": "wang3",
+            "rows": 26064,
+            "cols": 26064,
+            "nonzeros": 177168,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.9780019059720456,
+            "kind": "semiconductor device problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.797421731123388,
+                "variance": 0.18985523098278316,
+                "skewness": -2.00823372362817,
+                "kurtosis": 6.4237959991980368,
+                "hyperskewness": -23.305025868131417,
+                "hyperflatness": 97.55711254310974
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.797421731123388,
+                "variance": 0.18985523098278316,
+                "skewness": -2.00823372362817,
+                "kurtosis": 6.4237959991980368,
+                "hyperskewness": -23.305025868131417,
+                "hyperflatness": 97.55711254310974
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 2834688,
+                "time": 18521.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 2230276,
+                "time": 17255.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 2189376,
+                "time": 14229.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 2177672,
+                "time": 19025.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 2189376,
+                "time": 19212.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 2417664,
+                "time": 24477.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 2189376,
+                "time": 19607.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 2189376,
+                "time": 21454.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 2417664,
+                "time": 19154.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 2189376,
+                "time": 15046.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 2189376,
+                "time": 15523.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 2189376,
+                "time": 15015.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

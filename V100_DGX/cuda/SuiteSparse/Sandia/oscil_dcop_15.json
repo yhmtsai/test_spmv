@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Sandia/oscil_dcop_15/oscil_dcop_15.mtx",
+        "problem": {
+            "id": 1126,
+            "group": "Sandia",
+            "name": "oscil_dcop_15",
+            "rows": 430,
+            "cols": 430,
+            "nonzeros": 1544,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.9762308998302208,
+            "nsym": 0.6977928692699491,
+            "kind": "subsequent circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 13,
+                "mean": 3.590697674418605,
+                "variance": 2.0975878853434337,
+                "skewness": 2.035501818531093,
+                "kurtosis": 12.205771696320025,
+                "hyperskewness": 64.69151330995585,
+                "hyperflatness": 391.27693376824728
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 13,
+                "mean": 3.590697674418605,
+                "variance": 2.330146024878318,
+                "skewness": 1.9914000734106717,
+                "kurtosis": 11.477782509990562,
+                "hyperskewness": 56.58526644808925,
+                "hyperflatness": 318.4416062221223
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 24704,
+                "time": 17371.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 20252,
+                "time": 18415.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 67080,
+                "time": 14454.7,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 37752,
+                "time": 19360.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 24704,
+                "time": 25611.3,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 22984,
+                "time": 25393.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 21128,
+                "time": 25633.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 21128,
+                "time": 24261.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 24704,
+                "time": 26489.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 24704,
+                "time": 18947.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 24704,
+                "time": 18226.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 21128,
+                "time": 18541.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

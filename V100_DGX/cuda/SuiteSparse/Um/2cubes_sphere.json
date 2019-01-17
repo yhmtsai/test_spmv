@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Um/2cubes_sphere/2cubes_sphere.mtx",
+        "problem": {
+            "id": 1919,
+            "group": "Um",
+            "name": "2cubes_sphere",
+            "rows": 101492,
+            "cols": 101492,
+            "nonzeros": 1647264,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "electromagnetics problem",
+            "row_distribution": {
+                "min": 5,
+                "q1": 13.0,
+                "median": 16.0,
+                "q3": 19.0,
+                "max": 31,
+                "mean": 16.230481220194699,
+                "variance": 7.042117440742864,
+                "skewness": 0.1738993055170501,
+                "kurtosis": 2.899294220445922,
+                "hyperskewness": 1.5323097997882285,
+                "hyperflatness": 15.098706209134385
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 13.0,
+                "median": 16.0,
+                "q3": 19.0,
+                "max": 31,
+                "mean": 16.230481220194699,
+                "variance": 7.042117440742864,
+                "skewness": 0.1738993055170501,
+                "kurtosis": 2.899294220445922,
+                "hyperskewness": 1.5323097997882285,
+                "hyperflatness": 15.098706209134385
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 26356224,
+                "time": 60237.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 20173140,
+                "time": 79390.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 37755024,
+                "time": 56532.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 27224104,
+                "time": 58087.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 21232080,
+                "time": 51426.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 24326384,
+                "time": 56198.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 21182624,
+                "time": 50508.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 21232080,
+                "time": 50581.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 24326384,
+                "time": 55975.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 21182624,
+                "time": 50840.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 21232080,
+                "time": 50552.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 21182624,
+                "time": 51463.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid25"
+        }
+    }
+]

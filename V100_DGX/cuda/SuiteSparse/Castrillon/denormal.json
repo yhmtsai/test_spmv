@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Castrillon/denormal/denormal.mtx",
+        "problem": {
+            "id": 1892,
+            "group": "Castrillon",
+            "name": "denormal",
+            "rows": 89400,
+            "cols": 89400,
+            "nonzeros": 1156224,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "counter-example problem",
+            "row_distribution": {
+                "min": 6,
+                "q1": 13.0,
+                "median": 13.0,
+                "q3": 13.0,
+                "max": 13,
+                "mean": 12.933154362416108,
+                "variance": 0.22452494932519224,
+                "skewness": -7.890925098731522,
+                "kurtosis": 65.9717613214127,
+                "hyperskewness": -561.4942423718069,
+                "hyperflatness": 4871.1190141629899
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 13.0,
+                "median": 13.0,
+                "q3": 13.0,
+                "max": 13,
+                "mean": 12.933154362416108,
+                "variance": 0.22452494932519224,
+                "skewness": -7.890925098731522,
+                "kurtosis": 65.9717613214127,
+                "hyperskewness": -561.4942423718069,
+                "hyperflatness": 4871.1190141629899
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 18499584,
+                "time": 44534.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 14232292,
+                "time": 45889.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 13946400,
+                "time": 35018.8,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 13937752,
+                "time": 35978.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 13946400,
+                "time": 35153.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 16353984,
+                "time": 42585.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 13946400,
+                "time": 37607.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 13946400,
+                "time": 37786.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 16353984,
+                "time": 42927.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 13946400,
+                "time": 35469.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 13946400,
+                "time": 35450.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 13946400,
+                "time": 35113.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

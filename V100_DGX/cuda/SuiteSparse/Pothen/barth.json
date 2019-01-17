@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Pothen/barth/barth.mtx",
+        "problem": {
+            "id": 865,
+            "group": "Pothen",
+            "name": "barth",
+            "rows": 6691,
+            "cols": 6691,
+            "nonzeros": 46187,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 8.0,
+                "max": 13,
+                "mean": 6.9028545807801529,
+                "variance": 1.7212457745491257,
+                "skewness": 0.24981089248786585,
+                "kurtosis": 3.282091246245533,
+                "hyperskewness": 3.2349082964803554,
+                "hyperflatness": 20.969058647708399
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 8.0,
+                "max": 13,
+                "mean": 6.9028545807801529,
+                "variance": 1.7212457745491257,
+                "skewness": 0.24981089248786585,
+                "kurtosis": 3.282091246245533,
+                "hyperskewness": 3.2349082964803554,
+                "hyperflatness": 20.969058647708399
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 738992,
+                "time": 17593.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 581012,
+                "time": 17845.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1043796,
+                "time": 17362.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 812696,
+                "time": 16665.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 594984,
+                "time": 21251.3,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 631936,
+                "time": 23950.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 594984,
+                "time": 26977.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 594984,
+                "time": 17914.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 631936,
+                "time": 18113.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 594984,
+                "time": 21021.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 594984,
+                "time": 17953.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 594984,
+                "time": 19080.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

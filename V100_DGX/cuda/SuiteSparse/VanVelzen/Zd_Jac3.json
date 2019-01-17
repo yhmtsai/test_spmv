@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/VanVelzen/Zd_Jac3/Zd_Jac3.mtx",
+        "problem": {
+            "id": 1340,
+            "group": "VanVelzen",
+            "name": "Zd_Jac3",
+            "rows": 22835,
+            "cols": 22835,
+            "nonzeros": 1915726,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.0002609405864378739,
+            "nsym": 0,
+            "kind": "chemical process simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 54.0,
+                "max": 1050,
+                "mean": 83.9129406612656,
+                "variance": 36630.16881655536,
+                "skewness": 2.778322696963599,
+                "kurtosis": 9.814056220984993,
+                "hyperskewness": 35.49337584947595,
+                "hyperflatness": 134.0728460615533
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 6.0,
+                "q3": 73.0,
+                "max": 2605,
+                "mean": 83.9129406612656,
+                "variance": 61286.232841079385,
+                "skewness": 6.21665807230066,
+                "kurtosis": 45.941612666665488,
+                "hyperskewness": 358.2376430776852,
+                "hyperflatness": 2913.611541286776
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 30651616,
+                "time": 60522.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 23080056,
+                "time": 97843.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 287721000,
+                "time": 113513.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 100802648,
+                "time": 837477.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 30499032,
+                "time": 59600.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 30560276,
+                "time": 61246.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 30499032,
+                "time": 61434.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 30499032,
+                "time": 61726.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 30560276,
+                "time": 62390.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 30499032,
+                "time": 61602.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 30499032,
+                "time": 61488.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 30499032,
+                "time": 61338.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid"
+        }
+    }
+]

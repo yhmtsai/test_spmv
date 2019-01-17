@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Gset/G39/G39.mtx",
+        "problem": {
+            "id": 501,
+            "group": "Gset",
+            "name": "G39",
+            "rows": 2000,
+            "cols": 2000,
+            "nonzeros": 23556,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted random graph",
+            "row_distribution": {
+                "min": 4,
+                "q1": 6.0,
+                "median": 8.0,
+                "q3": 12.0,
+                "max": 210,
+                "mean": 11.778,
+                "variance": 189.29371599999977,
+                "skewness": 7.74052218439025,
+                "kurtosis": 87.11654544949062,
+                "hyperskewness": 1079.9814121344064,
+                "hyperflatness": 13980.960198325884
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 6.0,
+                "median": 8.0,
+                "q3": 12.0,
+                "max": 210,
+                "mean": 11.778,
+                "variance": 189.29371599999977,
+                "skewness": 7.74052218439025,
+                "kurtosis": 87.11654544949062,
+                "hyperskewness": 1079.9814121344064,
+                "hyperflatness": 13980.960198325884
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 376896,
+                "time": 17714.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 290676,
+                "time": 37150.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 5040000,
+                "time": 18295.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 564232,
+                "time": 90090.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 360896,
+                "time": 22580.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 344896,
+                "time": 25073.9,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 329600,
+                "time": 19059.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 330304,
+                "time": 26262.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 360896,
+                "time": 24845.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 360896,
+                "time": 26760.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 360896,
+                "time": 19012.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 329600,
+                "time": 19739.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/HB/steam3/steam3.mtx",
+        "problem": {
+            "id": 253,
+            "group": "HB",
+            "name": "steam3",
+            "rows": 80,
+            "cols": 80,
+            "nonzeros": 314,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.3247863247863248,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 8,
+                "q1": 12.0,
+                "median": 12.0,
+                "q3": 12.0,
+                "max": 12,
+                "mean": 11.6,
+                "variance": 1.4399999999999965,
+                "skewness": -2.6666666666666658,
+                "kurtosis": 8.111111111111127,
+                "hyperskewness": -24.296296296296594,
+                "hyperflatness": 72.90123456790195
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 12.0,
+                "median": 12.0,
+                "q3": 12.0,
+                "max": 12,
+                "mean": 11.6,
+                "variance": 1.4399999999999965,
+                "skewness": -2.6666666666666658,
+                "kurtosis": 8.111111111111127,
+                "hyperskewness": -24.296296296296594,
+                "hyperflatness": 72.90123456790195
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 5024,
+                "time": 17698.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 4092,
+                "time": 19875.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 5760,
+                "time": 13907.8,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 9256,
+                "time": 19864.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 5024,
+                "time": 28294.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 4704,
+                "time": 29287.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 4704,
+                "time": 26391.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 4704,
+                "time": 25719.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 5024,
+                "time": 24597.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 5024,
+                "time": 26023.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 5024,
+                "time": 19362.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 4704,
+                "time": 19622.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

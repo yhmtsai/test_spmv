@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Puri/ABACUS_shell_ud/ABACUS_shell_ud.mtx",
+        "problem": {
+            "id": 2269,
+            "group": "Puri",
+            "name": "ABACUS_shell_ud",
+            "rows": 23412,
+            "cols": 23412,
+            "nonzeros": 218484,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.9753731955380578,
+            "kind": "model reduction problem",
+            "row_distribution": {
+                "min": 6,
+                "q1": 9.0,
+                "median": 9.0,
+                "q3": 9.0,
+                "max": 15,
+                "mean": 9.332137365453614,
+                "variance": 1.712596097994079,
+                "skewness": 3.020452502606466,
+                "kurtosis": 13.331238475908206,
+                "hyperskewness": 52.72369669233156,
+                "hyperflatness": 231.22005740350964
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 9.0,
+                "median": 9.0,
+                "q3": 9.0,
+                "max": 15,
+                "mean": 9.332137365453614,
+                "variance": 1.712596097994079,
+                "skewness": 3.020452502606466,
+                "kurtosis": 13.331238475908206,
+                "hyperskewness": 52.72369669233156,
+                "hyperflatness": 231.22005740350964
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 3495744,
+                "time": 18926.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 2715460,
+                "time": 19068.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 4214160,
+                "time": 18573.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3941096,
+                "time": 22101.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 2668096,
+                "time": 21189.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 2933856,
+                "time": 21927.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 2668096,
+                "time": 22104.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 2668096,
+                "time": 21724.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 2933856,
+                "time": 19214.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 2668096,
+                "time": 19546.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 2668096,
+                "time": 19091.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 2668096,
+                "time": 19507.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

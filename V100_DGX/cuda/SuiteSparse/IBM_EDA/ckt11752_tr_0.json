@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/IBM_EDA/ckt11752_tr_0/ckt11752_tr_0.mtx",
+        "problem": {
+            "id": 1414,
+            "group": "IBM_EDA",
+            "name": "ckt11752_tr_0",
+            "rows": 49702,
+            "cols": 49702,
+            "nonzeros": 332807,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.983810226346236,
+            "nsym": 0.7360237367761078,
+            "kind": "circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 2921,
+                "mean": 6.700515069816104,
+                "variance": 539.1900359505515,
+                "skewness": 90.49989727873536,
+                "kurtosis": 9475.029992123504,
+                "hyperskewness": 1032919.6149201716,
+                "hyperflatness": 116041447.39155908
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 2921,
+                "mean": 6.700515069816104,
+                "variance": 553.6309840009318,
+                "skewness": 87.92461862334453,
+                "kurtosis": 9021.261359503183,
+                "hyperskewness": 968106.0937889778,
+                "hyperflatness": 107240217.24994682
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 5324912,
+                "time": 20515.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 4192496,
+                "time": 222610.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1742154504,
+                "time": 127694.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 17148056,
+                "time": 1928593.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 4691376,
+                "time": 27537.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 5126104,
+                "time": 30727.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 4691376,
+                "time": 29821.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 4691376,
+                "time": 33134.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 5126104,
+                "time": 24552.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 4691376,
+                "time": 23235.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 4691376,
+                "time": 22184.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 4691376,
+                "time": 21882.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

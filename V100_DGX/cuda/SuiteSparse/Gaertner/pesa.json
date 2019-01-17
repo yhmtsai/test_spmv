@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Gaertner/pesa/pesa.mtx",
+        "problem": {
+            "id": 443,
+            "group": "Gaertner",
+            "name": "pesa",
+            "rows": 11738,
+            "cols": 11738,
+            "nonzeros": 79566,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.999970513652179,
+            "kind": "directed weighted graph",
+            "row_distribution": {
+                "min": 3,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 10,
+                "mean": 6.778497188618164,
+                "variance": 0.7837870753458243,
+                "skewness": -1.1205515405077265,
+                "kurtosis": 5.186704601560264,
+                "hyperskewness": -9.826823065942448,
+                "hyperflatness": 39.78875622151063
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 10,
+                "mean": 6.778497188618164,
+                "variance": 0.7837870753458243,
+                "skewness": -1.1205515405077265,
+                "kurtosis": 5.186704601560264,
+                "hyperskewness": -9.826823065942448,
+                "hyperflatness": 39.78875622151063
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1273056,
+                "time": 19545.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1001748,
+                "time": 19447.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1408560,
+                "time": 17367.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1088904,
+                "time": 18739.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1009480,
+                "time": 26381.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1132200,
+                "time": 25280.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1009480,
+                "time": 24891.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1009480,
+                "time": 21711.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1132200,
+                "time": 25672.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1009480,
+                "time": 19265.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1009480,
+                "time": 18775.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1009480,
+                "time": 18886.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

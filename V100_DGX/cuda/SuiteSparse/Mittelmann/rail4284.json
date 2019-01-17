@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Mittelmann/rail4284/rail4284.mtx",
+        "problem": {
+            "id": 1658,
+            "group": "Mittelmann",
+            "name": "rail4284",
+            "rows": 4284,
+            "cols": 1096894,
+            "nonzeros": 11284032,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "linear programming problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 364.5,
+                "median": 1159.0,
+                "q3": 3045.5,
+                "max": 56182,
+                "mean": 2633.994397759104,
+                "variance": 17717863.98176133,
+                "skewness": 4.056837671542604,
+                "kurtosis": 29.022954864320409,
+                "hyperskewness": 252.15088224975538,
+                "hyperflatness": 2489.952196041734
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 9.0,
+                "median": 11.0,
+                "q3": 12.0,
+                "max": 12,
+                "mean": 10.287258385951605,
+                "variance": 3.5426077458441989,
+                "skewness": -1.522277358851349,
+                "kurtosis": 6.056190441359637,
+                "hyperskewness": -21.90584459711314,
+                "hyperflatness": 92.45935034236068
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 180544512,
+                "time": 411834.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 135425524,
+                "time": 1534799.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 2888204256,
+                "time": 2281114.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 793765944,
+                "time": 38177163.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 180476704,
+                "time": 411658.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 180510240,
+                "time": 412644.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 178039360,
+                "time": 400436.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 178634704,
+                "time": 400291.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 180510240,
+                "time": 412351.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 180476704,
+                "time": 412437.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 180476704,
+                "time": 411671.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 178039360,
+                "time": 400068.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

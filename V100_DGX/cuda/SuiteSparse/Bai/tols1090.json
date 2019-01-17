@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Bai/tols1090/tols1090.mtx",
+        "problem": {
+            "id": 1637,
+            "group": "Bai",
+            "name": "tols1090",
+            "rows": 1090,
+            "cols": 1090,
+            "nonzeros": 3546,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.3178758414360509,
+            "nsym": 0,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 90,
+                "mean": 3.253211009174312,
+                "variance": 126.51203097382384,
+                "skewness": 7.572759415377485,
+                "kurtosis": 58.42507454685201,
+                "hyperskewness": 450.59192278094658,
+                "hyperflatness": 3475.129342301169
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 5.0,
+                "max": 22,
+                "mean": 3.253211009174312,
+                "variance": 25.965241982997957,
+                "skewness": 2.628541043261163,
+                "kurtosis": 8.732321484291403,
+                "hyperskewness": 28.43290544650251,
+                "hyperflatness": 93.80154606932222
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 56736,
+                "time": 16102.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 46916,
+                "time": 27052.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1177200,
+                "time": 13849.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 93224,
+                "time": 47649.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 52376,
+                "time": 24611.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 52376,
+                "time": 24501.9,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 51504,
+                "time": 24470.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 51504,
+                "time": 24777.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 52376,
+                "time": 25825.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 52376,
+                "time": 18041.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 52376,
+                "time": 17902.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 51504,
+                "time": 18265.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

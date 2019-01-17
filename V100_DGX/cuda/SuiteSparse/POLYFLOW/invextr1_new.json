@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/POLYFLOW/invextr1_new/invextr1_new.mtx",
+        "problem": {
+            "id": 1642,
+            "group": "POLYFLOW",
+            "name": "invextr1_new",
+            "rows": 30412,
+            "cols": 30412,
+            "nonzeros": 1793881,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.971442083756505,
+            "nsym": 0.7213486599424203,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 31.0,
+                "median": 49.0,
+                "q3": 78.0,
+                "max": 214,
+                "mean": 58.985959489675128,
+                "variance": 1540.280514424752,
+                "skewness": 0.6882291919645649,
+                "kurtosis": 2.436088684689424,
+                "hyperskewness": 3.5607540301060469,
+                "hyperflatness": 9.792203146324976
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 31.0,
+                "median": 49.0,
+                "q3": 82.0,
+                "max": 200,
+                "mean": 58.985959489675128,
+                "variance": 1606.949789711024,
+                "skewness": 0.6329286424761693,
+                "kurtosis": 2.2845371765065138,
+                "hyperskewness": 2.945051038893903,
+                "hyperflatness": 7.574075980609129
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 28702096,
+                "time": 56859.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 21648224,
+                "time": 63277.8,
+                "completed": true
+            },
+            "ell": {
+                "storage": 78098016,
+                "time": 183139.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 26360008,
+                "time": 183674.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 26650048,
+                "time": 67974.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 28215504,
+                "time": 57535.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 26629088,
+                "time": 68783.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 26703632,
+                "time": 71204.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 28215504,
+                "time": 58211.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 26650048,
+                "time": 68245.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 26650048,
+                "time": 67639.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 26629088,
+                "time": 68423.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

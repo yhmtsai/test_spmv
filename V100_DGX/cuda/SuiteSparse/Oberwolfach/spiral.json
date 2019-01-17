@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Oberwolfach/spiral/spiral.mtx",
+        "problem": {
+            "id": 1446,
+            "group": "Oberwolfach",
+            "name": "spiral",
+            "rows": 1434,
+            "cols": 1434,
+            "nonzeros": 18228,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 18.0,
+                "max": 99,
+                "mean": 12.711297071129709,
+                "variance": 422.10632983783025,
+                "skewness": 2.439740774867345,
+                "kurtosis": 8.464755685178917,
+                "hyperskewness": 29.5646586351112,
+                "hyperflatness": 107.2562642900633
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 18.0,
+                "max": 99,
+                "mean": 12.711297071129709,
+                "variance": 422.10632983783025,
+                "skewness": 2.439740774867345,
+                "kurtosis": 8.464755685178917,
+                "hyperskewness": 29.5646586351112,
+                "hyperflatness": 107.2562642900633
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 291648,
+                "time": 16684.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 224476,
+                "time": 26832.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1703592,
+                "time": 14407.7,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 465784,
+                "time": 53171.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 285912,
+                "time": 23257.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 280176,
+                "time": 27095.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 277640,
+                "time": 25530.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 277640,
+                "time": 24241.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 285912,
+                "time": 24174.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 285912,
+                "time": 18312.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 285912,
+                "time": 18181.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 277640,
+                "time": 18149.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

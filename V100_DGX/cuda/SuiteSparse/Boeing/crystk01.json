@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Boeing/crystk01/crystk01.mtx",
+        "problem": {
+            "id": 350,
+            "group": "Boeing",
+            "name": "crystk01",
+            "rows": 4875,
+            "cols": 4875,
+            "nonzeros": 315891,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "materials problem",
+            "row_distribution": {
+                "min": 24,
+                "q1": 54.0,
+                "median": 54.0,
+                "q3": 81.0,
+                "max": 81,
+                "mean": 64.79815384615385,
+                "variance": 257.00254018145469,
+                "skewness": -0.2649314049694068,
+                "kurtosis": 1.7309557350633036,
+                "hyperskewness": -1.807009333717851,
+                "hyperflatness": 4.941561114838092
+            },
+            "col_distribution": {
+                "min": 24,
+                "q1": 54.0,
+                "median": 54.0,
+                "q3": 81.0,
+                "max": 81,
+                "mean": 64.79815384615385,
+                "variance": 257.00254018145469,
+                "skewness": -0.2649314049694068,
+                "kurtosis": 1.7309557350633036,
+                "hyperskewness": -1.807009333717851,
+                "hyperflatness": 4.941561114838092
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 5054256,
+                "time": 20686.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 3810196,
+                "time": 20968.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 4738500,
+                "time": 17954.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 4487128,
+                "time": 46483.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 4976256,
+                "time": 27609.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 4586256,
+                "time": 34855.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 4141336,
+                "time": 28020.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 4141336,
+                "time": 27903.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 4976256,
+                "time": 22960.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 4976256,
+                "time": 22693.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 4976256,
+                "time": 22493.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 4141336,
+                "time": 22245.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Pajek/USpowerGrid/USpowerGrid.mtx",
+        "problem": {
+            "id": 1530,
+            "group": "Pajek",
+            "name": "USpowerGrid",
+            "rows": 4941,
+            "cols": 4941,
+            "nonzeros": 13188,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 19,
+                "mean": 2.66909532483303,
+                "variance": 3.208656315746092,
+                "skewness": 2.189759284398055,
+                "kurtosis": 10.69895223075899,
+                "hyperskewness": 56.65507224036263,
+                "hyperflatness": 361.4619764692579
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 19,
+                "mean": 2.66909532483303,
+                "variance": 3.208656315746092,
+                "skewness": 2.189759284398055,
+                "kurtosis": 10.69895223075899,
+                "hyperskewness": 56.65507224036263,
+                "hyperflatness": 361.4619764692579
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 211008,
+                "time": 17487.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 178024,
+                "time": 19789.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1126548,
+                "time": 20384.7,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 515816,
+                "time": 20467.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 191096,
+                "time": 23141.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 191244,
+                "time": 24541.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 191096,
+                "time": 25246.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 191096,
+                "time": 24222.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 191244,
+                "time": 24979.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 191096,
+                "time": 20215.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 191096,
+                "time": 28072.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 191096,
+                "time": 19430.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

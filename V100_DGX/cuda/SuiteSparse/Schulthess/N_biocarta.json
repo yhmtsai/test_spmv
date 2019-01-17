@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Schulthess/N_biocarta/N_biocarta.mtx",
+        "problem": {
+            "id": 2552,
+            "group": "Schulthess",
+            "name": "N_biocarta",
+            "rows": 1922,
+            "cols": 1996,
+            "nonzeros": 4335,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "biochemical network",
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 2.0,
+                "max": 67,
+                "mean": 2.2554630593132156,
+                "variance": 19.551283890674914,
+                "skewness": 8.10887993456796,
+                "kurtosis": 95.65947503098085,
+                "hyperskewness": 1234.3906075394478,
+                "hyperflatness": 16576.678692227408
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 12,
+                "mean": 2.1718436873747497,
+                "variance": 0.8607503082317134,
+                "skewness": 1.9305169891102665,
+                "kurtosis": 13.432134023889642,
+                "hyperskewness": 99.84676867116105,
+                "hyperflatness": 904.4736528320956
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 69360,
+                "time": 15706.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 59712,
+                "time": 21444.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1545288,
+                "time": 13283.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 415992,
+                "time": 35640.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 68456,
+                "time": 23906.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 69360,
+                "time": 22552.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 68456,
+                "time": 22639.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 68456,
+                "time": 22882.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 69360,
+                "time": 23552.6,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 68456,
+                "time": 17523.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 68456,
+                "time": 18015.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 68456,
+                "time": 18240.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

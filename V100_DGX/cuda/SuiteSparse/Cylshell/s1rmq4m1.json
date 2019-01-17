@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Cylshell/s1rmq4m1/s1rmq4m1.mtx",
+        "problem": {
+            "id": 1605,
+            "group": "Cylshell",
+            "name": "s1rmq4m1",
+            "rows": 5489,
+            "cols": 5489,
+            "nonzeros": 262411,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 13,
+                "q1": 54.0,
+                "median": 54.0,
+                "q3": 54.0,
+                "max": 54,
+                "mean": 51.21351794498087,
+                "variance": 48.37561613564039,
+                "skewness": -2.6565463394784656,
+                "kurtosis": 9.226046722950877,
+                "hyperskewness": -32.76899131260379,
+                "hyperflatness": 120.9444444863855
+            },
+            "col_distribution": {
+                "min": 13,
+                "q1": 54.0,
+                "median": 54.0,
+                "q3": 54.0,
+                "max": 54,
+                "mean": 51.21351794498087,
+                "variance": 48.37561613564039,
+                "skewness": -2.6565463394784656,
+                "kurtosis": 9.226046722950877,
+                "hyperskewness": -32.76899131260379,
+                "hyperflatness": 120.9444444863855
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 4198576,
+                "time": 19348.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 3170892,
+                "time": 19537.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 3556872,
+                "time": 35883.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3498856,
+                "time": 36077.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 4088796,
+                "time": 27488.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 3913148,
+                "time": 29154.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 3375072,
+                "time": 40713.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 3376204,
+                "time": 39939.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 4088796,
+                "time": 20631.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 4088796,
+                "time": 20710.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 4088796,
+                "time": 20697.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 3375072,
+                "time": 36237.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

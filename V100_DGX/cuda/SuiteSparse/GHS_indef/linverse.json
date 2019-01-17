@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/GHS_indef/linverse/linverse.mtx",
+        "problem": {
+            "id": 1303,
+            "group": "GHS_indef",
+            "name": "linverse",
+            "rows": 11999,
+            "cols": 11999,
+            "nonzeros": 95977,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "statistical/mathematical problem",
+            "row_distribution": {
+                "min": 5,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 9.0,
+                "max": 9,
+                "mean": 7.998749895824652,
+                "variance": 1.002665326146834,
+                "skewness": -0.005468582715428368,
+                "kurtosis": 1.0211812164984653,
+                "hyperskewness": -0.0743433173952225,
+                "hyperflatness": 1.2322223723941198
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 9.0,
+                "max": 9,
+                "mean": 7.998749895824652,
+                "variance": 1.002665326146834,
+                "skewness": -0.005468582715428368,
+                "kurtosis": 1.0211812164984653,
+                "hyperskewness": -0.0743433173952225,
+                "hyperflatness": 1.2322223723941198
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1535632,
+                "time": 16306.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1199724,
+                "time": 16290.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1295892,
+                "time": 14214.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1302472,
+                "time": 15385.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1199788,
+                "time": 19721.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1295652,
+                "time": 19846.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1199788,
+                "time": 24316.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1199788,
+                "time": 22212.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1295652,
+                "time": 16116.6,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1199788,
+                "time": 17188.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1199788,
+                "time": 16382.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1199788,
+                "time": 16419.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]
