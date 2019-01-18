@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Pajek/Sandi_sandi/Sandi_sandi.mtx",
+        "problem": {
+            "id": 1520,
+            "group": "Pajek",
+            "name": "Sandi_sandi",
+            "rows": 314,
+            "cols": 360,
+            "nonzeros": 613,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "bipartite graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 2.0,
+                "max": 26,
+                "mean": 1.9522292993630573,
+                "variance": 6.204724329587405,
+                "skewness": 5.548744083079396,
+                "kurtosis": 44.292105382256178,
+                "hyperskewness": 385.29493139461769,
+                "hyperflatness": 3480.5150902115644
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 6,
+                "mean": 1.7027777777777778,
+                "variance": 0.6588811728395078,
+                "skewness": 1.2151114639031262,
+                "kurtosis": 5.135557771998253,
+                "hyperskewness": 18.77841962665407,
+                "hyperflatness": 84.5712065120212
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 9808,
+                "time": 16168.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 8616,
+                "time": 18581.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 97968,
+                "time": 12501.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 60760,
+                "time": 23609.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 9808,
+                "time": 23630.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 8552,
+                "time": 23196.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 8552,
+                "time": 22996.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 8552,
+                "time": 23058.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 9808,
+                "time": 23737.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 9808,
+                "time": 23627.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 9808,
+                "time": 18282.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 8552,
+                "time": 17488.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

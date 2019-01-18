@@ -1,0 +1,107 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Mycielski/mycielskian19/mycielskian19.mtx",
+        "problem": {
+            "id": 2775,
+            "group": "Mycielski",
+            "name": "mycielskian19",
+            "rows": 393215,
+            "cols": 393215,
+            "nonzeros": 903194710,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 18,
+                "q1": 438.0,
+                "median": 1025.0,
+                "q3": 2392.0,
+                "max": 196607,
+                "mean": 2296.9487684854345,
+                "variance": 20522026.097460476,
+                "skewness": 10.165278193905625,
+                "kurtosis": 228.07653159550925,
+                "hyperskewness": 7176.967863586983,
+                "hyperflatness": 264022.3880521342
+            },
+            "col_distribution": {
+                "min": 18,
+                "q1": 438.0,
+                "median": 1025.0,
+                "q3": 2392.0,
+                "max": 196607,
+                "mean": 2296.9487684854345,
+                "variance": 20522026.097460476,
+                "skewness": 10.165278193905625,
+                "kurtosis": 228.07653159550925,
+                "hyperskewness": 7176.967863586983,
+                "hyperflatness": 264022.3880521342
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 14451115360,
+                "time": 22817665.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 10839909384,
+                "time": 20113402.9,
+                "completed": true
+            },
+            "ell": {
+                "completed": false
+            },
+            "sellp": {
+                "completed": false
+            },
+            "hybrid": {
+                "storage": 14060186452,
+                "time": 21472946.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 14422803880,
+                "time": 22069696.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 14055773176,
+                "time": 21426901.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 14098843092,
+                "time": 21280169.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 14422803880,
+                "time": 22043568.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 14389832588,
+                "time": 22091789.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 14389832588,
+                "time": 22088030.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 14055773176,
+                "time": 21424700.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

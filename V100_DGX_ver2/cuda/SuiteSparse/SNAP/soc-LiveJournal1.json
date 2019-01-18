@@ -1,0 +1,109 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/SNAP/soc-LiveJournal1/soc-LiveJournal1.mtx",
+        "problem": {
+            "id": 2285,
+            "group": "SNAP",
+            "name": "soc-LiveJournal1",
+            "rows": 4847571,
+            "cols": 4847571,
+            "nonzeros": 68993773,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.7484193555024753,
+            "nsym": 0.7484193555024753,
+            "kind": "directed graph",
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 4.0,
+                "q3": 14.0,
+                "max": 20293,
+                "mean": 14.232648268586474,
+                "variance": 1301.7866364785369,
+                "skewness": 76.00028998787426,
+                "kurtosis": 32110.779709496554,
+                "hyperskewness": 15844489.907374349,
+                "hyperflatness": 8159069559.797432
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 4.0,
+                "q3": 13.0,
+                "max": 13906,
+                "mean": 14.232648268586474,
+                "variance": 1888.9495558043205,
+                "skewness": 55.02139229382075,
+                "kurtosis": 10167.615015136422,
+                "hyperskewness": 2544363.6813220626,
+                "hyperflatness": 704435016.2134199
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1103900368,
+                "time": 7318466.6,
+                "completed": true
+            },
+            "csr": {
+                "storage": 847315564,
+                "time": 7921689.2,
+                "completed": true
+            },
+            "ell": {
+                "completed": false
+            },
+            "sellp": {
+                "storage": 4545159944,
+                "time": 20954132.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1097029768,
+                "time": 6920459.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1103900368,
+                "time": 7342922.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1093135988,
+                "time": 7142163.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1097029768,
+                "time": 6926751.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1103900368,
+                "time": 7335542.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1093135988,
+                "time": 7144736.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1097029768,
+                "time": 6921483.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1093135988,
+                "time": 7142149.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid"
+        }
+    }
+]

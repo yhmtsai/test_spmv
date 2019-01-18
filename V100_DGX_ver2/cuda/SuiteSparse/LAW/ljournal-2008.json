@@ -1,0 +1,109 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/LAW/ljournal-2008/ljournal-2008.mtx",
+        "problem": {
+            "id": 2446,
+            "group": "LAW",
+            "name": "ljournal-2008",
+            "rows": 5363260,
+            "cols": 5363260,
+            "nonzeros": 79023142,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.7302651670539438,
+            "nsym": 0.7302651670539438,
+            "kind": "directed graph",
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 4.0,
+                "q3": 14.0,
+                "max": 2469,
+                "mean": 14.7341620581512,
+                "variance": 1369.1875350826384,
+                "skewness": 10.52533571353252,
+                "kurtosis": 235.4040445060292,
+                "hyperskewness": 8194.756414098118,
+                "hyperflatness": 372384.4577668244
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 4.0,
+                "q3": 13.0,
+                "max": 19409,
+                "mean": 14.7341620581512,
+                "variance": 2601.391211950809,
+                "skewness": 70.72284636415752,
+                "kurtosis": 15143.389470077907,
+                "hyperskewness": 4259668.365108172,
+                "hyperflatness": 1334362481.2607456
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1264370272,
+                "time": 6636615.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 969730748,
+                "time": 5709957.7,
+                "completed": true
+            },
+            "ell": {
+                "completed": false
+            },
+            "sellp": {
+                "storage": 5620135576,
+                "time": 11365156.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1254166896,
+                "time": 6232862.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1264370272,
+                "time": 6653593.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1251647248,
+                "time": 6398645.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1254166896,
+                "time": 6232174.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1264370272,
+                "time": 6642949.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1251647248,
+                "time": 6397876.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1254166896,
+                "time": 6237998.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1251647248,
+                "time": 6400112.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

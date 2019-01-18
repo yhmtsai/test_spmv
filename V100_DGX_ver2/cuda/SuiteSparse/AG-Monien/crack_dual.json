@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/AG-Monien/crack_dual/crack_dual.mtx",
+        "problem": {
+            "id": 2415,
+            "group": "AG-Monien",
+            "name": "crack_dual",
+            "rows": 20141,
+            "cols": 20141,
+            "nonzeros": 60086,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.9832679608758259,
+                "variance": 0.01645207799089989,
+                "skewness": -7.53542270875166,
+                "kurtosis": 57.78259539955841,
+                "hyperskewness": -442.9517042515217,
+                "hyperflatness": 3395.610926492258
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.9832679608758259,
+                "variance": 0.01645207799089989,
+                "skewness": -7.53542270875166,
+                "kurtosis": 57.78259539955841,
+                "hyperskewness": -442.9517042515217,
+                "hyperflatness": 3395.610926492258
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 961376,
+                "time": 17741.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 801600,
+                "time": 18717.8,
+                "completed": true
+            },
+            "ell": {
+                "storage": 725076,
+                "time": 14502.8,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 730808,
+                "time": 15548.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 725076,
+                "time": 16177.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 800248,
+                "time": 22144.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 725076,
+                "time": 16391.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 725076,
+                "time": 17783.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 800248,
+                "time": 19468.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 800248,
+                "time": 19488.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 800248,
+                "time": 19380.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 725076,
+                "time": 15132.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

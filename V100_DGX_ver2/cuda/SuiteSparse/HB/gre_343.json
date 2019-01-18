@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/HB/gre_343/gre_343.mtx",
+        "problem": {
+            "id": 165,
+            "group": "HB",
+            "name": "gre_343",
+            "rows": 343,
+            "cols": 343,
+            "nonzeros": 1310,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "directed weighted graph",
+            "row_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.183673469387755,
+                "variance": 0.5347771761765887,
+                "skewness": -0.4785967873650477,
+                "kurtosis": 2.5755742859638937,
+                "hyperskewness": -3.886603677641171,
+                "hyperflatness": 11.803964778062096
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.183673469387755,
+                "variance": 0.5347771761765887,
+                "skewness": -0.4785967873650477,
+                "kurtosis": 2.5755742859638937,
+                "hyperskewness": -3.886603677641171,
+                "hyperflatness": 11.803964778062096
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 20960,
+                "time": 16725.6,
+                "completed": true
+            },
+            "csr": {
+                "storage": 17096,
+                "time": 17723.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 16464,
+                "time": 12994.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 18536,
+                "time": 18618.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 20960,
+                "time": 26010.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 18216,
+                "time": 27349.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 16464,
+                "time": 16172.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 16464,
+                "time": 16308.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 20960,
+                "time": 27872.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 20960,
+                "time": 25718.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 20960,
+                "time": 18381.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 16464,
+                "time": 13028.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

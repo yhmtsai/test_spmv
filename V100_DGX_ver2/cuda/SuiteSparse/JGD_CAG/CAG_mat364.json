@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_CAG/CAG_mat364/CAG_mat364.mtx",
+        "problem": {
+            "id": 1942,
+            "group": "JGD_CAG",
+            "name": "CAG_mat364",
+            "rows": 364,
+            "cols": 364,
+            "nonzeros": 13585,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.4155510173209288,
+            "nsym": 0.2804628999319265,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 21.0,
+                "median": 39.0,
+                "q3": 50.0,
+                "max": 82,
+                "mean": 37.32142857142857,
+                "variance": 358.5697605965465,
+                "skewness": 0.1564490404885339,
+                "kurtosis": 2.167944642213021,
+                "hyperskewness": 1.1449340529979384,
+                "hyperflatness": 6.439044680292336
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 6.0,
+                "median": 20.0,
+                "q3": 72.0,
+                "max": 216,
+                "mean": 37.32142857142857,
+                "variance": 1832.4378924646765,
+                "skewness": 1.9055777423633336,
+                "kurtosis": 6.943673614802997,
+                "hyperskewness": 24.054264530102019,
+                "hyperflatness": 89.30898153182729
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 217360,
+                "time": 16566.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 164480,
+                "time": 20542.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 358176,
+                "time": 12020.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 334184,
+                "time": 42089.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 217360,
+                "time": 21850.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 214448,
+                "time": 16799.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 198032,
+                "time": 21703.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 199440,
+                "time": 21039.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 217360,
+                "time": 23039.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 217360,
+                "time": 16325.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 217360,
+                "time": 16328.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 198032,
+                "time": 16033.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

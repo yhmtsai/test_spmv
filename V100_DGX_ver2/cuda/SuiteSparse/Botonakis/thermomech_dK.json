@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Botonakis/thermomech_dK/thermomech_dK.mtx",
+        "problem": {
+            "id": 2260,
+            "group": "Botonakis",
+            "name": "thermomech_dK",
+            "rows": 204316,
+            "cols": 204316,
+            "nonzeros": 2846228,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.6652727267221619,
+            "kind": "thermal problem",
+            "row_distribution": {
+                "min": 7,
+                "q1": 14.0,
+                "median": 14.0,
+                "q3": 14.0,
+                "max": 20,
+                "mean": 13.930519391530766,
+                "variance": 2.046367652470653,
+                "skewness": -0.3912499085195374,
+                "kurtosis": 4.2143586982525129,
+                "hyperskewness": -4.192603493567491,
+                "hyperflatness": 29.25186239409769
+            },
+            "col_distribution": {
+                "min": 7,
+                "q1": 14.0,
+                "median": 14.0,
+                "q3": 14.0,
+                "max": 20,
+                "mean": 13.930519391530766,
+                "variance": 2.046367652470653,
+                "skewness": -0.3912499085195374,
+                "kurtosis": 4.2143586982525129,
+                "hyperskewness": -4.192603493567491,
+                "hyperflatness": 29.25186239409769
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 45539648,
+                "time": 92523.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 34972004,
+                "time": 126905.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 49035840,
+                "time": 87139.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 40452504,
+                "time": 88431.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 35581568,
+                "time": 84068.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 39818800,
+                "time": 95730.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 35581568,
+                "time": 83680.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 35581568,
+                "time": 84169.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 39818800,
+                "time": 94713.6,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 35581568,
+                "time": 83273.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 35581568,
+                "time": 84165.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 35581568,
+                "time": 83389.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit25"
+        }
+    }
+]

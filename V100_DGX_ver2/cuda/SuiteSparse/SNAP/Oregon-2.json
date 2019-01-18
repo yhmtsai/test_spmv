@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/SNAP/Oregon-2/Oregon-2.mtx",
+        "problem": {
+            "id": 2324,
+            "group": "SNAP",
+            "name": "Oregon-2",
+            "rows": 11806,
+            "cols": 11806,
+            "nonzeros": 65460,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph sequence",
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 2432,
+                "mean": 5.54463831949856,
+                "variance": 1204.3986088095529,
+                "skewness": 40.65212062731667,
+                "kurtosis": 2359.660977512396,
+                "hyperskewness": 152458.2768220396,
+                "hyperflatness": 10273898.442445729
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 2432,
+                "mean": 5.54463831949856,
+                "variance": 1204.3986088095529,
+                "skewness": 40.65212062731667,
+                "kurtosis": 2359.660977512396,
+                "hyperskewness": 152458.2768220396,
+                "hyperflatness": 10273898.442445729
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1047360,
+                "time": 17795.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 832748,
+                "time": 184263.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 344546304,
+                "time": 98192.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 14084248,
+                "time": 1555385.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1016864,
+                "time": 18928.3,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1047360,
+                "time": 25374.9,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1005656,
+                "time": 25260.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1016864,
+                "time": 25337.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1047360,
+                "time": 17636.6,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1005656,
+                "time": 17573.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1005656,
+                "time": 17502.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1005656,
+                "time": 17491.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

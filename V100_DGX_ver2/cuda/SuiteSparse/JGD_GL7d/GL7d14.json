@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_GL7d/GL7d14/GL7d14.mtx",
+        "problem": {
+            "id": 1987,
+            "group": "JGD_GL7d",
+            "name": "GL7d14",
+            "rows": 171375,
+            "cols": 47271,
+            "nonzeros": 1831183,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 0,
+                "q1": 9.0,
+                "median": 11.0,
+                "q3": 12.0,
+                "max": 24,
+                "mean": 10.685239970824217,
+                "variance": 6.739088049636154,
+                "skewness": -0.24148260922887469,
+                "kurtosis": 2.71970005380416,
+                "hyperskewness": -2.32040435514614,
+                "hyperflatness": 11.871745334140926
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 27.0,
+                "median": 36.0,
+                "q3": 46.0,
+                "max": 160,
+                "mean": 38.737978887690129,
+                "variance": 291.9241946754587,
+                "skewness": 1.3115647831274438,
+                "kurtosis": 5.87963738259861,
+                "hyperskewness": 19.744920434201377,
+                "hyperflatness": 86.4748098032364
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 29298928,
+                "time": 73682.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 22659700,
+                "time": 75140.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 49356000,
+                "time": 72775.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 29214568,
+                "time": 69613.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 24475016,
+                "time": 65339.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 29298928,
+                "time": 75713.9,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 24258260,
+                "time": 68239.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 24475016,
+                "time": 64522.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 29298928,
+                "time": 75713.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 24258260,
+                "time": 68249.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 24475016,
+                "time": 65137.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 24258260,
+                "time": 68798.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid33"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Guettel/TEM152078/TEM152078.mtx",
+        "problem": {
+            "id": 2812,
+            "group": "Guettel",
+            "name": "TEM152078",
+            "rows": 152078,
+            "cols": 152078,
+            "nonzeros": 6459326,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "electromagnetics problem",
+            "row_distribution": {
+                "min": 12,
+                "q1": 32.0,
+                "median": 32.0,
+                "q3": 58.0,
+                "max": 110,
+                "mean": 42.47377003905891,
+                "variance": 275.4910826597102,
+                "skewness": 1.0265277874009898,
+                "kurtosis": 2.818852717423328,
+                "hyperskewness": 5.60441367175954,
+                "hyperflatness": 14.193948733547474
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 32.0,
+                "median": 32.0,
+                "q3": 58.0,
+                "max": 110,
+                "mean": 42.47377003905891,
+                "variance": 275.4910826597102,
+                "skewness": 1.0265277874009898,
+                "kurtosis": 2.818852717423328,
+                "hyperskewness": 5.60441367175954,
+                "hyperflatness": 14.193948733547474
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 103349216,
+                "time": 159156.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 78120228,
+                "time": 163990.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 200742960,
+                "time": 208825.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 146471064,
+                "time": 241835.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 85144592,
+                "time": 148029.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 96049472,
+                "time": 161074.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 85144592,
+                "time": 146841.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 85144592,
+                "time": 147683.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 96049472,
+                "time": 160970.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 94227032,
+                "time": 154195.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 94227032,
+                "time": 154253.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 85144592,
+                "time": 146145.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

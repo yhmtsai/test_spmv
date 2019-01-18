@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Hollinger/g7jac050sc/g7jac050sc.mtx",
+        "problem": {
+            "id": 551,
+            "group": "Hollinger",
+            "name": "g7jac050sc",
+            "rows": 14760,
+            "cols": 14760,
+            "nonzeros": 145157,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.04349647420233192,
+            "nsym": 0,
+            "kind": "economic problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 9.0,
+                "max": 149,
+                "mean": 10.703929539295393,
+                "variance": 302.4722338812117,
+                "skewness": 3.9002681099558664,
+                "kurtosis": 20.49415307285178,
+                "hyperskewness": 116.66426283431905,
+                "hyperflatness": 708.9175302661087
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 9.0,
+                "max": 120,
+                "mean": 10.703929539295393,
+                "variance": 271.8109872687485,
+                "skewness": 3.1805066202289016,
+                "kurtosis": 14.102397919633529,
+                "hyperskewness": 66.29363672325329,
+                "hyperflatness": 330.1833582307917
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 2322512,
+                "time": 16797.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1800928,
+                "time": 26989.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 24973920,
+                "time": 103282.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 8775800,
+                "time": 110867.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 2208240,
+                "time": 23134.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 2263472,
+                "time": 26073.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 2208240,
+                "time": 25903.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 2208240,
+                "time": 22062.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 2263472,
+                "time": 19997.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 2263472,
+                "time": 19451.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 2263472,
+                "time": 18437.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 2208240,
+                "time": 17706.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

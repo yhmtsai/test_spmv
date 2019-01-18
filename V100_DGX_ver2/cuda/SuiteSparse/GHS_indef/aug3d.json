@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/GHS_indef/aug3d/aug3d.mtx",
+        "problem": {
+            "id": 1217,
+            "group": "GHS_indef",
+            "name": "aug3d",
+            "rows": 24300,
+            "cols": 24300,
+            "nonzeros": 69984,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 6,
+                "mean": 2.88,
+                "variance": 3.1456000000001178,
+                "skewness": 1.1281878815418914,
+                "kurtosis": 2.4405954119314,
+                "hyperskewness": 3.9156953633058779,
+                "hyperflatness": 7.236226774727833
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 2.0,
+                "max": 6,
+                "mean": 2.88,
+                "variance": 3.1456000000001178,
+                "skewness": 1.1281878815418914,
+                "kurtosis": 2.4405954119314,
+                "hyperskewness": 3.9156953633058779,
+                "hyperflatness": 7.236226774727833
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1119744,
+                "time": 18005.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 937012,
+                "time": 18862.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1749600,
+                "time": 15678.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 868552,
+                "time": 16640.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 956448,
+                "time": 23420.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1022544,
+                "time": 23600.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 956448,
+                "time": 23885.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 956448,
+                "time": 26937.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1022544,
+                "time": 24081.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 956448,
+                "time": 24607.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 956448,
+                "time": 19985.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 956448,
+                "time": 19760.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

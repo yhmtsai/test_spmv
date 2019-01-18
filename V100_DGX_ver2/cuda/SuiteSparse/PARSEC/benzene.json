@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/PARSEC/benzene/benzene.mtx",
+        "problem": {
+            "id": 1348,
+            "group": "PARSEC",
+            "name": "benzene",
+            "rows": 8219,
+            "cols": 8219,
+            "nonzeros": 242669,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "theoretical/quantum chemistry problem",
+            "row_distribution": {
+                "min": 12,
+                "q1": 26.0,
+                "median": 31.0,
+                "q3": 34.0,
+                "max": 37,
+                "mean": 29.52536804964108,
+                "variance": 29.200810410226297,
+                "skewness": -0.739212288013576,
+                "kurtosis": 2.992086515421706,
+                "hyperskewness": -5.193472768308891,
+                "hyperflatness": 15.177884093838856
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 26.0,
+                "median": 31.0,
+                "q3": 34.0,
+                "max": 37,
+                "mean": 29.52536804964108,
+                "variance": 29.200810410226297,
+                "skewness": -0.739212288013576,
+                "kurtosis": 2.992086515421706,
+                "hyperskewness": -5.193472768308891,
+                "hyperflatness": 15.177884093838856
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 3882704,
+                "time": 18924.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 2944908,
+                "time": 19007.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 3649236,
+                "time": 28159.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3361304,
+                "time": 29188.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 3619696,
+                "time": 27126.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 3488192,
+                "time": 28751.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 3162968,
+                "time": 33291.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 3172176,
+                "time": 32959.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 3882704,
+                "time": 21783.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 3882704,
+                "time": 21666.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 3882704,
+                "time": 21316.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 3162968,
+                "time": 28178.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

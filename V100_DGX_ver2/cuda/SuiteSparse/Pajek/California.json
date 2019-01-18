@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Pajek/California/California.mtx",
+        "problem": {
+            "id": 1456,
+            "group": "Pajek",
+            "name": "California",
+            "rows": 9664,
+            "cols": 9664,
+            "nonzeros": 16150,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.02241486068111455,
+            "nsym": 0.02241486068111455,
+            "kind": "directed graph",
+            "row_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 1.0,
+                "q3": 2.0,
+                "max": 164,
+                "mean": 1.6711506622516557,
+                "variance": 13.656758775313972,
+                "skewness": 12.23893589884808,
+                "kurtosis": 410.3528656773884,
+                "hyperskewness": 17139.84834170297,
+                "hyperflatness": 745426.7382684844
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 0.0,
+                "q3": 0.0,
+                "max": 199,
+                "mean": 1.6711506622516557,
+                "variance": 55.60315778193664,
+                "skewness": 10.026946520498424,
+                "kurtosis": 158.3545585188924,
+                "hyperskewness": 3101.760013733991,
+                "hyperflatness": 67699.21083706037
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 258400,
+                "time": 16547.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 232460,
+                "time": 28257.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 19018752,
+                "time": 17773.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1878648,
+                "time": 63533.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 258400,
+                "time": 22247.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 258400,
+                "time": 19250.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 258400,
+                "time": 23184.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 258400,
+                "time": 23010.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 258400,
+                "time": 23076.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 258400,
+                "time": 18402.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 258400,
+                "time": 18261.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 258400,
+                "time": 18470.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

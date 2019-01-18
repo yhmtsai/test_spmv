@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_Kocay/Trec3/Trec3.mtx",
+        "problem": {
+            "id": 2137,
+            "group": "JGD_Kocay",
+            "name": "Trec3",
+            "rows": 1,
+            "cols": 2,
+            "nonzeros": 1,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 25.0,
+                "median": 1.0,
+                "q3": 0.25,
+                "max": 1,
+                "mean": 1.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 0.5,
+                "q3": 1.0,
+                "max": 1,
+                "mean": 0.5,
+                "variance": 0.25,
+                "skewness": 0.0,
+                "kurtosis": 1.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 1.0
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 16,
+                "time": 16291.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 20,
+                "time": 17617.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 12,
+                "time": 11834.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 792,
+                "time": 13763.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 16,
+                "time": 23485.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 12,
+                "time": 15976.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 12,
+                "time": 16577.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 12,
+                "time": 15958.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 16,
+                "time": 21105.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 16,
+                "time": 21394.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 16,
+                "time": 22941.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 12,
+                "time": 12244.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

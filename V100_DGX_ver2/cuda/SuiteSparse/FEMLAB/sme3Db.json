@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/FEMLAB/sme3Db/sme3Db.mtx",
+        "problem": {
+            "id": 931,
+            "group": "FEMLAB",
+            "name": "sme3Db",
+            "rows": 29067,
+            "cols": 29067,
+            "nonzeros": 2081063,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.999978557463075,
+            "nsym": 0.4406373111838425,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 24,
+                "q1": 54.0,
+                "median": 66.0,
+                "q3": 81.0,
+                "max": 345,
+                "mean": 71.59538308046926,
+                "variance": 1373.9186121858348,
+                "skewness": 2.9184670191301729,
+                "kurtosis": 14.384777352393474,
+                "hyperskewness": 73.82749439294696,
+                "hyperflatness": 411.5736105883943
+            },
+            "col_distribution": {
+                "min": 24,
+                "q1": 54.0,
+                "median": 66.0,
+                "q3": 81.0,
+                "max": 345,
+                "mean": 71.59538308046926,
+                "variance": 1373.9904462244356,
+                "skewness": 2.9185385391589628,
+                "kurtosis": 14.385225862407769,
+                "hyperskewness": 73.8303807559403,
+                "hyperflatness": 411.58900045346538
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 33297008,
+                "time": 62537.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 25089028,
+                "time": 66106.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 120337380,
+                "time": 81396.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 36885112,
+                "time": 291780.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 29928852,
+                "time": 73100.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 30506576,
+                "time": 71854.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 28228712,
+                "time": 85211.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 28228712,
+                "time": 85321.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 33064472,
+                "time": 64558.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 33064472,
+                "time": 64720.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 33064472,
+                "time": 64515.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 28228712,
+                "time": 85216.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

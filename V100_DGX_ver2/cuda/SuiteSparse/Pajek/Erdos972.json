@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Pajek/Erdos972/Erdos972.mtx",
+        "problem": {
+            "id": 1466,
+            "group": "Pajek",
+            "name": "Erdos972",
+            "rows": 5488,
+            "cols": 5488,
+            "nonzeros": 14170,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 2.0,
+                "max": 61,
+                "mean": 2.581997084548105,
+                "variance": 35.38686248395663,
+                "skewness": 5.1172635340428649,
+                "kurtosis": 33.19090572313466,
+                "hyperskewness": 235.8600028544963,
+                "hyperflatness": 1786.3575661605124
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 2.0,
+                "max": 61,
+                "mean": 2.581997084548105,
+                "variance": 35.38686248395663,
+                "skewness": 5.1172635340428649,
+                "kurtosis": 33.19090572313466,
+                "hyperskewness": 235.8600028544963,
+                "hyperflatness": 1786.3575661605124
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 226720,
+                "time": 18030.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 191996,
+                "time": 24370.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 4017216,
+                "time": 17192.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 664936,
+                "time": 36847.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 216592,
+                "time": 24993.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 226720,
+                "time": 23863.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 216592,
+                "time": 24985.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 216592,
+                "time": 24199.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 226720,
+                "time": 24912.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 226720,
+                "time": 28470.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 226720,
+                "time": 21355.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 216592,
+                "time": 19221.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

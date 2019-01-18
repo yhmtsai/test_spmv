@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/IPSO/TSC_OPF_300/TSC_OPF_300.mtx",
+        "problem": {
+            "id": 2540,
+            "group": "IPSO",
+            "name": "TSC_OPF_300",
+            "rows": 9774,
+            "cols": 9774,
+            "nonzeros": 820783,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "power network problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 84.0,
+                "median": 84.0,
+                "q3": 86.0,
+                "max": 4206,
+                "mean": 83.97830980151422,
+                "variance": 37260.75930035606,
+                "skewness": 20.9142522615126,
+                "kurtosis": 446.7531691748059,
+                "hyperskewness": 9539.902952051394,
+                "hyperflatness": 203715.1883703517
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 84.0,
+                "median": 84.0,
+                "q3": 86.0,
+                "max": 4206,
+                "mean": 83.97830980151422,
+                "variance": 37260.75930035606,
+                "skewness": 20.9142522615126,
+                "kurtosis": 446.7531691748059,
+                "hyperskewness": 9539.902952051394,
+                "hyperflatness": 203715.1883703517
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 13132528,
+                "time": 33568.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 9888496,
+                "time": 248248.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 493313328,
+                "time": 176326.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 15678872,
+                "time": 2964188.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 12805208,
+                "time": 43418.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 13093432,
+                "time": 42391.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 11410560,
+                "time": 99792.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 11410560,
+                "time": 99429.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 13132528,
+                "time": 35188.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 13132528,
+                "time": 34937.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 13132528,
+                "time": 34560.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 11410560,
+                "time": 96654.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

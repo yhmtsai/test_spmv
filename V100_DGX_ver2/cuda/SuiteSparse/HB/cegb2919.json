@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/HB/cegb2919/cegb2919.mtx",
+        "problem": {
+            "id": 1174,
+            "group": "HB",
+            "name": "cegb2919",
+            "rows": 2919,
+            "cols": 2919,
+            "nonzeros": 321543,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 0,
+                "q1": 96.0,
+                "median": 96.0,
+                "q3": 153.0,
+                "max": 267,
+                "mean": 110.1551901336074,
+                "variance": 1727.156799886715,
+                "skewness": 0.4756295037311644,
+                "kurtosis": 4.1664811279098619,
+                "hyperskewness": 4.982756030846745,
+                "hyperflatness": 32.24046399066792
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 96.0,
+                "median": 96.0,
+                "q3": 153.0,
+                "max": 267,
+                "mean": 110.1551901336074,
+                "variance": 1727.156799886715,
+                "skewness": 0.4756295037311644,
+                "kurtosis": 4.1664811279098619,
+                "hyperskewness": 4.982756030846745,
+                "hyperflatness": 32.24046399066792
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 5144688,
+                "time": 21464.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 3870196,
+                "time": 24343.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 9352476,
+                "time": 22379.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 6571752,
+                "time": 178825.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 5123256,
+                "time": 22709.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 5144688,
+                "time": 29152.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 4365504,
+                "time": 25535.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 4365504,
+                "time": 24484.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 5144688,
+                "time": 22504.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 5144688,
+                "time": 22683.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 5144688,
+                "time": 22457.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 4365504,
+                "time": 22745.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

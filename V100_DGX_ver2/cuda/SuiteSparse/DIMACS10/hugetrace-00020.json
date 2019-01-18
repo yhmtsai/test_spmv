@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/DIMACS10/hugetrace-00020/hugetrace-00020.mtx",
+        "problem": {
+            "id": 2485,
+            "group": "DIMACS10",
+            "name": "hugetrace-00020",
+            "rows": 16002413,
+            "cols": 16002413,
+            "nonzeros": 47997626,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.999399278096372,
+                "variance": 0.000600361037505336,
+                "skewness": -40.76351782917392,
+                "kurtosis": 1662.664385559032,
+                "hyperskewness": -67816.8128979988,
+                "hyperflatness": 2766114.527735054
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.999399278096372,
+                "variance": 0.000600361037505336,
+                "skewness": -40.76351782917392,
+                "kurtosis": 1662.664385559032,
+                "hyperskewness": -67816.8128979988,
+                "hyperflatness": 2766114.527735054
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 767962016,
+                "time": 6197568.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 639981168,
+                "time": 2997580.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 576086868,
+                "time": 3002060.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 580088168,
+                "time": 2969967.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 576086868,
+                "time": 2999268.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 639942712,
+                "time": 4247569.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 576086868,
+                "time": 2999316.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 576086868,
+                "time": 2998915.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 639942712,
+                "time": 4251034.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 576086868,
+                "time": 2999113.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 576086868,
+                "time": 3000288.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 576086868,
+                "time": 3003304.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

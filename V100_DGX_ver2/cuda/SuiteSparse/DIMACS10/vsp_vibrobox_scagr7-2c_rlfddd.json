@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/DIMACS10/vsp_vibrobox_scagr7-2c_rlfddd/vsp_vibrobox_scagr7-2c_rlfddd.mtx",
+        "problem": {
+            "id": 2646,
+            "group": "DIMACS10",
+            "name": "vsp_vibrobox_scagr7-2c_rlfddd",
+            "rows": 77328,
+            "cols": 77328,
+            "nonzeros": 871172,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "random unweighted graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 8.0,
+                "max": 669,
+                "mean": 11.265932133250568,
+                "variance": 448.1256384700424,
+                "skewness": 7.548584041493393,
+                "kurtosis": 131.29567434917989,
+                "hyperskewness": 3310.9507693200196,
+                "hyperflatness": 93524.62988461224
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 5.0,
+                "q3": 8.0,
+                "max": 669,
+                "mean": 11.265932133250568,
+                "variance": 448.1256384700424,
+                "skewness": 7.548584041493393,
+                "kurtosis": 131.29567434917989,
+                "hyperskewness": 3310.9507693200196,
+                "hyperflatness": 93524.62988461224
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 13938752,
+                "time": 37872.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 10763380,
+                "time": 157911.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 620789184,
+                "time": 509307.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 21583256,
+                "time": 464819.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 13269408,
+                "time": 35811.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 13629440,
+                "time": 36348.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 13245216,
+                "time": 37618.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 13269408,
+                "time": 36293.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 13629440,
+                "time": 36484.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 13245216,
+                "time": 35440.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 13269408,
+                "time": 35927.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 13245216,
+                "time": 35777.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit25"
+        }
+    }
+]

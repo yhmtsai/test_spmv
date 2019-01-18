@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Oberwolfach/rail_1357/rail_1357.mtx",
+        "problem": {
+            "id": 1442,
+            "group": "Oberwolfach",
+            "name": "rail_1357",
+            "rows": 1357,
+            "cols": 1357,
+            "nonzeros": 8985,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 9.0,
+                "max": 11,
+                "mean": 6.6212232866617539,
+                "variance": 3.545548098263903,
+                "skewness": 0.2946051580917058,
+                "kurtosis": 1.4896852775918617,
+                "hyperskewness": 0.8200137843047597,
+                "hyperflatness": 2.78773732518639
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 9.0,
+                "max": 11,
+                "mean": 6.6212232866617539,
+                "variance": 3.545548098263903,
+                "skewness": 0.2946051580917058,
+                "kurtosis": 1.4896852775918617,
+                "hyperskewness": 0.8200137843047597,
+                "hyperflatness": 2.78773732518639
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 143760,
+                "time": 16834.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 113252,
+                "time": 19345.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 179124,
+                "time": 17103.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 151656,
+                "time": 18287.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 138332,
+                "time": 21662.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 127476,
+                "time": 21859.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 118236,
+                "time": 24772.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 118236,
+                "time": 27583.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 143760,
+                "time": 25553.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 143760,
+                "time": 20478.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 143760,
+                "time": 18812.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 118236,
+                "time": 19950.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

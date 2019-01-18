@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Freescale/Freescale1/Freescale1.mtx",
+        "problem": {
+            "id": 2216,
+            "group": "Freescale",
+            "name": "Freescale1",
+            "rows": 3428755,
+            "cols": 3428755,
+            "nonzeros": 17052626,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.9061379876258038,
+            "nsym": 0.3945743467477048,
+            "kind": "circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 7.0,
+                "max": 27,
+                "mean": 5.51813909130282,
+                "variance": 4.305450403439756,
+                "skewness": 1.783958896385198,
+                "kurtosis": 7.73067148621752,
+                "hyperskewness": 38.65201813553023,
+                "hyperflatness": 261.546783639619
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 25,
+                "mean": 5.51813909130282,
+                "variance": 1.49515978786303,
+                "skewness": 1.676454257355602,
+                "kurtosis": 14.52249026084674,
+                "hyperskewness": 124.72082926845472,
+                "hyperflatness": 1402.6516776677784
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 272842016,
+                "time": 960034.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 218346536,
+                "time": 576259.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1028626500,
+                "time": 565600.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 229741176,
+                "time": 541136.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 220044848,
+                "time": 632854.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 259126996,
+                "time": 894218.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 220044848,
+                "time": 633338.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 220044848,
+                "time": 631365.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 259126996,
+                "time": 893047.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 220044848,
+                "time": 632543.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 220044848,
+                "time": 632873.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 220044848,
+                "time": 632738.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

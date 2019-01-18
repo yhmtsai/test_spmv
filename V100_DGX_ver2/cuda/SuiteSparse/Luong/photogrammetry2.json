@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Luong/photogrammetry2/photogrammetry2.mtx",
+        "problem": {
+            "id": 1918,
+            "group": "Luong",
+            "name": "photogrammetry2",
+            "rows": 4472,
+            "cols": 936,
+            "nonzeros": 37056,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "computer graphics/vision problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 9.0,
+                "q3": 9.0,
+                "max": 9,
+                "mean": 8.286225402504473,
+                "variance": 1.0576099026819428,
+                "skewness": -1.047312326410188,
+                "kurtosis": 3.364456043186692,
+                "hyperskewness": -10.464124996299625,
+                "hyperflatness": 40.11304146382603
+            },
+            "col_distribution": {
+                "min": 13,
+                "q1": 15.0,
+                "median": 18.0,
+                "q3": 22.0,
+                "max": 144,
+                "mean": 39.58974358974359,
+                "variance": 1919.1735700197185,
+                "skewness": 1.4362012468071126,
+                "kurtosis": 3.2338495003591749,
+                "hyperskewness": 6.5344341062326809,
+                "hyperflatness": 13.825137839614993
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 592896,
+                "time": 17284.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 462564,
+                "time": 18318.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 482976,
+                "time": 16729.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 478824,
+                "time": 18014.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 521344,
+                "time": 22524.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 521344,
+                "time": 23728.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 469984,
+                "time": 25080.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 469984,
+                "time": 23484.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 592896,
+                "time": 25941.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 592896,
+                "time": 18784.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 592896,
+                "time": 18809.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 469984,
+                "time": 19108.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

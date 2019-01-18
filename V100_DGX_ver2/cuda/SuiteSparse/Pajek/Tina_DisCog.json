@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Pajek/Tina_DisCog/Tina_DisCog.mtx",
+        "problem": {
+            "id": 1528,
+            "group": "Pajek",
+            "name": "Tina_DisCog",
+            "rows": 11,
+            "cols": 11,
+            "nonzeros": 48,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.5,
+            "nsym": 0.5,
+            "kind": "directed graph",
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.75,
+                "median": 4.0,
+                "q3": 5.0,
+                "max": 8,
+                "mean": 4.363636363636363,
+                "variance": 2.413223140495868,
+                "skewness": 0.8369243676216467,
+                "kurtosis": 3.4428129104897744,
+                "hyperskewness": 5.672893697158301,
+                "hyperflatness": 16.292379735332916
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 6.25,
+                "max": 8,
+                "mean": 4.363636363636363,
+                "variance": 4.958677685950414,
+                "skewness": 0.2302520358216191,
+                "kurtosis": 1.6706000000000006,
+                "hyperskewness": 0.6295460804479757,
+                "hyperflatness": 3.468005555555557
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 768,
+                "time": 16999.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 624,
+                "time": 18269.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1056,
+                "time": 12890.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 6168,
+                "time": 15749.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 768,
+                "time": 23610.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 680,
+                "time": 24901.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 652,
+                "time": 24769.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 656,
+                "time": 24986.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 768,
+                "time": 24702.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 768,
+                "time": 24854.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 768,
+                "time": 18941.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 652,
+                "time": 18574.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

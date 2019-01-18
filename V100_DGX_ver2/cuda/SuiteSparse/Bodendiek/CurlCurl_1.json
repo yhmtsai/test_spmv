@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Bodendiek/CurlCurl_1/CurlCurl_1.mtx",
+        "problem": {
+            "id": 2570,
+            "group": "Bodendiek",
+            "name": "CurlCurl_1",
+            "rows": 226451,
+            "cols": 226451,
+            "nonzeros": 2472071,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 11.0,
+                "median": 11.0,
+                "q3": 11.0,
+                "max": 13,
+                "mean": 10.916582395308478,
+                "variance": 1.0489785492083566,
+                "skewness": -0.1965759017368695,
+                "kurtosis": 4.56703846600062,
+                "hyperskewness": -3.4517079043758738,
+                "hyperflatness": 30.859145047104165
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 11.0,
+                "median": 11.0,
+                "q3": 11.0,
+                "max": 13,
+                "mean": 10.916582395308478,
+                "variance": 1.0489785492083566,
+                "skewness": -0.1965759017368695,
+                "kurtosis": 4.56703846600062,
+                "hyperskewness": -3.4517079043758738,
+                "hyperflatness": 30.859145047104165
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 39553136,
+                "time": 82168.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 30570660,
+                "time": 79370.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 35326356,
+                "time": 73442.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 34334776,
+                "time": 74051.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 30694476,
+                "time": 73691.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 35929920,
+                "time": 90000.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 30694476,
+                "time": 73431.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 30694476,
+                "time": 73053.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 35929920,
+                "time": 90055.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 30694476,
+                "time": 73291.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 30694476,
+                "time": 73679.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 30694476,
+                "time": 74070.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid33"
+        }
+    }
+]

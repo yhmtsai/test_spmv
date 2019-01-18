@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Marini/eurqsa/eurqsa.mtx",
+        "problem": {
+            "id": 1891,
+            "group": "Marini",
+            "name": "eurqsa",
+            "rows": 7245,
+            "cols": 7245,
+            "nonzeros": 46142,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "economic problem",
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 37,
+                "mean": 6.368806073153899,
+                "variance": 17.18986199758899,
+                "skewness": 5.168764323365055,
+                "kurtosis": 33.305114570839048,
+                "hyperskewness": 221.7879342434698,
+                "hyperflatness": 1523.406388403085
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 37,
+                "mean": 6.368806073153899,
+                "variance": 17.18986199758899,
+                "skewness": 5.168764323365055,
+                "kurtosis": 33.305114570839048,
+                "hyperskewness": 221.7879342434698,
+                "hyperflatness": 1523.406388403085
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 738272,
+                "time": 17910.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 582688,
+                "time": 18742.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 3216780,
+                "time": 24974.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 639272,
+                "time": 25463.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 619244,
+                "time": 24558.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 651332,
+                "time": 25022.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 619244,
+                "time": 18864.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 619244,
+                "time": 24932.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 738272,
+                "time": 17071.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 738272,
+                "time": 21058.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 738272,
+                "time": 18014.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 619244,
+                "time": 16521.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Bindel/ted_B_unscaled/ted_B_unscaled.mtx",
+        "problem": {
+            "id": 1409,
+            "group": "Bindel",
+            "name": "ted_B_unscaled",
+            "rows": 10605,
+            "cols": 10605,
+            "nonzeros": 144579,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "thermal problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 16.0,
+                "q3": 28.0,
+                "max": 49,
+                "mean": 13.633097595473834,
+                "variance": 147.64897527054118,
+                "skewness": 0.6200463186708473,
+                "kurtosis": 2.926620190835746,
+                "hyperskewness": 5.904283079055021,
+                "hyperflatness": 18.193012087263786
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 16.0,
+                "q3": 28.0,
+                "max": 49,
+                "mean": 13.633097595473834,
+                "variance": 147.64897527054118,
+                "skewness": 0.6200463186708473,
+                "kurtosis": 2.926620190835746,
+                "hyperskewness": 5.904283079055021,
+                "hyperflatness": 18.193012087263786
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 2313264,
+                "time": 20233.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1777372,
+                "time": 23018.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 6235740,
+                "time": 33869.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3805800,
+                "time": 34710.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 2270844,
+                "time": 27828.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 2270844,
+                "time": 27781.9,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 2270844,
+                "time": 28206.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 2270844,
+                "time": 28996.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 2270844,
+                "time": 22802.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 2270844,
+                "time": 22489.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 2270844,
+                "time": 22642.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 2270844,
+                "time": 22265.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

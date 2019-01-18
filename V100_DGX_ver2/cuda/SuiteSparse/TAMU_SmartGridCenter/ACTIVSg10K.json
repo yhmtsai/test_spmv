@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/TAMU_SmartGridCenter/ACTIVSg10K/ACTIVSg10K.mtx",
+        "problem": {
+            "id": 2828,
+            "group": "TAMU_SmartGridCenter",
+            "name": "ACTIVSg10K",
+            "rows": 20000,
+            "cols": 20000,
+            "nonzeros": 135888,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.02328109899213033,
+            "kind": "power network problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 36,
+                "mean": 6.8868,
+                "variance": 8.703985760000473,
+                "skewness": 1.5680128859976588,
+                "kurtosis": 8.399808492894694,
+                "hyperskewness": 45.14446370849754,
+                "hyperflatness": 306.4968555857409
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 36,
+                "mean": 6.8868,
+                "variance": 8.703985760000473,
+                "skewness": 1.5680128859976588,
+                "kurtosis": 8.399808492894694,
+                "hyperskewness": 45.14446370849754,
+                "hyperflatness": 306.4968555857409
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 2174208,
+                "time": 18410.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1710660,
+                "time": 19361.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 8640000,
+                "time": 27932.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3820440,
+                "time": 28573.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1882240,
+                "time": 19240.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 2094208,
+                "time": 25947.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1882240,
+                "time": 24745.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1882240,
+                "time": 25436.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 2094208,
+                "time": 19637.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 2023552,
+                "time": 18910.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 2023552,
+                "time": 19088.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1882240,
+                "time": 18234.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

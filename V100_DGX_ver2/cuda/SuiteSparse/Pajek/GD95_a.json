@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Pajek/GD95_a/GD95_a.mtx",
+        "problem": {
+            "id": 1485,
+            "group": "Pajek",
+            "name": "GD95_a",
+            "rows": 36,
+            "cols": 36,
+            "nonzeros": 57,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.03508771929824561,
+            "nsym": 0.03508771929824561,
+            "kind": "directed graph",
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 2.0,
+                "max": 7,
+                "mean": 1.5833333333333333,
+                "variance": 1.576388888888889,
+                "skewness": 2.674190928587376,
+                "kurtosis": 11.361155853985132,
+                "hyperskewness": 45.5225650663363,
+                "hyperflatness": 190.66897336712058
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 2.0,
+                "max": 4,
+                "mean": 1.5833333333333333,
+                "variance": 0.7430555555555554,
+                "skewness": 0.9125269662954402,
+                "kurtosis": 3.1755611843829185,
+                "hyperskewness": 5.823048454674395,
+                "hyperflatness": 17.347478415043417
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 912,
+                "time": 16339.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 832,
+                "time": 18362.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 3024,
+                "time": 13668.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 5400,
+                "time": 16072.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 912,
+                "time": 24798.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 912,
+                "time": 24893.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 800,
+                "time": 25029.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 800,
+                "time": 24917.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 912,
+                "time": 23963.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 912,
+                "time": 24820.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 912,
+                "time": 18008.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 800,
+                "time": 18146.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

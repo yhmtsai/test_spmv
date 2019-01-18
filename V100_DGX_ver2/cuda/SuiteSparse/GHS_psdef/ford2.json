@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/GHS_psdef/ford2/ford2.mtx",
+        "problem": {
+            "id": 1263,
+            "group": "GHS_psdef",
+            "name": "ford2",
+            "rows": 100196,
+            "cols": 100196,
+            "nonzeros": 544688,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 30,
+                "mean": 5.436224999001956,
+                "variance": 2.4280757489681425,
+                "skewness": 4.604236630204468,
+                "kurtosis": 46.76555570279592,
+                "hyperskewness": 591.0189012527084,
+                "hyperflatness": 8297.139204859057
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 30,
+                "mean": 5.436224999001956,
+                "variance": 2.4280757489681425,
+                "skewness": 4.604236630204468,
+                "kurtosis": 46.76555570279592,
+                "hyperskewness": 591.0189012527084,
+                "hyperflatness": 8297.139204859057
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 8715008,
+                "time": 29776.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 6937044,
+                "time": 33715.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 36070560,
+                "time": 44554.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 8604392,
+                "time": 44594.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 6946480,
+                "time": 35197.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 7913440,
+                "time": 34176.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 6946480,
+                "time": 36837.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 6946480,
+                "time": 36034.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 7913440,
+                "time": 28456.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 6946480,
+                "time": 35802.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 6946480,
+                "time": 34947.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 6946480,
+                "time": 36198.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit0"
+        }
+    }
+]

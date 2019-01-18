@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/QLi/majorbasis/majorbasis.mtx",
+        "problem": {
+            "id": 1859,
+            "group": "QLi",
+            "name": "majorbasis",
+            "rows": 160000,
+            "cols": 160000,
+            "nonzeros": 1750416,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.5503013048158469,
+            "nsym": 0.0002376736652548767,
+            "kind": "optimization problem",
+            "row_distribution": {
+                "min": 6,
+                "q1": 11.0,
+                "median": 11.0,
+                "q3": 11.0,
+                "max": 11,
+                "mean": 10.9401,
+                "variance": 0.17711199000036666,
+                "skewness": -6.910098502057155,
+                "kurtosis": 49.06382631885515,
+                "hyperskewness": -351.7875957029074,
+                "hyperflatness": 2563.559323528492
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 18.0,
+                "max": 18,
+                "mean": 10.9401,
+                "variance": 48.51921199003204,
+                "skewness": 0.01572598051019073,
+                "kurtosis": 1.0098716380715188,
+                "hyperskewness": 0.03321789674643253,
+                "hyperflatness": 1.0203687591728177
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 28006656,
+                "time": 67103.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 21644996,
+                "time": 68676.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 21120000,
+                "time": 44610.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 21104712,
+                "time": 48561.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 21120000,
+                "time": 45895.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 24166656,
+                "time": 59216.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 21120000,
+                "time": 45166.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 21120000,
+                "time": 45862.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 24166656,
+                "time": 61181.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 21120000,
+                "time": 45189.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 21120000,
+                "time": 44899.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 21120000,
+                "time": 44500.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Cunningham/qa8fm/qa8fm.mtx",
+        "problem": {
+            "id": 845,
+            "group": "Cunningham",
+            "name": "qa8fm",
+            "rows": 66127,
+            "cols": 66127,
+            "nonzeros": 1660579,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "acoustics problem",
+            "row_distribution": {
+                "min": 8,
+                "q1": 27.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 27,
+                "mean": 25.111966367746914,
+                "variance": 17.49350493765801,
+                "skewness": -2.1236455757880376,
+                "kurtosis": 6.309298231560972,
+                "hyperskewness": -19.061817996899813,
+                "hyperflatness": 60.60780575365731
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 27.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 27,
+                "mean": 25.111966367746914,
+                "variance": 17.49350493765801,
+                "skewness": -2.1236455757880376,
+                "kurtosis": 6.309298231560972,
+                "hyperskewness": -19.061817996899813,
+                "hyperflatness": 60.60780575365731
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 26569264,
+                "time": 55880.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 20191460,
+                "time": 51775.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 21425148,
+                "time": 49277.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 21195688,
+                "time": 50731.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 21425148,
+                "time": 49744.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 24453200,
+                "time": 55111.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 21425148,
+                "time": 49591.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 21425148,
+                "time": 51231.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 24982216,
+                "time": 54122.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 24982216,
+                "time": 54353.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 24982216,
+                "time": 54139.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 21425148,
+                "time": 49344.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

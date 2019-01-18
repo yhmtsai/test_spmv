@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Williams/pdb1HYS/pdb1HYS.mtx",
+        "problem": {
+            "id": 2373,
+            "group": "Williams",
+            "name": "pdb1HYS",
+            "rows": 36417,
+            "cols": 36417,
+            "nonzeros": 4344765,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "weighted undirected graph",
+            "row_distribution": {
+                "min": 18,
+                "q1": 99.0,
+                "median": 123.0,
+                "q3": 144.0,
+                "max": 204,
+                "mean": 119.30595600955596,
+                "variance": 1015.0840826575284,
+                "skewness": -0.4965213058864705,
+                "kurtosis": 2.7443450993437277,
+                "hyperskewness": -3.3709425824812588,
+                "hyperflatness": 11.972763602062708
+            },
+            "col_distribution": {
+                "min": 18,
+                "q1": 99.0,
+                "median": 123.0,
+                "q3": 144.0,
+                "max": 204,
+                "mean": 119.30595600955596,
+                "variance": 1015.0840826575284,
+                "skewness": -0.4965213058864705,
+                "kurtosis": 2.7443450993437277,
+                "hyperskewness": -3.3709425824812588,
+                "hyperflatness": 11.972763602062708
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 69516240,
+                "time": 106075.6,
+                "completed": true
+            },
+            "csr": {
+                "storage": 52282852,
+                "time": 100914.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 89148816,
+                "time": 201211.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 69093800,
+                "time": 203009.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 64299280,
+                "time": 118086.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 66894216,
+                "time": 111742.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 58529508,
+                "time": 139397.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 58768016,
+                "time": 143921.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 69079236,
+                "time": 106728.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 69079236,
+                "time": 106652.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 69079236,
+                "time": 106764.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 58529508,
+                "time": 138974.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/SNAP/as-Skitter/as-Skitter.mtx",
+        "problem": {
+            "id": 2321,
+            "group": "SNAP",
+            "name": "as-Skitter",
+            "rows": 1696415,
+            "cols": 1696415,
+            "nonzeros": 22190596,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 5.0,
+                "q3": 10.0,
+                "max": 35455,
+                "mean": 13.080877025963576,
+                "variance": 18730.823236407166,
+                "skewness": 132.95496433577558,
+                "kurtosis": 24181.52287299221,
+                "hyperskewness": 4900663.761573938,
+                "hyperflatness": 1049165318.8643092
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 5.0,
+                "q3": 10.0,
+                "max": 35455,
+                "mean": 13.080877025963576,
+                "variance": 18730.823236407166,
+                "skewness": 132.95496433577558,
+                "kurtosis": 24181.52287299221,
+                "hyperskewness": 4900663.761573938,
+                "hyperflatness": 1049165318.8643092
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 355049536,
+                "time": 1162306.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 273072816,
+                "time": 6613694.8,
+                "completed": true
+            },
+            "ell": {
+                "completed": false
+            },
+            "sellp": {
+                "storage": 1998169528,
+                "time": 24884377.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 345791180,
+                "time": 1053308.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 348263876,
+                "time": 1128627.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 344972600,
+                "time": 1095666.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 345791180,
+                "time": 1054074.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 348263876,
+                "time": 1129998.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 344972600,
+                "time": 1095864.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 345791180,
+                "time": 1053794.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 344972600,
+                "time": 1094963.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid"
+        }
+    }
+]

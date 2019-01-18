@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Botonakis/FEM_3D_thermal1/FEM_3D_thermal1.mtx",
+        "problem": {
+            "id": 1851,
+            "group": "Botonakis",
+            "name": "FEM_3D_thermal1",
+            "rows": 17880,
+            "cols": 17880,
+            "nonzeros": 430740,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.950733904955675,
+            "kind": "thermal problem",
+            "row_distribution": {
+                "min": 12,
+                "q1": 18.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 27,
+                "mean": 24.090604026845637,
+                "variance": 18.56561641366942,
+                "skewness": -0.8751796193876997,
+                "kurtosis": 1.9848614310138633,
+                "hyperskewness": -3.379001345145894,
+                "hyperflatness": 7.414795478050531
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 18.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 27,
+                "mean": 24.090604026845637,
+                "variance": 18.56561641366942,
+                "skewness": -0.8751796193876997,
+                "kurtosis": 1.9848614310138633,
+                "hyperskewness": -3.379001345145894,
+                "hyperflatness": 7.414795478050531
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 6891840,
+                "time": 26326.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 5240404,
+                "time": 20598.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 5793120,
+                "time": 28595.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 5810568,
+                "time": 30449.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 5690400,
+                "time": 29150.3,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 6033600,
+                "time": 35328.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 5621760,
+                "time": 30575.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 5793120,
+                "time": 33309.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 6820320,
+                "time": 27948.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 6820320,
+                "time": 28372.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 6820320,
+                "time": 27702.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 5621760,
+                "time": 26244.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

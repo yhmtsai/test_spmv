@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/VanVelzen/Zd_Jac6_db/Zd_Jac6_db.mtx",
+        "problem": {
+            "id": 1341,
+            "group": "VanVelzen",
+            "name": "Zd_Jac6_db",
+            "rows": 22835,
+            "cols": 22835,
+            "nonzeros": 663643,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.3245527521504101,
+            "nsym": 0.000003121059662176502,
+            "kind": "chemical process simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 36.0,
+                "max": 224,
+                "mean": 29.062535581344429,
+                "variance": 3250.954442705895,
+                "skewness": 2.384487311167605,
+                "kurtosis": 7.653892146570634,
+                "hyperskewness": 23.99287225930229,
+                "hyperflatness": 76.46524197327492
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 59.0,
+                "max": 227,
+                "mean": 29.062535581344429,
+                "variance": 2392.556632327088,
+                "skewness": 2.12380431181871,
+                "kurtosis": 7.596433625368355,
+                "hyperskewness": 26.866307776596444,
+                "hyperflatness": 98.75811562721909
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 10618288,
+                "time": 31542.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 8055060,
+                "time": 51309.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 61380480,
+                "time": 216467.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 23250008,
+                "time": 191661.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 10526948,
+                "time": 38045.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 10526948,
+                "time": 39422.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 10526948,
+                "time": 40905.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 10526948,
+                "time": 41130.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 10526948,
+                "time": 32999.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 10526948,
+                "time": 33197.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 10526948,
+                "time": 32169.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 10526948,
+                "time": 32153.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

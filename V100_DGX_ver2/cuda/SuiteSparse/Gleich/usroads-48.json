@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Gleich/usroads-48/usroads-48.mtx",
+        "problem": {
+            "id": 2332,
+            "group": "Gleich",
+            "name": "usroads-48",
+            "rows": 126146,
+            "cols": 126146,
+            "nonzeros": 323900,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 7,
+                "mean": 2.567659695907916,
+                "variance": 0.611077834377862,
+                "skewness": 0.7391991831703245,
+                "kurtosis": 2.4841575126339259,
+                "hyperskewness": 3.4556607559827019,
+                "hyperflatness": 10.253001796047809
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 7,
+                "mean": 2.567659695907916,
+                "variance": 0.611077834377862,
+                "skewness": 0.7391991831703245,
+                "kurtosis": 2.4841575126339259,
+                "hyperskewness": 3.4556607559827019,
+                "hyperflatness": 10.253001796047809
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 5182400,
+                "time": 30107.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 4391388,
+                "time": 29984.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 10596264,
+                "time": 24267.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 6266184,
+                "time": 30312.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 4207712,
+                "time": 27034.5,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 4677816,
+                "time": 35894.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 4207712,
+                "time": 27515.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 4207712,
+                "time": 27674.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 4677816,
+                "time": 32938.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 4207712,
+                "time": 23603.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 4207712,
+                "time": 23854.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 4207712,
+                "time": 23340.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/VDOL/freeFlyingRobot_7/freeFlyingRobot_7.mtx",
+        "problem": {
+            "id": 2679,
+            "group": "VDOL",
+            "name": "freeFlyingRobot_7",
+            "rows": 3918,
+            "cols": 3918,
+            "nonzeros": 31046,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 10.0,
+                "max": 785,
+                "mean": 7.923940786115365,
+                "variance": 168.20605777291025,
+                "skewness": 54.90535229422643,
+                "kurtosis": 3289.342910986462,
+                "hyperskewness": 197082.9930022335,
+                "hyperflatness": 11808421.47326716
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 6.0,
+                "median": 7.0,
+                "q3": 10.0,
+                "max": 785,
+                "mean": 7.923940786115365,
+                "variance": 168.20605777291025,
+                "skewness": 54.90535229422643,
+                "kurtosis": 3289.342910986462,
+                "hyperskewness": 197082.9930022335,
+                "hyperflatness": 11808421.47326716
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 496736,
+                "time": 16944.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 388228,
+                "time": 77776.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 36907560,
+                "time": 25583.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1133800,
+                "time": 303658.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 456056,
+                "time": 23244.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 481064,
+                "time": 19556.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 448832,
+                "time": 24354.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 448832,
+                "time": 24444.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 496736,
+                "time": 25812.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 496736,
+                "time": 18177.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 496736,
+                "time": 18500.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 448832,
+                "time": 18436.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

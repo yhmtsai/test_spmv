@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Hamm/scircuit/scircuit.mtx",
+        "problem": {
+            "id": 544,
+            "group": "Hamm",
+            "name": "scircuit",
+            "rows": 170998,
+            "cols": 170998,
+            "nonzeros": 958936,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.9999467019956296,
+            "nsym": 0.8008355096685118,
+            "kind": "circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 353,
+                "mean": 5.607878454718769,
+                "variance": 19.2910880018828,
+                "skewness": 20.255946219623909,
+                "kurtosis": 1129.0177649060348,
+                "hyperskewness": 78593.8892376549,
+                "hyperflatness": 5800254.5026579969
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 353,
+                "mean": 5.607878454718769,
+                "variance": 19.291333618790604,
+                "skewness": 20.25552799803781,
+                "kurtosis": 1128.989068027122,
+                "hyperskewness": 78591.38754835334,
+                "hyperflatness": 5800032.959368746
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 15342976,
+                "time": 48232.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 12191228,
+                "time": 92744.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 724347528,
+                "time": 272619.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 36088840,
+                "time": 281265.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 12939104,
+                "time": 41771.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 14658984,
+                "time": 48618.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 12939104,
+                "time": 41936.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 12939104,
+                "time": 42505.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 14658984,
+                "time": 49266.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 12939104,
+                "time": 41781.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 12939104,
+                "time": 42554.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 12939104,
+                "time": 42830.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid"
+        }
+    }
+]

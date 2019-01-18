@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/LPnetlib/lp_vtp_base/lp_vtp_base.mtx",
+        "problem": {
+            "id": 700,
+            "group": "LPnetlib",
+            "name": "lp_vtp_base",
+            "rows": 198,
+            "cols": 346,
+            "nonzeros": 1051,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "linear programming problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 7.0,
+                "max": 38,
+                "mean": 5.308080808080808,
+                "variance": 22.34448015508621,
+                "skewness": 5.055952716134772,
+                "kurtosis": 32.4864130181429,
+                "hyperskewness": 207.8833385158808,
+                "hyperflatness": 1339.4016408685234
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 4.0,
+                "max": 12,
+                "mean": 3.03757225433526,
+                "variance": 7.724021851715716,
+                "skewness": 1.6172038147176136,
+                "kurtosis": 4.805471651059084,
+                "hyperskewness": 12.579165846148133,
+                "hyperflatness": 35.38880482005666
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 16816,
+                "time": 17349.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 13408,
+                "time": 20769.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 90288,
+                "time": 14597.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 44616,
+                "time": 26988.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 16816,
+                "time": 22106.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 16024,
+                "time": 22366.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 14504,
+                "time": 26247.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 14504,
+                "time": 23701.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 16816,
+                "time": 28200.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 16816,
+                "time": 18053.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 16816,
+                "time": 18023.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 14504,
+                "time": 18149.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

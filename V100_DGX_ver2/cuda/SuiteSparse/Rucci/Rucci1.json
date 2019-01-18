@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Rucci/Rucci1/Rucci1.mtx",
+        "problem": {
+            "id": 1881,
+            "group": "Rucci",
+            "name": "Rucci1",
+            "rows": 1977885,
+            "cols": 109900,
+            "nonzeros": 7791168,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "least squares problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 4,
+                "mean": 3.9391410521845304,
+                "variance": 0.11814149292179604,
+                "skewness": -5.473837107053089,
+                "kurtosis": 30.990191674601378,
+                "hyperskewness": -175.49171162527524,
+                "hyperflatness": 995.7174517995184
+            },
+            "col_distribution": {
+                "min": 30,
+                "q1": 66.0,
+                "median": 72.0,
+                "q3": 78.0,
+                "max": 108,
+                "mean": 70.89324840764331,
+                "variance": 129.68829472529698,
+                "skewness": -0.5442653194538464,
+                "kurtosis": 4.632535555408106,
+                "hyperskewness": -7.219172733533466,
+                "hyperflatness": 36.19608756237415
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 124658688,
+                "time": 281647.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 101405560,
+                "time": 221418.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 94938480,
+                "time": 180645.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 95371672,
+                "time": 182507.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 94938480,
+                "time": 181730.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 116747148,
+                "time": 260145.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 94938480,
+                "time": 180921.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 94938480,
+                "time": 181277.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 116747148,
+                "time": 260245.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 94938480,
+                "time": 181358.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 94938480,
+                "time": 181247.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 94938480,
+                "time": 181047.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

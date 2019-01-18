@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Meszaros/plddb/plddb.mtx",
+        "problem": {
+            "id": 1822,
+            "group": "Meszaros",
+            "name": "plddb",
+            "rows": 3069,
+            "cols": 5049,
+            "nonzeros": 10839,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "linear programming problem sequence",
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 4.0,
+                "max": 9,
+                "mean": 3.5317693059628545,
+                "variance": 3.491089114587413,
+                "skewness": 1.2996841992984949,
+                "kurtosis": 3.988433626466105,
+                "hyperskewness": 8.892872984237153,
+                "hyperflatness": 24.841421157270756
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 3.0,
+                "max": 9,
+                "mean": 2.146761734997029,
+                "variance": 2.69444435618281,
+                "skewness": 2.0588052913619188,
+                "kurtosis": 7.995300205513011,
+                "hyperskewness": 29.77353626471507,
+                "hyperflatness": 117.45460963550548
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 173424,
+                "time": 16397.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 142348,
+                "time": 17362.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 331452,
+                "time": 15221.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 332552,
+                "time": 16387.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 151540,
+                "time": 26553.3,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 161148,
+                "time": 22401.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 151540,
+                "time": 22969.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 151540,
+                "time": 22680.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 173424,
+                "time": 23439.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 173424,
+                "time": 17237.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 173424,
+                "time": 17274.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 151540,
+                "time": 17181.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

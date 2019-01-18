@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/VDOL/spaceShuttleEntry_2/spaceShuttleEntry_2.mtx",
+        "problem": {
+            "id": 2731,
+            "group": "VDOL",
+            "name": "spaceShuttleEntry_2",
+            "rows": 1428,
+            "cols": 1428,
+            "nonzeros": 24073,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 11.0,
+                "median": 16.0,
+                "q3": 18.0,
+                "max": 1323,
+                "mean": 16.857843137254905,
+                "variance": 1226.0393152358989,
+                "skewness": 36.34791472686894,
+                "kurtosis": 1355.892979009593,
+                "hyperskewness": 50578.161220029375,
+                "hyperflatness": 1886693.196953143
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 11.0,
+                "median": 16.0,
+                "q3": 18.0,
+                "max": 1323,
+                "mean": 16.857843137254905,
+                "variance": 1226.0393152358989,
+                "skewness": 36.34791472686894,
+                "kurtosis": 1355.892979009593,
+                "hyperskewness": 50578.161220029375,
+                "hyperflatness": 1886693.196953143
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 385168,
+                "time": 16165.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 294592,
+                "time": 120906.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 22670928,
+                "time": 31747.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1389688,
+                "time": 495968.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 379456,
+                "time": 18068.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 373744,
+                "time": 17811.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 334752,
+                "time": 25445.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 336640,
+                "time": 25037.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 385168,
+                "time": 24924.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 385168,
+                "time": 17794.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 385168,
+                "time": 17908.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 334752,
+                "time": 20292.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

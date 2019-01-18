@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/HB/gemat12/gemat12.mtx",
+        "problem": {
+            "id": 157,
+            "group": "HB",
+            "name": "gemat12",
+            "rows": 4929,
+            "cols": 4929,
+            "nonzeros": 33044,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.001450063440275512,
+            "nsym": 0,
+            "kind": "subsequent power network problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 44,
+                "mean": 6.717589774802192,
+                "variance": 9.052319936401826,
+                "skewness": 2.1863990614844477,
+                "kurtosis": 13.249872002881869,
+                "hyperskewness": 96.3983461594193,
+                "hyperflatness": 923.673416432086
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 6.0,
+                "q3": 8.0,
+                "max": 28,
+                "mean": 6.717589774802192,
+                "variance": 11.53152464323914,
+                "skewness": 1.5140487036530473,
+                "kurtosis": 8.225075565214798,
+                "hyperskewness": 32.89032408697775,
+                "hyperflatness": 168.0361278678566
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 528704,
+                "time": 17115.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 416248,
+                "time": 20864.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 2602512,
+                "time": 29616.7,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 912872,
+                "time": 31162.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 455856,
+                "time": 25195.3,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 489272,
+                "time": 24763.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 455676,
+                "time": 25024.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 460184,
+                "time": 26738.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 528704,
+                "time": 18727.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 528704,
+                "time": 18865.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 528704,
+                "time": 18763.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 455676,
+                "time": 18526.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

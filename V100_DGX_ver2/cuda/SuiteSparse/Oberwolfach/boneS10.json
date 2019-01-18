@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Oberwolfach/boneS10/boneS10.mtx",
+        "problem": {
+            "id": 1455,
+            "group": "Oberwolfach",
+            "name": "boneS10",
+            "rows": 914898,
+            "cols": 914898,
+            "nonzeros": 40878708,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "row_distribution": {
+                "min": 12,
+                "q1": 48.0,
+                "median": 66.0,
+                "q3": 81.0,
+                "max": 81,
+                "mean": 60.627984758956738,
+                "variance": 415.09921148006858,
+                "skewness": -0.5370015369868428,
+                "kurtosis": 1.8588163572715529,
+                "hyperskewness": -2.1638922114810668,
+                "hyperflatness": 4.688551976943746
+            },
+            "col_distribution": {
+                "min": 12,
+                "q1": 48.0,
+                "median": 66.0,
+                "q3": 81.0,
+                "max": 81,
+                "mean": 60.627984758956738,
+                "variance": 415.09921148006858,
+                "skewness": -0.5370015369868428,
+                "kurtosis": 1.8588163572715529,
+                "hyperskewness": -2.1638922114810668,
+                "hyperflatness": 4.688551976943746
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 654059328,
+                "time": 1174650.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 494204092,
+                "time": 850942.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 735577992,
+                "time": 880398.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 650002056,
+                "time": 963700.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 555441632,
+                "time": 850873.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 610144224,
+                "time": 1090573.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 551792640,
+                "time": 867526.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 555441632,
+                "time": 851890.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 610144224,
+                "time": 1091133.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 551792640,
+                "time": 869117.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 555441632,
+                "time": 851851.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 551792640,
+                "time": 869049.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybrid"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Alemdar/Alemdar/Alemdar.mtx",
+        "problem": {
+            "id": 923,
+            "group": "Alemdar",
+            "name": "Alemdar",
+            "rows": 6245,
+            "cols": 6245,
+            "nonzeros": 42581,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 8.0,
+                "q3": 9.0,
+                "max": 10,
+                "mean": 6.8184147317854288,
+                "variance": 5.574072426876718,
+                "skewness": -0.638532088164055,
+                "kurtosis": 2.0292006831993869,
+                "hyperskewness": -2.440808284496779,
+                "hyperflatness": 5.443025031449156
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 8.0,
+                "q3": 9.0,
+                "max": 10,
+                "mean": 6.8184147317854288,
+                "variance": 5.574072426876718,
+                "skewness": -0.638532088164055,
+                "kurtosis": 2.0292006831993869,
+                "hyperskewness": -2.440808284496779,
+                "hyperflatness": 5.443025031449156
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 681296,
+                "time": 17863.6,
+                "completed": true
+            },
+            "csr": {
+                "storage": 535956,
+                "time": 19598.8,
+                "completed": true
+            },
+            "ell": {
+                "storage": 749400,
+                "time": 17396.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 735016,
+                "time": 18213.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 602568,
+                "time": 23903.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 656316,
+                "time": 24875.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 599756,
+                "time": 25438.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 602568,
+                "time": 28243.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 681296,
+                "time": 28345.6,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 681296,
+                "time": 22130.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 681296,
+                "time": 21730.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 599756,
+                "time": 20955.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

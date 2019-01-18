@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_GL6/GL6_D_8/GL6_D_8.mtx",
+        "problem": {
+            "id": 1980,
+            "group": "JGD_GL6",
+            "name": "GL6_D_8",
+            "rows": 544,
+            "cols": 637,
+            "nonzeros": 6153,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 0,
+                "q1": 9.0,
+                "median": 11.0,
+                "q3": 14.0,
+                "max": 23,
+                "mean": 11.310661764705884,
+                "variance": 15.853856915008557,
+                "skewness": 0.15459440538759212,
+                "kurtosis": 2.813665320704487,
+                "hyperskewness": 1.2440406595271792,
+                "hyperflatness": 12.452299633330556
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 7.0,
+                "median": 10.0,
+                "q3": 12.0,
+                "max": 15,
+                "mean": 9.65934065934066,
+                "variance": 10.22147083685544,
+                "skewness": -0.5378230336126186,
+                "kurtosis": 2.7605037787520625,
+                "hyperskewness": -4.078696691217655,
+                "hyperflatness": 13.249945447657329
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 98448,
+                "time": 16605.6,
+                "completed": true
+            },
+            "csr": {
+                "storage": 76016,
+                "time": 18549.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 150144,
+                "time": 13464.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 133016,
+                "time": 22140.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 98448,
+                "time": 24382.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 98448,
+                "time": 23756.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 84704,
+                "time": 25125.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 84704,
+                "time": 23313.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 98448,
+                "time": 25537.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 98448,
+                "time": 19705.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 98448,
+                "time": 19502.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 84704,
+                "time": 19365.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

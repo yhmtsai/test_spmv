@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_Relat/relat3/relat3.mtx",
+        "problem": {
+            "id": 2179,
+            "group": "JGD_Relat",
+            "name": "relat3",
+            "rows": 12,
+            "cols": 5,
+            "nonzeros": 24,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.0,
+                "variance": 2.0,
+                "skewness": -0.7071067811865474,
+                "kurtosis": 1.4999999999999998,
+                "hyperskewness": -1.7677669529663685,
+                "hyperflatness": 2.7499999999999988
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 8.0,
+                "q3": 8.0,
+                "max": 8,
+                "mean": 4.8,
+                "variance": 15.360000000000005,
+                "skewness": -0.4082482904638628,
+                "kurtosis": 1.1666666666666666,
+                "hyperskewness": -0.8845379626717027,
+                "hyperflatness": 1.5277777777777769
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 384,
+                "time": 16461.6,
+                "completed": true
+            },
+            "csr": {
+                "storage": 340,
+                "time": 17256.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 432,
+                "time": 12240.7,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 2328,
+                "time": 13968.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 384,
+                "time": 23573.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 384,
+                "time": 24775.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 384,
+                "time": 23564.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 432,
+                "time": 16787.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 384,
+                "time": 22703.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 384,
+                "time": 25211.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 384,
+                "time": 17839.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 384,
+                "time": 18243.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

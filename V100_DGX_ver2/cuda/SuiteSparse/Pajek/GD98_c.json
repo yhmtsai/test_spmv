@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Pajek/GD98_c/GD98_c.mtx",
+        "problem": {
+            "id": 1497,
+            "group": "Pajek",
+            "name": "GD98_c",
+            "rows": 112,
+            "cols": 112,
+            "nonzeros": 336,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected graph",
+            "row_distribution": {
+                "min": 3,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 3.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 3.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 5376,
+                "time": 16598.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 4484,
+                "time": 17844.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 4032,
+                "time": 12843.7,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 4648,
+                "time": 14848.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 5376,
+                "time": 24136.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 4032,
+                "time": 15547.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 4032,
+                "time": 16485.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 4032,
+                "time": 15669.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 5376,
+                "time": 24160.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 5376,
+                "time": 25140.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 5376,
+                "time": 25849.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 4032,
+                "time": 16045.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

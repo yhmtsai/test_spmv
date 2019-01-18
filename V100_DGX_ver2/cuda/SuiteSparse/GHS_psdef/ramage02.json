@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/GHS_psdef/ramage02/ramage02.mtx",
+        "problem": {
+            "id": 1274,
+            "group": "GHS_psdef",
+            "name": "ramage02",
+            "rows": 16830,
+            "cols": 16830,
+            "nonzeros": 2866352,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 45,
+                "q1": 132.0,
+                "median": 171.0,
+                "q3": 171.0,
+                "max": 270,
+                "mean": 170.31206179441478,
+                "variance": 2793.8714825588037,
+                "skewness": 0.5357474980479786,
+                "kurtosis": 2.7163337963093197,
+                "hyperskewness": 2.531914356649185,
+                "hyperflatness": 8.872331745211782
+            },
+            "col_distribution": {
+                "min": 45,
+                "q1": 132.0,
+                "median": 171.0,
+                "q3": 171.0,
+                "max": 270,
+                "mean": 170.31206179441478,
+                "variance": 2793.8714825588037,
+                "skewness": 0.5357474980479786,
+                "kurtosis": 2.7163337963093197,
+                "hyperskewness": 2.531914356649185,
+                "hyperflatness": 8.872331745211782
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 45861632,
+                "time": 77607.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 34463548,
+                "time": 81275.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 54529200,
+                "time": 89017.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 48362872,
+                "time": 236726.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 44784512,
+                "time": 85154.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 42832232,
+                "time": 104815.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 38502192,
+                "time": 159900.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 38502192,
+                "time": 159502.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 45794312,
+                "time": 78979.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 45794312,
+                "time": 78849.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 45794312,
+                "time": 78911.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 38502192,
+                "time": 159852.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

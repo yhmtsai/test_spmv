@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Bomhof/circuit_1/circuit_1.mtx",
+        "problem": {
+            "id": 370,
+            "group": "Bomhof",
+            "name": "circuit_1",
+            "rows": 2624,
+            "cols": 2624,
+            "nonzeros": 35823,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.999548641410646,
+            "nsym": 0.2060602413263924,
+            "kind": "circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 2571,
+                "mean": 13.652057926829269,
+                "variance": 5309.477640582011,
+                "skewness": 31.79807887100051,
+                "kurtosis": 1098.342975918285,
+                "hyperskewness": 38064.48158868356,
+                "hyperflatness": 1319582.1411685474
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 2571,
+                "mean": 13.652057926829269,
+                "variance": 5317.119408874694,
+                "skewness": 31.802819919322379,
+                "kurtosis": 1098.527267801818,
+                "hyperskewness": 38070.52589364371,
+                "hyperflatness": 1319752.2366906454
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 573168,
+                "time": 18288.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 440376,
+                "time": 269205.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 80955648,
+                "time": 52459.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 2339992,
+                "time": 917969.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 552544,
+                "time": 18084.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 562672,
+                "time": 22437.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 505872,
+                "time": 21968.9,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 505872,
+                "time": 22698.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 573168,
+                "time": 23349.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 573168,
+                "time": 18062.1,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 573168,
+                "time": 17954.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 505872,
+                "time": 19097.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit33"
+        }
+    }
+]

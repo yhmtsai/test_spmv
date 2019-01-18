@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Mallya/lhr17c/lhr17c.mtx",
+        "problem": {
+            "id": 747,
+            "group": "Mallya",
+            "name": "lhr17c",
+            "rows": 17576,
+            "cols": 17576,
+            "nonzeros": 381975,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.001513390098553639,
+            "nsym": 0.000005236643939631969,
+            "kind": "chemical process simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 63.0,
+                "max": 63,
+                "mean": 21.732760582612653,
+                "variance": 692.7760455426226,
+                "skewness": 0.8752495090284361,
+                "kurtosis": 1.83207005623574,
+                "hyperskewness": 2.5576447992500856,
+                "hyperflatness": 4.223062390332485
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 35.0,
+                "q3": 35.0,
+                "max": 36,
+                "mean": 21.732760582612653,
+                "variance": 254.7935694388344,
+                "skewness": -0.3972731066796778,
+                "kurtosis": 1.1642522101350224,
+                "hyperskewness": -0.863526707458528,
+                "hyperflatness": 1.521157939272712
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 6111600,
+                "time": 23109.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 4654008,
+                "time": 20656.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 13287456,
+                "time": 71236.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 12604984,
+                "time": 65586.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 5891360,
+                "time": 23794.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 6041296,
+                "time": 30027.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 5891360,
+                "time": 29834.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 5891360,
+                "time": 29403.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 6041296,
+                "time": 22872.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 6041296,
+                "time": 22844.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 6041296,
+                "time": 22755.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 5891360,
+                "time": 23639.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

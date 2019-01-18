@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Bourchtein/atmosmodl/atmosmodl.mtx",
+        "problem": {
+            "id": 2267,
+            "group": "Bourchtein",
+            "name": "atmosmodl",
+            "rows": 1489752,
+            "cols": 1489752,
+            "nonzeros": 10319760,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.6714503542918647,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.927166400850611,
+                "variance": 0.0698594552324609,
+                "skewness": -3.477312792132219,
+                "kurtosis": 14.012070696937489,
+                "hyperskewness": -62.03235616919006,
+                "hyperflatness": 313.9779595346289
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.927166400850611,
+                "variance": 0.0698594552324609,
+                "skewness": -3.477312792132219,
+                "kurtosis": 14.012070696937489,
+                "hyperskewness": -62.03235616919006,
+                "hyperflatness": 313.9779595346289
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 165116160,
+                "time": 422831.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 129796132,
+                "time": 268358.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 125139168,
+                "time": 231125.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 124421352,
+                "time": 229636.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 125139168,
+                "time": 232827.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 141280128,
+                "time": 338230.9,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 125139168,
+                "time": 232154.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 125139168,
+                "time": 232730.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 141280128,
+                "time": 338207.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 125139168,
+                "time": 232182.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 125139168,
+                "time": 232946.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 125139168,
+                "time": 232793.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

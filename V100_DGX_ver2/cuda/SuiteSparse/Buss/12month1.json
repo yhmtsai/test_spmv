@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Buss/12month1/12month1.mtx",
+        "problem": {
+            "id": 2263,
+            "group": "Buss",
+            "name": "12month1",
+            "rows": 12471,
+            "cols": 872622,
+            "nonzeros": 22624727,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "undirected bipartite graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 108.0,
+                "median": 487.0,
+                "q3": 1570.25,
+                "max": 75355,
+                "mean": 1814.1870740117072,
+                "variance": 20742623.871426226,
+                "skewness": 6.54471959687536,
+                "kurtosis": 61.01198664716491,
+                "hyperskewness": 656.1642638658258,
+                "hyperflatness": 7764.708941164176
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 3.0,
+                "q3": 12.0,
+                "max": 3420,
+                "mean": 25.92729383398539,
+                "variance": 7181.6001661163859,
+                "skewness": 7.363870338502282,
+                "kurtosis": 83.9911113438891,
+                "hyperskewness": 1288.7451348020805,
+                "hyperflatness": 25651.33064651162
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 361995632,
+                "time": 613159.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 271546612,
+                "time": 2045025.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 11277026460,
+                "time": 5838462.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 2957352248,
+                "time": 54377580.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 361468016,
+                "time": 618864.3,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 361945748,
+                "time": 614341.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 359940240,
+                "time": 670515.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 360670120,
+                "time": 620395.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 361945748,
+                "time": 614599.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 361945748,
+                "time": 614906.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 361945748,
+                "time": 614641.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 359940240,
+                "time": 671113.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

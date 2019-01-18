@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Zitney/extr1b/extr1b.mtx",
+        "problem": {
+            "id": 1535,
+            "group": "Zitney",
+            "name": "extr1b",
+            "rows": 2836,
+            "cols": 2836,
+            "nonzeros": 10965,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.003859310586790632,
+            "nsym": 0,
+            "kind": "chemical process simulation problem sequence",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 6.0,
+                "max": 10,
+                "mean": 4.0211565585331459,
+                "variance": 5.058790763923816,
+                "skewness": 0.9475979706631048,
+                "kurtosis": 2.788783201826152,
+                "hyperskewness": 5.156444872189519,
+                "hyperflatness": 12.005081196563156
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 5.0,
+                "max": 11,
+                "mean": 4.0211565585331459,
+                "variance": 8.656110933176253,
+                "skewness": 1.2226969088394318,
+                "kurtosis": 3.10082579994271,
+                "hyperskewness": 6.010892449503182,
+                "hyperflatness": 13.1952380352394
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 175440,
+                "time": 16613.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 142928,
+                "time": 18585.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 306288,
+                "time": 16013.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 274904,
+                "time": 17771.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 153120,
+                "time": 24310.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 164096,
+                "time": 24534.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 153120,
+                "time": 18251.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 153120,
+                "time": 25660.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 175440,
+                "time": 26199.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 175440,
+                "time": 18337.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 175440,
+                "time": 19598.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 153120,
+                "time": 19214.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

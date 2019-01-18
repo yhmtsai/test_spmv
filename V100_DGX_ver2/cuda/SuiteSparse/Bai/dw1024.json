@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Bai/dw1024/dw1024.mtx",
+        "problem": {
+            "id": 309,
+            "group": "Bai",
+            "name": "dw1024",
+            "rows": 2048,
+            "cols": 2048,
+            "nonzeros": 10114,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.9848747830399208,
+            "nsym": 0.9481775353334988,
+            "kind": "electromagnetics problem",
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 8,
+                "mean": 4.9384765625,
+                "variance": 0.2559804916381836,
+                "skewness": 1.271439423224089,
+                "kurtosis": 11.736875023910957,
+                "hyperskewness": 35.59791306803518,
+                "hyperflatness": 201.33491323263588
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 8,
+                "mean": 4.9384765625,
+                "variance": 0.2559804916381836,
+                "skewness": 1.271439423224089,
+                "kurtosis": 11.736875023910957,
+                "hyperskewness": 35.59791306803518,
+                "hyperflatness": 201.33491323263588
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 161824,
+                "time": 20397.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 129564,
+                "time": 16603.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 196608,
+                "time": 15023.7,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 152584,
+                "time": 15874.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 145440,
+                "time": 26443.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 137248,
+                "time": 24625.9,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 124928,
+                "time": 23405.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 124928,
+                "time": 23176.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 161824,
+                "time": 24023.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 161824,
+                "time": 17821.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 161824,
+                "time": 16933.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 124928,
+                "time": 16888.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

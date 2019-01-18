@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Oberwolfach/gas_sensor/gas_sensor.mtx",
+        "problem": {
+            "id": 1434,
+            "group": "Oberwolfach",
+            "name": "gas_sensor",
+            "rows": 66917,
+            "cols": 66917,
+            "nonzeros": 1703365,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "row_distribution": {
+                "min": 8,
+                "q1": 27.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 33,
+                "mean": 25.454891880986897,
+                "variance": 12.34985267038558,
+                "skewness": -1.8980856376640876,
+                "kurtosis": 5.056295236046474,
+                "hyperskewness": -13.712422324016874,
+                "hyperflatness": 41.56697262861563
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 27.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 33,
+                "mean": 25.454891880986897,
+                "variance": 12.34985267038558,
+                "skewness": -1.8980856376640876,
+                "kurtosis": 5.056295236046474,
+                "hyperskewness": -13.712422324016874,
+                "hyperflatness": 41.56697262861563
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 27253840,
+                "time": 57167.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 20708052,
+                "time": 53639.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 26499132,
+                "time": 52986.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 21572200,
+                "time": 53801.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 21689044,
+                "time": 55078.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 25112496,
+                "time": 57604.9,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 21689044,
+                "time": 55596.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 21689044,
+                "time": 54767.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 25647832,
+                "time": 55364.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 25647832,
+                "time": 55201.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 25647832,
+                "time": 55769.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 21689044,
+                "time": 54834.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

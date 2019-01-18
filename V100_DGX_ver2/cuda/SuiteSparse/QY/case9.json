@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/QY/case9/case9.mtx",
+        "problem": {
+            "id": 2214,
+            "group": "QY",
+            "name": "case9",
+            "rows": 14454,
+            "cols": 14454,
+            "nonzeros": 147972,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "power network problem sequence",
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 7.0,
+                "q3": 12.0,
+                "max": 7210,
+                "mean": 10.237442922374428,
+                "variance": 11078.275432121922,
+                "skewness": 66.72684758051207,
+                "kurtosis": 4546.851867141533,
+                "hyperskewness": 310812.0851219356,
+                "hyperflatness": 21257600.602550616
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 7.0,
+                "q3": 12.0,
+                "max": 7210,
+                "mean": 10.237442922374428,
+                "variance": 11078.275432121922,
+                "skewness": 66.72684758051207,
+                "kurtosis": 4546.851867141533,
+                "hyperskewness": 310812.0851219356,
+                "hyperflatness": 21257600.602550616
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 2367552,
+                "time": 19606.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1833484,
+                "time": 711292.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1250560080,
+                "time": 253349.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 7014696,
+                "time": 4756983.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 2137232,
+                "time": 21317.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 2309736,
+                "time": 21804.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 2137232,
+                "time": 21284.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 2137232,
+                "time": 22140.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 2309736,
+                "time": 21868.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 2309736,
+                "time": 19632.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 2309736,
+                "time": 18516.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 2137232,
+                "time": 17900.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

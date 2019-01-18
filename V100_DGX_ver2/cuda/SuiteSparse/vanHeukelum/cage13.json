@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/vanHeukelum/cage13/cage13.mtx",
+        "problem": {
+            "id": 914,
+            "group": "vanHeukelum",
+            "name": "cage13",
+            "rows": 445315,
+            "cols": 445315,
+            "nonzeros": 7479343,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.2004785878020389,
+            "kind": "directed weighted graph",
+            "row_distribution": {
+                "min": 3,
+                "q1": 13.0,
+                "median": 16.0,
+                "q3": 20.0,
+                "max": 39,
+                "mean": 16.795623322816433,
+                "variance": 26.30040144577297,
+                "skewness": 0.436761403709625,
+                "kurtosis": 3.2544530765705308,
+                "hyperskewness": 4.533657635888742,
+                "hyperflatness": 20.092404811326565
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 13.0,
+                "median": 16.0,
+                "q3": 20.0,
+                "max": 39,
+                "mean": 16.795623322816433,
+                "variance": 26.30040144577297,
+                "skewness": 0.436761403709625,
+                "kurtosis": 3.2544530765705308,
+                "hyperskewness": 4.533657635888742,
+                "hyperflatness": 20.092404811326565
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 119669488,
+                "time": 236312.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 91533380,
+                "time": 301657.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 208407420,
+                "time": 186758.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 97651960,
+                "time": 184142.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 100874888,
+                "time": 190701.3,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 114325708,
+                "time": 228588.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 100744884,
+                "time": 197654.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 100874888,
+                "time": 189852.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 114325708,
+                "time": 229285.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 100744884,
+                "time": 197595.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 100874888,
+                "time": 190215.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 100744884,
+                "time": 197491.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Janna/Emilia_923/Emilia_923.mtx",
+        "problem": {
+            "id": 2542,
+            "group": "Janna",
+            "name": "Emilia_923",
+            "rows": 923136,
+            "cols": 923136,
+            "nonzeros": 40373538,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 15,
+                "q1": 45.0,
+                "median": 45.0,
+                "q3": 45.0,
+                "max": 57,
+                "mean": 44.41946365432612,
+                "variance": 13.84387397348895,
+                "skewness": -1.405251477521965,
+                "kurtosis": 7.819922404492659,
+                "hyperskewness": -21.860001049133829,
+                "hyperflatness": 106.1592825550872
+            },
+            "col_distribution": {
+                "min": 15,
+                "q1": 45.0,
+                "median": 45.0,
+                "q3": 45.0,
+                "max": 57,
+                "mean": 44.41946365432612,
+                "variance": 13.84387397348895,
+                "skewness": -1.405251477521965,
+                "kurtosis": 7.819922404492659,
+                "hyperskewness": -21.860001049133829,
+                "hyperflatness": 106.1592825550872
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 645976608,
+                "time": 1202928.5,
+                "completed": true
+            },
+            "csr": {
+                "storage": 488175004,
+                "time": 832197.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 631425024,
+                "time": 766222.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 556660616,
+                "time": 834527.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 506364480,
+                "time": 733439.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 642284064,
+                "time": 1264270.9,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 506364480,
+                "time": 733798.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 506364480,
+                "time": 732068.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 642284064,
+                "time": 1263522.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 506364480,
+                "time": 729637.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 506364480,
+                "time": 728718.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 506364480,
+                "time": 728167.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridminstorage"
+        }
+    }
+]

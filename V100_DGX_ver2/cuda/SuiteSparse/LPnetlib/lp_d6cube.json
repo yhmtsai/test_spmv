@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/LPnetlib/lp_d6cube/lp_d6cube.mtx",
+        "problem": {
+            "id": 616,
+            "group": "LPnetlib",
+            "name": "lp_d6cube",
+            "rows": 415,
+            "cols": 6184,
+            "nonzeros": 37704,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "linear programming problem",
+            "row_distribution": {
+                "min": 0,
+                "q1": 23.0,
+                "median": 30.0,
+                "q3": 36.0,
+                "max": 6184,
+                "mean": 90.85301204819277,
+                "variance": 192289.4121294818,
+                "skewness": 9.817691350046662,
+                "kurtosis": 114.63679537811304,
+                "hyperskewness": 1443.1460057617285,
+                "hyperflatness": 18920.04466893371
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 7.0,
+                "max": 10,
+                "mean": 6.097024579560156,
+                "variance": 2.1581153383348328,
+                "skewness": -0.14333901167620498,
+                "kurtosis": 2.760260042484007,
+                "hyperskewness": -0.910982135887112,
+                "hyperflatness": 11.59394388249715
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 603264,
+                "time": 17115.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 454112,
+                "time": 174936.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 30796320,
+                "time": 117105.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 11476344,
+                "time": 4292796.7,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 603264,
+                "time": 22748.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 603264,
+                "time": 23334.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 577788,
+                "time": 22716.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 578372,
+                "time": 24181.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 603264,
+                "time": 23139.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 603264,
+                "time": 17503.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 603264,
+                "time": 18821.0,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 577788,
+                "time": 17179.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

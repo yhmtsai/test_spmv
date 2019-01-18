@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_Homology/lutz30-23-b6/lutz30-23-b6.mtx",
+        "problem": {
+            "id": 2055,
+            "group": "JGD_Homology",
+            "name": "lutz30-23-b6",
+            "rows": 1716,
+            "cols": 3003,
+            "nonzeros": 12012,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 7,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 7.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 6,
+                "mean": 4.0,
+                "variance": 0.24242424242424244,
+                "skewness": 0.0,
+                "kurtosis": 16.5,
+                "hyperskewness": 0.0,
+                "hyperflatness": 272.24999999999997
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 192192,
+                "time": 17255.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 151012,
+                "time": 18403.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 144144,
+                "time": 16055.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 145592,
+                "time": 15363.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 185328,
+                "time": 25377.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 144144,
+                "time": 22091.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 144144,
+                "time": 19390.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 144144,
+                "time": 21156.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 192192,
+                "time": 24909.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 192192,
+                "time": 19583.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 192192,
+                "time": 19913.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 144144,
+                "time": 17038.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

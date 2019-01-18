@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/AMD/G3_circuit/G3_circuit.mtx",
+        "problem": {
+            "id": 1421,
+            "group": "AMD",
+            "name": "G3_circuit",
+            "rows": 1585478,
+            "cols": 1585478,
+            "nonzeros": 7660826,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "circuit simulation problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 6,
+                "mean": 4.831871523918969,
+                "variance": 0.4120113939641734,
+                "skewness": -0.7514079487508694,
+                "kurtosis": 4.28282640007319,
+                "hyperskewness": -6.6135071757493339,
+                "hyperflatness": 27.278212633379785
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 6,
+                "mean": 4.831871523918969,
+                "variance": 0.4120113939641734,
+                "skewness": -0.7514079487508694,
+                "kurtosis": 4.28282640007319,
+                "hyperskewness": -6.6135071757493339,
+                "hyperflatness": 27.278212633379785
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 122573216,
+                "time": 339515.4,
+                "completed": true
+            },
+            "csr": {
+                "storage": 98271828,
+                "time": 279092.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 114154416,
+                "time": 211245.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 94536296,
+                "time": 202043.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 97557560,
+                "time": 214071.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 109889392,
+                "time": 307457.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 97557560,
+                "time": 213776.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 97557560,
+                "time": 213638.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 109889392,
+                "time": 306497.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 97557560,
+                "time": 214095.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 97557560,
+                "time": 213544.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 97557560,
+                "time": 213289.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

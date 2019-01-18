@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Hamm/bcircuit/bcircuit.mtx",
+        "problem": {
+            "id": 541,
+            "group": "Hamm",
+            "name": "bcircuit",
+            "rows": 68902,
+            "cols": 68902,
+            "nonzeros": 375558,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.9084315976207869,
+            "kind": "circuit simulation problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 34,
+                "mean": 5.450611012742736,
+                "variance": 4.995260359298368,
+                "skewness": 2.702198118857542,
+                "kurtosis": 16.4208749970163,
+                "hyperskewness": 113.78905488340176,
+                "hyperflatness": 916.1399850582716
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 6.0,
+                "max": 34,
+                "mean": 5.450611012742736,
+                "variance": 4.995260359298368,
+                "skewness": 2.702198118857542,
+                "kurtosis": 16.4208749970163,
+                "hyperskewness": 113.78905488340176,
+                "hyperflatness": 916.1399850582716
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 6008928,
+                "time": 24390.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 4782308,
+                "time": 24471.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 28112016,
+                "time": 42462.0,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 10422872,
+                "time": 42679.5,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 5010592,
+                "time": 26962.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 5457712,
+                "time": 30040.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 5010592,
+                "time": 26708.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 5010592,
+                "time": 27172.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 5457712,
+                "time": 22309.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 5010592,
+                "time": 22798.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 5010592,
+                "time": 23919.5,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 5010592,
+                "time": 23129.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit0"
+        }
+    }
+]

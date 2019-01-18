@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Rothberg/struct4/struct4.mtx",
+        "problem": {
+            "id": 808,
+            "group": "Rothberg",
+            "name": "struct4",
+            "rows": 4350,
+            "cols": 4350,
+            "nonzeros": 237798,
+            "real": true,
+            "binary": true,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 21,
+                "q1": 37.0,
+                "median": 42.0,
+                "q3": 67.0,
+                "max": 90,
+                "mean": 54.66620689655172,
+                "variance": 476.7975476813225,
+                "skewness": 0.5081633506175374,
+                "kurtosis": 1.842001032406637,
+                "hyperskewness": 1.6700169065323352,
+                "hyperflatness": 4.059936273003895
+            },
+            "col_distribution": {
+                "min": 21,
+                "q1": 37.0,
+                "median": 42.0,
+                "q3": 67.0,
+                "max": 90,
+                "mean": 54.66620689655172,
+                "variance": 476.7975476813225,
+                "skewness": 0.5081633506175374,
+                "kurtosis": 1.842001032406637,
+                "hyperskewness": 1.6700169065323352,
+                "hyperflatness": 4.059936273003895
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 3804768,
+                "time": 18690.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 2870980,
+                "time": 19955.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 4698000,
+                "time": 15865.7,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 4287304,
+                "time": 44226.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 3735168,
+                "time": 25951.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 3439368,
+                "time": 28749.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 3255432,
+                "time": 34117.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 3262096,
+                "time": 36807.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 3804768,
+                "time": 19287.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 3804768,
+                "time": 19062.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 3804768,
+                "time": 19170.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 3255432,
+                "time": 30203.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

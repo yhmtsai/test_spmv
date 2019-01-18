@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/SNAP/soc-sign-bitcoin-otc/soc-sign-bitcoin-otc.mtx",
+        "problem": {
+            "id": 2791,
+            "group": "SNAP",
+            "name": "soc-sign-bitcoin-otc",
+            "rows": 5881,
+            "cols": 5881,
+            "nonzeros": 35592,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.7923128792987189,
+            "nsym": 0.5689480782198246,
+            "kind": "directed weighted temporal graph",
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 4.0,
+                "max": 763,
+                "mean": 6.052031967352491,
+                "variance": 444.6444615232051,
+                "skewness": 15.133686168662324,
+                "kurtosis": 381.0220092975674,
+                "hyperskewness": 11686.492371896398,
+                "hyperflatness": 390168.355761308
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 5.0,
+                "max": 535,
+                "mean": 6.052031967352491,
+                "variance": 312.3553950379141,
+                "skewness": 12.396009387836113,
+                "kurtosis": 247.8948807950968,
+                "hyperskewness": 5996.448678267557,
+                "hyperflatness": 158756.2529023261
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 569472,
+                "time": 18396.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 450632,
+                "time": 78862.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 53846436,
+                "time": 31719.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 7226824,
+                "time": 547899.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 563020,
+                "time": 20020.3,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 569472,
+                "time": 24420.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 563020,
+                "time": 25877.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 563020,
+                "time": 24507.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 569472,
+                "time": 27332.6,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 569472,
+                "time": 20150.0,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 569472,
+                "time": 19963.4,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 563020,
+                "time": 19755.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

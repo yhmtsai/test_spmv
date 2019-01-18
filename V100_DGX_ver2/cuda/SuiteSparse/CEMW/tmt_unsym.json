@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/CEMW/tmt_unsym/tmt_unsym.mtx",
+        "problem": {
+            "id": 1898,
+            "group": "CEMW",
+            "name": "tmt_unsym",
+            "rows": 917825,
+            "cols": 917825,
+            "nonzeros": 4584801,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0,
+            "kind": "electromagnetics problem",
+            "row_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.995288862255877,
+                "variance": 0.007451996884008973,
+                "skewness": -20.045092704563645,
+                "kurtosis": 428.73323624704929,
+                "hyperskewness": -9510.8405401612,
+                "hyperflatness": 215233.05757867752
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 5.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 4.995288862255877,
+                "variance": 0.007451996884008973,
+                "skewness": -20.045092704563645,
+                "kurtosis": 428.73323624704929,
+                "hyperskewness": -9510.8405401612,
+                "hyperflatness": 215233.05757867752
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 73356816,
+                "time": 181639.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 58688916,
+                "time": 143165.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 55069500,
+                "time": 122116.8,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 55301224,
+                "time": 121229.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 55069500,
+                "time": 122775.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 62342916,
+                "time": 178435.2,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 55069500,
+                "time": 122645.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 55069500,
+                "time": 122776.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 62342916,
+                "time": 177713.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 55069500,
+                "time": 122667.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 55069500,
+                "time": 122400.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 55069500,
+                "time": 122088.2,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "sellp"
+        }
+    }
+]

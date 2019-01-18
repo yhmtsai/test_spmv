@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Janna/ML_Laplace/ML_Laplace.mtx",
+        "problem": {
+            "id": 2648,
+            "group": "Janna",
+            "name": "ML_Laplace",
+            "rows": 377002,
+            "cols": 377002,
+            "nonzeros": 27582698,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 7.351401706466178e-8,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 26,
+                "q1": 74.0,
+                "median": 74.0,
+                "q3": 74.0,
+                "max": 74,
+                "mean": 73.44781194794723,
+                "variance": 12.42431525610829,
+                "skewness": -7.2143584039868069,
+                "kurtosis": 56.9764645219181,
+                "hyperskewness": -465.89498868170576,
+                "hyperflatness": 3896.100118875419
+            },
+            "col_distribution": {
+                "min": 26,
+                "q1": 74.0,
+                "median": 74.0,
+                "q3": 74.0,
+                "max": 74,
+                "mean": 73.44781194794723,
+                "variance": 12.42431525610829,
+                "skewness": -7.2143584039868069,
+                "kurtosis": 56.9764645219181,
+                "hyperskewness": -465.89498868170576,
+                "hyperflatness": 3896.100118875419
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 441323168,
+                "time": 760462.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 332500388,
+                "time": 519000.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 334777776,
+                "time": 509742.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 334630456,
+                "time": 520218.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 334777776,
+                "time": 510767.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 439815160,
+                "time": 741668.1,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 334777776,
+                "time": 510914.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 334777776,
+                "time": 510660.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 439815160,
+                "time": 742494.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 386968216,
+                "time": 627215.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 386968216,
+                "time": 628092.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 334777776,
+                "time": 510742.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

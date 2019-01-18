@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/ACUSIM/Pres_Poisson/Pres_Poisson.mtx",
+        "problem": {
+            "id": 1184,
+            "group": "ACUSIM",
+            "name": "Pres_Poisson",
+            "rows": 14822,
+            "cols": 14822,
+            "nonzeros": 715804,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 18,
+                "q1": 50.0,
+                "median": 50.0,
+                "q3": 50.0,
+                "max": 50,
+                "mean": 48.29334772635272,
+                "variance": 26.179228450012638,
+                "skewness": -2.997143879449404,
+                "kurtosis": 10.879391561663413,
+                "hyperskewness": -40.839524286574427,
+                "hyperflatness": 160.07912419963268
+            },
+            "col_distribution": {
+                "min": 18,
+                "q1": 50.0,
+                "median": 50.0,
+                "q3": 50.0,
+                "max": 50,
+                "mean": 48.29334772635272,
+                "variance": 26.179228450012638,
+                "skewness": -2.997143879449404,
+                "kurtosis": 10.879391561663413,
+                "hyperskewness": -40.839524286574427,
+                "hyperflatness": 160.07912419963268
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 11452864,
+                "time": 32167.1,
+                "completed": true
+            },
+            "csr": {
+                "storage": 8648940,
+                "time": 29686.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 8893200,
+                "time": 58775.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 8897160,
+                "time": 54103.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 10622832,
+                "time": 43834.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 10385680,
+                "time": 45663.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 8893200,
+                "time": 64258.0,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 8893200,
+                "time": 64018.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 11393576,
+                "time": 34735.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 11393576,
+                "time": 34068.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 11393576,
+                "time": 34277.1,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 8893200,
+                "time": 60156.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Schenk_ISEI/nmos3/nmos3.mtx",
+        "problem": {
+            "id": 970,
+            "group": "Schenk_ISEI",
+            "name": "nmos3",
+            "rows": 18588,
+            "cols": 18588,
+            "nonzeros": 237130,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.1670891636390259,
+            "kind": "semiconductor device problem",
+            "row_distribution": {
+                "min": 5,
+                "q1": 21.0,
+                "median": 21.0,
+                "q3": 21.0,
+                "max": 33,
+                "mean": 20.79804174736389,
+                "variance": 5.840318954144592,
+                "skewness": -0.4129811529098111,
+                "kurtosis": 4.779820433849944,
+                "hyperskewness": -5.670700294936946,
+                "hyperflatness": 48.78592292104946
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 21.0,
+                "median": 21.0,
+                "q3": 21.0,
+                "max": 33,
+                "mean": 20.79804174736389,
+                "variance": 5.840318954144592,
+                "skewness": -0.4129811529098111,
+                "kurtosis": 4.779820433849944,
+                "hyperskewness": -5.670700294936946,
+                "hyperflatness": 48.78592292104946
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 3794080,
+                "time": 17678.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 2919916,
+                "time": 17648.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 5130288,
+                "time": 18897.9,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 3494456,
+                "time": 21806.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 3167984,
+                "time": 21477.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 3571024,
+                "time": 24203.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 3158016,
+                "time": 22366.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 3167984,
+                "time": 22474.0,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 3719728,
+                "time": 19716.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 3719728,
+                "time": 19466.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 3719728,
+                "time": 19395.7,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 3158016,
+                "time": 20310.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

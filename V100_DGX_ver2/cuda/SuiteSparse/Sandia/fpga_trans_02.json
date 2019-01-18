@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Sandia/fpga_trans_02/fpga_trans_02.mtx",
+        "problem": {
+            "id": 1107,
+            "group": "Sandia",
+            "name": "fpga_trans_02",
+            "rows": 1220,
+            "cols": 1220,
+            "nonzeros": 7382,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.2138728323699422,
+            "kind": "subsequent circuit simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 50,
+                "mean": 6.050819672131148,
+                "variance": 34.94987637731793,
+                "skewness": 5.046202501817653,
+                "kurtosis": 33.5778684238928,
+                "hyperskewness": 229.60412948949833,
+                "hyperflatness": 1591.2929398159466
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 4.0,
+                "median": 5.0,
+                "q3": 5.0,
+                "max": 50,
+                "mean": 6.050819672131148,
+                "variance": 34.94987637731793,
+                "skewness": 5.046202501817653,
+                "kurtosis": 33.5778684238928,
+                "hyperskewness": 229.60412948949833,
+                "hyperflatness": 1591.2929398159466
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 118112,
+                "time": 17458.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 93468,
+                "time": 21530.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 732000,
+                "time": 13822.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 182344,
+                "time": 31776.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 113232,
+                "time": 23569.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 113232,
+                "time": 23654.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 102928,
+                "time": 24061.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 102928,
+                "time": 27834.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 118112,
+                "time": 26941.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 118112,
+                "time": 19320.9,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 118112,
+                "time": 19479.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 102928,
+                "time": 18864.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

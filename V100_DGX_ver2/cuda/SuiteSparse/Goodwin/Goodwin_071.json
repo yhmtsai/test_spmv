@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Goodwin/Goodwin_071/Goodwin_071.mtx",
+        "problem": {
+            "id": 2824,
+            "group": "Goodwin",
+            "name": "Goodwin_071",
+            "rows": 56021,
+            "cols": 56021,
+            "nonzeros": 1797934,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0.9849308636424432,
+            "nsym": 0.06556841497181332,
+            "kind": "computational fluid dynamics",
+            "row_distribution": {
+                "min": 1,
+                "q1": 18.0,
+                "median": 35.0,
+                "q3": 36.0,
+                "max": 62,
+                "mean": 32.09392906231592,
+                "variance": 260.461036848236,
+                "skewness": 0.7161641282977583,
+                "kurtosis": 2.562167032983415,
+                "hyperskewness": 3.0946360257565477,
+                "hyperflatness": 8.286185857904624
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 18.0,
+                "median": 35.0,
+                "q3": 36.0,
+                "max": 62,
+                "mean": 32.09392906231592,
+                "variance": 244.25589948904236,
+                "skewness": 0.8527041337336613,
+                "kurtosis": 2.55082855277127,
+                "hyperskewness": 3.9643770392820234,
+                "hyperflatness": 8.453725002484943
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 28766944,
+                "time": 58582.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 21799296,
+                "time": 61254.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 41679624,
+                "time": 89527.5,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 41466056,
+                "time": 89626.0,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 25265068,
+                "time": 60939.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 28542860,
+                "time": 58410.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 25125048,
+                "time": 59179.2,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 25265068,
+                "time": 60198.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 28542860,
+                "time": 57945.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 27719292,
+                "time": 55930.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 27719292,
+                "time": 56204.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 25125048,
+                "time": 58790.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit25"
+        }
+    }
+]

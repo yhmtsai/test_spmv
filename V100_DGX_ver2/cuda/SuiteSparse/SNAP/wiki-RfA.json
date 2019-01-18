@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/SNAP/wiki-RfA/wiki-RfA.mtx",
+        "problem": {
+            "id": 2797,
+            "group": "SNAP",
+            "name": "wiki-RfA",
+            "rows": 11380,
+            "cols": 11380,
+            "nonzeros": 188077,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.07451698016852498,
+            "nsym": 0.06452676823559452,
+            "kind": "directed weighted temporal multigraph",
+            "row_distribution": {
+                "min": 0,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 11.0,
+                "max": 1101,
+                "mean": 16.526977152899826,
+                "variance": 2059.6260736391939,
+                "skewness": 7.5198958417649559,
+                "kurtosis": 97.77458256064746,
+                "hyperskewness": 1638.130637717821,
+                "hyperflatness": 31426.278599150104
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 0.0,
+                "median": 0.0,
+                "q3": 11.0,
+                "max": 725,
+                "mean": 16.526977152899826,
+                "variance": 1514.630994553061,
+                "skewness": 4.258064908201629,
+                "kurtosis": 35.30558420180526,
+                "hyperskewness": 403.0267756691911,
+                "hyperflatness": 5542.454182954187
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 3009232,
+                "time": 18104.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 2302448,
+                "time": 92275.1,
+                "completed": true
+            },
+            "ell": {
+                "storage": 150352560,
+                "time": 67460.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 33272616,
+                "time": 752526.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 2979136,
+                "time": 22588.7,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 3009232,
+                "time": 22653.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 2979136,
+                "time": 22902.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 2979136,
+                "time": 23189.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 3009232,
+                "time": 19905.1,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 2979136,
+                "time": 19751.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 2979136,
+                "time": 19628.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 2979136,
+                "time": 19557.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

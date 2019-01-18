@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Belcastro/mouse_gene/mouse_gene.mtx",
+        "problem": {
+            "id": 2282,
+            "group": "Belcastro",
+            "name": "mouse_gene",
+            "rows": 45101,
+            "cols": 45101,
+            "nonzeros": 28967291,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 29.0,
+                "median": 235.0,
+                "q3": 1013.0,
+                "max": 8032,
+                "mean": 642.2760249218421,
+                "variance": 733881.8338122304,
+                "skewness": 1.86658110684859,
+                "kurtosis": 7.265905154094709,
+                "hyperskewness": 30.473919639133553,
+                "hyperflatness": 151.20288103396656
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 29.0,
+                "median": 235.0,
+                "q3": 1013.0,
+                "max": 8032,
+                "mean": 642.2760249218421,
+                "variance": 733881.8338122304,
+                "skewness": 1.86658110684859,
+                "kurtosis": 7.265905154094709,
+                "hyperskewness": 30.473919639133553,
+                "hyperflatness": 151.20288103396656
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 463476656,
+                "time": 654514.6,
+                "completed": true
+            },
+            "csr": {
+                "storage": 347787900,
+                "time": 648649.5,
+                "completed": true
+            },
+            "ell": {
+                "storage": 4347014784,
+                "time": 5791501.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1880482328,
+                "time": 6573130.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 462211484,
+                "time": 665783.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 463296252,
+                "time": 654692.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 461926124,
+                "time": 673591.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 463159804,
+                "time": 680966.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 463296252,
+                "time": 654644.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 462909248,
+                "time": 663885.2,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 462909248,
+                "time": 663541.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 461926124,
+                "time": 673656.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

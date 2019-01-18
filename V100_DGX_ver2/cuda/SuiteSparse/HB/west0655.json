@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/HB/west0655/west0655.mtx",
+        "problem": {
+            "id": 269,
+            "group": "HB",
+            "name": "west0655",
+            "rows": 655,
+            "cols": 655,
+            "nonzeros": 2808,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.005616005616005616,
+            "nsym": 0,
+            "kind": "chemical process simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 6.0,
+                "max": 12,
+                "mean": 4.357251908396947,
+                "variance": 8.831149699900891,
+                "skewness": 1.1154771468996326,
+                "kurtosis": 3.014060534133977,
+                "hyperskewness": 5.77443813465256,
+                "hyperflatness": 13.22371937647006
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 6.0,
+                "max": 35,
+                "mean": 4.357251908396947,
+                "variance": 15.4143558067711,
+                "skewness": 2.6979896615950165,
+                "kurtosis": 13.240476106265384,
+                "hyperskewness": 74.77365584142062,
+                "hyperflatness": 487.62479459727066
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 44928,
+                "time": 16914.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 36320,
+                "time": 19461.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 94320,
+                "time": 13843.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 91576,
+                "time": 18009.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 44928,
+                "time": 25508.3,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 42308,
+                "time": 25260.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 40264,
+                "time": 25934.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 40264,
+                "time": 25123.6,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 44928,
+                "time": 25485.3,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 44928,
+                "time": 18377.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 44928,
+                "time": 18084.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 40264,
+                "time": 18265.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

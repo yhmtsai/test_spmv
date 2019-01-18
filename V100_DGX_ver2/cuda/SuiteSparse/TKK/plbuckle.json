@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/TKK/plbuckle/plbuckle.mtx",
+        "problem": {
+            "id": 1911,
+            "group": "TKK",
+            "name": "plbuckle",
+            "rows": 1282,
+            "cols": 1282,
+            "nonzeros": 30644,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 8,
+                "q1": 22.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 44,
+                "mean": 23.903276131045247,
+                "variance": 21.01716555401614,
+                "skewness": -1.2818336623137985,
+                "kurtosis": 3.8192668320070379,
+                "hyperskewness": -6.965946267772681,
+                "hyperflatness": 27.05113014384605
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 22.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 44,
+                "mean": 23.903276131045247,
+                "variance": 21.01716555401614,
+                "skewness": -1.2818336623137985,
+                "kurtosis": 3.8192668320070379,
+                "hyperskewness": -6.965946267772681,
+                "hyperflatness": 27.05113014384605
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 490304,
+                "time": 17333.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 372860,
+                "time": 20420.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 676896,
+                "time": 13809.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 432728,
+                "time": 30912.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 485176,
+                "time": 24990.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 449280,
+                "time": 26451.6,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 404480,
+                "time": 24827.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 405328,
+                "time": 26984.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 490304,
+                "time": 18584.4,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 490304,
+                "time": 18972.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 490304,
+                "time": 19245.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 404480,
+                "time": 18170.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

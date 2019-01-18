@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Yoshiyasu/mesh_deform/mesh_deform.mtx",
+        "problem": {
+            "id": 2249,
+            "group": "Yoshiyasu",
+            "name": "mesh_deform",
+            "rows": 234023,
+            "cols": 9393,
+            "nonzeros": 853829,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "computer graphics/vision problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 4.0,
+                "max": 4,
+                "mean": 3.6484832687385424,
+                "variance": 0.44944376893407547,
+                "skewness": -2.3898507474661496,
+                "kurtosis": 9.257112799196362,
+                "hyperskewness": -35.69770210654453,
+                "hyperflatness": 140.5460251747632
+            },
+            "col_distribution": {
+                "min": 45,
+                "q1": 76.0,
+                "median": 91.0,
+                "q3": 105.0,
+                "max": 166,
+                "mean": 90.9005642499734,
+                "variance": 327.37327020224105,
+                "skewness": 0.10371222063684685,
+                "kurtosis": 2.7176296079903228,
+                "hyperskewness": 1.697432437301549,
+                "hyperflatness": 11.849517527204262
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 13661264,
+                "time": 42589.2,
+                "completed": true
+            },
+            "csr": {
+                "storage": 11182044,
+                "time": 40731.2,
+                "completed": true
+            },
+            "ell": {
+                "storage": 11233104,
+                "time": 32249.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 10305944,
+                "time": 32334.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 11233104,
+                "time": 33009.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 12725172,
+                "time": 40926.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 11129436,
+                "time": 40358.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 11233104,
+                "time": 32969.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 12725172,
+                "time": 41531.9,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 11129436,
+                "time": 40381.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 11233104,
+                "time": 32774.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 11129436,
+                "time": 40396.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

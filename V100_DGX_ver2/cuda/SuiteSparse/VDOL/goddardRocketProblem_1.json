@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/VDOL/goddardRocketProblem_1/goddardRocketProblem_1.mtx",
+        "problem": {
+            "id": 2689,
+            "group": "VDOL",
+            "name": "goddardRocketProblem_1",
+            "rows": 831,
+            "cols": 831,
+            "nonzeros": 8498,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "optimal control problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 7.75,
+                "median": 9.0,
+                "q3": 10.0,
+                "max": 284,
+                "mean": 10.226233453670276,
+                "variance": 343.8549556085559,
+                "skewness": 12.754690543577749,
+                "kurtosis": 171.12892865801576,
+                "hyperskewness": 2335.894079870311,
+                "hyperflatness": 32367.881758766183
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 7.75,
+                "median": 9.0,
+                "q3": 10.0,
+                "max": 284,
+                "mean": 10.226233453670276,
+                "variance": 343.8549556085559,
+                "skewness": 12.754690543577749,
+                "kurtosis": 171.12892865801576,
+                "hyperskewness": 2335.894079870311,
+                "hyperflatness": 32367.881758766183
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 135968,
+                "time": 16518.7,
+                "completed": true
+            },
+            "csr": {
+                "storage": 105304,
+                "time": 44105.8,
+                "completed": true
+            },
+            "ell": {
+                "storage": 2832048,
+                "time": 16216.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 644568,
+                "time": 122348.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 135968,
+                "time": 24466.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 129320,
+                "time": 22990.9,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 118556,
+                "time": 25827.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 118560,
+                "time": 25131.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 135968,
+                "time": 26120.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 135968,
+                "time": 19462.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 135968,
+                "time": 19416.9,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 118556,
+                "time": 19208.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

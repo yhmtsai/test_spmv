@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/MathWorks/TS/TS.mtx",
+        "problem": {
+            "id": 2256,
+            "group": "MathWorks",
+            "name": "TS",
+            "rows": 2142,
+            "cols": 2142,
+            "nonzeros": 45262,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.9525732031943212,
+            "nsym": 0.04130434782608695,
+            "kind": "counter-example problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 23.0,
+                "median": 23.0,
+                "q3": 23.0,
+                "max": 23,
+                "mean": 21.13071895424837,
+                "variance": 37.629971378523688,
+                "skewness": -2.976925916459946,
+                "kurtosis": 9.862087912090882,
+                "hyperskewness": -32.33563101237299,
+                "hyperflatness": 106.12286589787529
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 21.0,
+                "median": 21.0,
+                "q3": 23.0,
+                "max": 23,
+                "mean": 21.13071895424837,
+                "variance": 15.963304711863998,
+                "skewness": -4.295932494627817,
+                "kurtosis": 20.855050690353005,
+                "hyperskewness": -100.05254442230329,
+                "hyperflatness": 480.6357074557584
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 724192,
+                "time": 17246.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 551716,
+                "time": 19037.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 591192,
+                "time": 11972.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 584232,
+                "time": 22410.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 709968,
+                "time": 23175.2,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 715624,
+                "time": 24103.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 591192,
+                "time": 15689.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 591192,
+                "time": 16958.3,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 724192,
+                "time": 16658.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 724192,
+                "time": 16774.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 724192,
+                "time": 16391.3,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 591192,
+                "time": 12104.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

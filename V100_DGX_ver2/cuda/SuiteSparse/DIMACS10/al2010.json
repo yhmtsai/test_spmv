@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/DIMACS10/al2010/al2010.mtx",
+        "problem": {
+            "id": 2583,
+            "group": "DIMACS10",
+            "name": "al2010",
+            "rows": 252266,
+            "cols": 252266,
+            "nonzeros": 1230482,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "undirected weighted graph",
+            "row_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 76,
+                "mean": 4.877716378743073,
+                "variance": 9.569540861032449,
+                "skewness": 3.550563534996287,
+                "kurtosis": 30.463078284072524,
+                "hyperskewness": 347.78901496257489,
+                "hyperflatness": 4960.545470948052
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 3.0,
+                "median": 4.0,
+                "q3": 6.0,
+                "max": 76,
+                "mean": 4.877716378743073,
+                "variance": 9.569540861032449,
+                "skewness": 3.550563534996287,
+                "kurtosis": 30.463078284072524,
+                "hyperskewness": 347.78901496257489,
+                "hyperflatness": 4960.545470948052
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 19687712,
+                "time": 60535.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 15774852,
+                "time": 69821.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 230066592,
+                "time": 112303.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 53626472,
+                "time": 125953.8,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 17589344,
+                "time": 58615.9,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 18678648,
+                "time": 61561.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 17331560,
+                "time": 59243.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 17589344,
+                "time": 59755.2,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 18678648,
+                "time": 61009.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 17331560,
+                "time": 59380.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 17589344,
+                "time": 58330.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 17331560,
+                "time": 58921.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "hybridlimit33"
+        }
+    }
+]

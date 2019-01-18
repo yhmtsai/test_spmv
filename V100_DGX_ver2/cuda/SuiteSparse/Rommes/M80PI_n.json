@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Rommes/M80PI_n/M80PI_n.mtx",
+        "problem": {
+            "id": 2364,
+            "group": "Rommes",
+            "name": "M80PI_n",
+            "rows": 4182,
+            "cols": 4182,
+            "nonzeros": 10261,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.01191043353978085,
+            "kind": "eigenvalue/model reduction problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 12,
+                "mean": 2.453610712577714,
+                "variance": 0.2990197221998959,
+                "skewness": 1.9785498280401653,
+                "kurtosis": 28.68831538047088,
+                "hyperskewness": 441.3108245876331,
+                "hyperflatness": 7302.4702776271319
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 12,
+                "mean": 2.453610712577714,
+                "variance": 0.2990197221998959,
+                "skewness": 1.9785498280401653,
+                "kurtosis": 28.68831538047088,
+                "hyperskewness": 441.3108245876331,
+                "hyperflatness": 7302.4702776271319
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 164176,
+                "time": 16679.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 139864,
+                "time": 19598.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 602208,
+                "time": 18273.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 158504,
+                "time": 18174.3,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 130928,
+                "time": 22693.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 147448,
+                "time": 22754.0,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 130928,
+                "time": 23467.8,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 130928,
+                "time": 23901.1,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 164176,
+                "time": 24095.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 164176,
+                "time": 19878.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 164176,
+                "time": 19301.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 130928,
+                "time": 18991.4,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

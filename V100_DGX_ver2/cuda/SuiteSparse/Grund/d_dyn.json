@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Grund/d_dyn/d_dyn.mtx",
+        "problem": {
+            "id": 462,
+            "group": "Grund",
+            "name": "d_dyn",
+            "rows": 87,
+            "cols": 87,
+            "nonzeros": 230,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.07692307692307693,
+            "nsym": 0.01769911504424779,
+            "kind": "chemical process simulation problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 8,
+                "mean": 2.735632183908046,
+                "variance": 1.4358567842515522,
+                "skewness": 2.44296454659852,
+                "kurtosis": 10.35247986714872,
+                "hyperskewness": 41.49781311076783,
+                "hyperflatness": 176.03875428891926
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 2.0,
+                "q3": 3.0,
+                "max": 6,
+                "mean": 2.735632183908046,
+                "variance": 1.504822301492933,
+                "skewness": 1.0363613107343626,
+                "kurtosis": 3.378907348296985,
+                "hyperskewness": 6.392457390108031,
+                "hyperflatness": 17.07292945593715
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 3680,
+                "time": 16631.6,
+                "completed": true
+            },
+            "csr": {
+                "storage": 3112,
+                "time": 18292.7,
+                "completed": true
+            },
+            "ell": {
+                "storage": 8352,
+                "time": 12855.7,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 9256,
+                "time": 17485.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 3680,
+                "time": 23778.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 3332,
+                "time": 24837.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 3080,
+                "time": 25778.7,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 3080,
+                "time": 26322.4,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 3680,
+                "time": 19682.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 3680,
+                "time": 19135.3,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 3680,
+                "time": 18924.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 3080,
+                "time": 18646.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

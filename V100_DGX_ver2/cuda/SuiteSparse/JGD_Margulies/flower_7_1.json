@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/JGD_Margulies/flower_7_1/flower_7_1.mtx",
+        "problem": {
+            "id": 2159,
+            "group": "JGD_Margulies",
+            "name": "flower_7_1",
+            "rows": 463,
+            "cols": 393,
+            "nonzeros": 1178,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "combinatorial problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 2.0,
+                "q3": 4.0,
+                "max": 5,
+                "mean": 2.5442764578833696,
+                "variance": 2.498579552080756,
+                "skewness": 0.26819416866209297,
+                "kurtosis": 1.3497741929600958,
+                "hyperskewness": 0.9070945172060654,
+                "hyperflatness": 2.3105564632718664
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 3.0,
+                "max": 3,
+                "mean": 2.9974554707379137,
+                "variance": 0.002538054632920872,
+                "skewness": -19.748482245996248,
+                "kurtosis": 391.0025510204131,
+                "hyperskewness": -7741.455419211698,
+                "hyperflatness": 153272.9974554893
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 18848,
+                "time": 16553.6,
+                "completed": true
+            },
+            "csr": {
+                "storage": 15992,
+                "time": 18517.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 27780,
+                "time": 13377.1,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 30088,
+                "time": 17051.6,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 18848,
+                "time": 22955.3,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 16996,
+                "time": 26977.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 16996,
+                "time": 23124.3,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 16996,
+                "time": 22104.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 18848,
+                "time": 24412.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 18848,
+                "time": 18105.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 18848,
+                "time": 18698.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 16996,
+                "time": 18381.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

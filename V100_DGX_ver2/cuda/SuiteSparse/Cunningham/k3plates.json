@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Cunningham/k3plates/k3plates.mtx",
+        "problem": {
+            "id": 842,
+            "group": "Cunningham",
+            "name": "k3plates",
+            "rows": 11107,
+            "cols": 11107,
+            "nonzeros": 378927,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": false,
+            "psym": 1,
+            "nsym": 0.999260507857104,
+            "kind": "acoustics problem",
+            "row_distribution": {
+                "min": 15,
+                "q1": 30.0,
+                "median": 35.0,
+                "q3": 35.0,
+                "max": 58,
+                "mean": 34.11605293958765,
+                "variance": 30.70130618176224,
+                "skewness": 0.11689507179789684,
+                "kurtosis": 3.550808932997603,
+                "hyperskewness": 1.7442661622686822,
+                "hyperflatness": 23.66226812242004
+            },
+            "col_distribution": {
+                "min": 15,
+                "q1": 30.0,
+                "median": 35.0,
+                "q3": 35.0,
+                "max": 58,
+                "mean": 34.11605293958765,
+                "variance": 30.70130618176224,
+                "skewness": 0.11689507179789684,
+                "kurtosis": 3.550808932997603,
+                "hyperskewness": 1.7442661622686822,
+                "hyperflatness": 23.66226812242004
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 6062832,
+                "time": 22825.0,
+                "completed": true
+            },
+            "csr": {
+                "storage": 4591556,
+                "time": 19559.9,
+                "completed": true
+            },
+            "ell": {
+                "storage": 7730472,
+                "time": 38179.4,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 5648360,
+                "time": 36937.4,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 5574124,
+                "time": 26830.4,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 5396412,
+                "time": 27932.8,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 4849544,
+                "time": 32346.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 4849544,
+                "time": 33405.7,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 6018404,
+                "time": 25578.2,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 6018404,
+                "time": 24882.7,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 6018404,
+                "time": 24949.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 4849544,
+                "time": 29035.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        }
+    }
+]

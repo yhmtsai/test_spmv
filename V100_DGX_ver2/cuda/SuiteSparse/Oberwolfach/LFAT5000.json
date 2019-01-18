@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Oberwolfach/LFAT5000/LFAT5000.mtx",
+        "problem": {
+            "id": 1439,
+            "group": "Oberwolfach",
+            "name": "LFAT5000",
+            "rows": 19994,
+            "cols": 19994,
+            "nonzeros": 79966,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "model reduction problem",
+            "row_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 3.9994998499549867,
+                "variance": 1.0003998698863246,
+                "skewness": -0.0001993403308191569,
+                "kurtosis": 1.001997442289793,
+                "hyperskewness": -0.003990209052906119,
+                "hyperflatness": 1.0111744723912433
+            },
+            "col_distribution": {
+                "min": 2,
+                "q1": 3.0,
+                "median": 3.0,
+                "q3": 5.0,
+                "max": 5,
+                "mean": 3.9994998499549867,
+                "variance": 1.0003998698863246,
+                "skewness": -0.0001993403308191569,
+                "kurtosis": 1.001997442289793,
+                "hyperskewness": -0.003990209052906119,
+                "hyperflatness": 1.0111744723912433
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 1279456,
+                "time": 16323.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 1039572,
+                "time": 17299.0,
+                "completed": true
+            },
+            "ell": {
+                "storage": 1199640,
+                "time": 13513.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1206936,
+                "time": 16697.1,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 1039592,
+                "time": 24209.1,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 1119504,
+                "time": 22183.5,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 1039592,
+                "time": 21702.6,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 1039592,
+                "time": 23195.9,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 1199480,
+                "time": 24775.5,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 1199480,
+                "time": 18677.4,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 1199480,
+                "time": 17137.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 1039592,
+                "time": 16940.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

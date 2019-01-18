@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/Bai/mhdb416/mhdb416.mtx",
+        "problem": {
+            "id": 315,
+            "group": "Bai",
+            "name": "mhdb416",
+            "rows": 416,
+            "cols": 416,
+            "nonzeros": 2312,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "electromagnetics problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 6.0,
+                "max": 10,
+                "mean": 5.557692307692308,
+                "variance": 4.12647928994084,
+                "skewness": 0.6107714983516218,
+                "kurtosis": 3.575483889425929,
+                "hyperskewness": 4.177652384735606,
+                "hyperflatness": 15.565543178938338
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 5.0,
+                "median": 6.0,
+                "q3": 6.0,
+                "max": 10,
+                "mean": 5.557692307692308,
+                "variance": 4.12647928994084,
+                "skewness": 0.6107714983516218,
+                "kurtosis": 3.575483889425929,
+                "hyperskewness": 4.177652384735606,
+                "hyperflatness": 15.565543178938338
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 36992,
+                "time": 16805.3,
+                "completed": true
+            },
+            "csr": {
+                "storage": 29412,
+                "time": 18793.6,
+                "completed": true
+            },
+            "ell": {
+                "storage": 49920,
+                "time": 14343.3,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 53880,
+                "time": 17467.9,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 36992,
+                "time": 24059.8,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 35328,
+                "time": 23503.3,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 31904,
+                "time": 23117.1,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 31904,
+                "time": 25795.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 36992,
+                "time": 23773.7,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 36992,
+                "time": 24064.8,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 36992,
+                "time": 19266.6,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 31904,
+                "time": 19302.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]

@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/SNAP/email-Eu-core/email-Eu-core.mtx",
+        "problem": {
+            "id": 2784,
+            "group": "SNAP",
+            "name": "email-Eu-core",
+            "rows": 1005,
+            "cols": 1005,
+            "nonzeros": 25571,
+            "real": true,
+            "binary": true,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0.7112198644149385,
+            "nsym": 0.7112198644149385,
+            "kind": "directed graph with communities",
+            "row_distribution": {
+                "min": 0,
+                "q1": 2.0,
+                "median": 15.0,
+                "q3": 35.0,
+                "max": 334,
+                "mean": 25.443781094527365,
+                "variance": 1109.3791777431266,
+                "skewness": 2.814686826876993,
+                "kurtosis": 15.9852312968804,
+                "hyperskewness": 106.63505136625358,
+                "hyperflatness": 821.3006316585181
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 5.0,
+                "median": 18.0,
+                "q3": 36.0,
+                "max": 212,
+                "mean": 25.443781094527365,
+                "variance": 781.5881329670083,
+                "skewness": 2.112623161081425,
+                "kurtosis": 9.119226581567965,
+                "hyperskewness": 40.49120654097345,
+                "hyperflatness": 204.43978393901404
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 409136,
+                "time": 16270.8,
+                "completed": true
+            },
+            "csr": {
+                "storage": 310876,
+                "time": 40015.4,
+                "completed": true
+            },
+            "ell": {
+                "storage": 4028040,
+                "time": 18451.6,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 1561608,
+                "time": 140032.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 407308,
+                "time": 23182.6,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 409136,
+                "time": 23520.7,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 406920,
+                "time": 27237.5,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 409292,
+                "time": 23535.5,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 409136,
+                "time": 27855.8,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 409136,
+                "time": 19908.6,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 409136,
+                "time": 19937.2,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 406920,
+                "time": 19864.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "coo"
+        }
+    }
+]

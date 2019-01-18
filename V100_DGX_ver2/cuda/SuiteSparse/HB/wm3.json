@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "/home/u/mike/.config/ssget/MM/HB/wm3/wm3.mtx",
+        "problem": {
+            "id": 277,
+            "group": "HB",
+            "name": "wm3",
+            "rows": 207,
+            "cols": 260,
+            "nonzeros": 2948,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": false,
+            "psym": 0,
+            "nsym": 0,
+            "kind": "economic problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 2.0,
+                "median": 3.0,
+                "q3": 14.5,
+                "max": 107,
+                "mean": 14.241545893719806,
+                "variance": 476.08658311745929,
+                "skewness": 1.7596615890863648,
+                "kurtosis": 4.933103090402264,
+                "hyperskewness": 14.053442428994338,
+                "hyperflatness": 45.31491547459358
+            },
+            "col_distribution": {
+                "min": 0,
+                "q1": 1.5,
+                "median": 4.0,
+                "q3": 24.0,
+                "max": 56,
+                "mean": 11.33846153846154,
+                "variance": 215.17005917159745,
+                "skewness": 1.2764560363163878,
+                "kurtosis": 2.9833579120121209,
+                "hyperskewness": 6.069624812645096,
+                "hyperflatness": 13.677438920385372
+            }
+        },
+        "spmv": {
+            "coo": {
+                "storage": 47168,
+                "time": 16800.9,
+                "completed": true
+            },
+            "csr": {
+                "storage": 36208,
+                "time": 27218.3,
+                "completed": true
+            },
+            "ell": {
+                "storage": 265788,
+                "time": 16707.2,
+                "completed": true
+            },
+            "sellp": {
+                "storage": 152904,
+                "time": 53295.2,
+                "completed": true
+            },
+            "hybrid": {
+                "storage": 47168,
+                "time": 22352.0,
+                "completed": true
+            },
+            "hybrid0": {
+                "storage": 46340,
+                "time": 22299.4,
+                "completed": true
+            },
+            "hybrid25": {
+                "storage": 45944,
+                "time": 20728.4,
+                "completed": true
+            },
+            "hybrid33": {
+                "storage": 45944,
+                "time": 23504.8,
+                "completed": true
+            },
+            "hybridlimit0": {
+                "storage": 47168,
+                "time": 23483.0,
+                "completed": true
+            },
+            "hybridlimit25": {
+                "storage": 47168,
+                "time": 23520.5,
+                "completed": true
+            },
+            "hybridlimit33": {
+                "storage": 47168,
+                "time": 18214.8,
+                "completed": true
+            },
+            "hybridminstorage": {
+                "storage": 45944,
+                "time": 18115.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "ell"
+        }
+    }
+]
